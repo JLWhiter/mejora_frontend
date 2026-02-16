@@ -387,20 +387,15 @@ display: none;
   display: none;
 }
 
-.footer-copyright span {
-    display: block;
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    clear: both;
-    font-size: 1rem;
-    left: 30rem;
 }
-.alerta-horizontal{
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: #111;
-    color: white;
-    z-index: 9999;
+
+.footer-copyright span {
+    font-size: 1rem;
 }
 
 
@@ -421,15 +416,15 @@ display: none;
         display: none;
     }
     .icono-menu-list{
-    font-size: 30px;
-    cursor: pointer;
+        font-size: 30px;
+        cursor: pointer;
     }
 
     .menu-list-1001-celular {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 87%;
+        width: 88%;
         margin-top: -4rem;
         height: 4rem;
     }
@@ -450,30 +445,33 @@ display: none;
     }
 
     .menu-list-1001-celular > li > ul {
+        display: none;
         position: absolute;
         top: 88%;
-        right: -0.5rem;
-        width: 17rem;
+        right: 0rem;
+        width: 18rem;
         height: 50rem;
-        padding: 1rem;
+        padding: 2rem;
+        background-position-x: -1;
         background-color: rgba(255, 255, 255, 0.95);
         box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         opacity: 0;
         visibility: hidden;
-        transform: translateX(0.8rem);
-        transition: all 0.5s ease;
-        z-index: 999;
+        z-index: 10;
     }
 
     .menu-list-1001-celular > li:hover > ul {
+        display: block;
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
+        transform: translateX(0.8rem);
+        transition: all 0.8s ease;
     }
 
     .menu-list-1001-celular ul li {
         list-style: none;
-        padding: 1rem;
+        padding: 2rem;
         font-weight: 600;
         transition: background-color .3s ease;
     }
@@ -541,10 +539,11 @@ display: none;
         background-color: rgb(0, 128, 128);
         color: aliceblue;
         padding: 40px 0;
-        top: 50px;
     }
 
-
+    .parrafo-final-contenido{
+        margin-top: -5rem;
+    }
     .parrafo-102-10,
     .parrafo-102-11,
     .parrafo-102-12 {
@@ -558,13 +557,13 @@ display: none;
     }
     .parrafo-102-11 {
         position: relative;
-        top: 150px;
+        top: 6.5rem;
         left: 5px;
     }
 
     .parrafo-102-12 {
         position: relative;
-        top: 200px;
+        top: 7.5rem;
         left: 5px;
     }
     .parrafo-final {
@@ -600,8 +599,11 @@ display: none;
         max-width: 250px;
         margin-top: 10px;
     }
-    .footer-copyright{
-        display: none;
+    .footer-copyright {
+        text-align: center;
+        top: 91%;
+        left: 1rem;
+        max-width: 92%;
     }
 }
 

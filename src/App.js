@@ -17,61 +17,8 @@ import { FaInstagram, FaYoutube, FaTiktok, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
-import { useEffect } from "react";
-
 
 function App() {
-
-function App() {
-  const [isLandscapeMobile, setIsLandscapeMobile] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia(
-      "(max-width: 768px) and (orientation: landscape)"
-    );
-
-    const handleChange = (e) => {
-      setIsLandscapeMobile(e.matches);
-    };
-
-    // Estado inicial
-    setIsLandscapeMobile(mediaQuery.matches);
-
-    // Escuchar cambios
-    mediaQuery.addEventListener("change", handleChange);
-
-    return () => {
-      mediaQuery.removeEventListener("change", handleChange);
-    };
-  }, []);
-
-  if (isLandscapeMobile) {
-    return (
-      <div
-        style={{
-          height: "100vh",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          background: "#111",
-          color: "#fff",
-          fontSize: "20px",
-        }}
-      >
-        Por favor gira tu dispositivo 📱
-      </div>
-    );
-  }
-
-  return (
-    <div>
-      {/* Tu app normal */}
-      Tu App React aquí
-    </div>
-  );
-}
-
-
   const [menuOpen, setMenuOpen] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState(null);
 
@@ -287,7 +234,7 @@ function App() {
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
       </Routes>
 <footer className="parrafo-final">
-<div>
+<div className='parrafo-final-contenido'>
   <a href="/"><img src="/uploads/Logop3.webp" alt="img-logo" className="logo-final"/></a>
 
   <p className="parrafo-100">
