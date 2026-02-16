@@ -17,8 +17,61 @@ import { FaInstagram, FaYoutube, FaTiktok, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
+import { useEffect } from "react";
+
 
 function App() {
+
+function App() {
+  const [isLandscapeMobile, setIsLandscapeMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia(
+      "(max-width: 768px) and (orientation: landscape)"
+    );
+
+    const handleChange = (e) => {
+      setIsLandscapeMobile(e.matches);
+    };
+
+    // Estado inicial
+    setIsLandscapeMobile(mediaQuery.matches);
+
+    // Escuchar cambios
+    mediaQuery.addEventListener("change", handleChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleChange);
+    };
+  }, []);
+
+  if (isLandscapeMobile) {
+    return (
+      <div
+        style={{
+          height: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          background: "#111",
+          color: "#fff",
+          fontSize: "20px",
+        }}
+      >
+        Por favor gira tu dispositivo 📱
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      {/* Tu app normal */}
+      Tu App React aquí
+    </div>
+  );
+}
+
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState(null);
 
@@ -32,7 +85,6 @@ function App() {
             "_blank"
             );
   }
-
   return (
     <BrowserRouter>
         <div id="encabezado">
@@ -53,17 +105,11 @@ function App() {
 
         <div className="menu-list-1001">
           <ul className="menu-list-1001-celular">
-            <li >
-              <h1 className="icono-menu-list">≡</h1>
-              <ul>
-                <li>
-                  <button className="btn-cta" onClick={solicitarinformacion}>
-                    SOLICITAR INFORMACIÓN
-                  </button>
-                </li>
-                <li><a href="#">AULA VIRTUAL</a></li>
-                <li><a href="#">REDES SOCIALES</a></li>
-              </ul>
+            <li ><h1 className="icono-menu-list">≡</h1>
+            <ul>
+              <li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li>
+              <li><a href="#">AULA VIRTUAL</a></li>
+              <li><a href="#">REDES SOCIALES</a></li></ul>
             </li>
           </ul>
         </div>
@@ -282,7 +328,6 @@ function App() {
   </div>
 </div>
 </footer>
-
     </BrowserRouter>
   );
 }
