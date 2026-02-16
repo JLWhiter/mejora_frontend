@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+.body{
+    background-color: aliceblue;
+}
+
+.contenido-image {
+    display: flex;
+    margin-top: 100px;
+}
+    
+.banner-img {
+        width: 100%;
+        height: 600px;
+}
+.banner {
+    position: relative;
+    top: -20px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner img {
+    position: absolute;
+    animation: slide 6s infinite;
+}
+
+.banner img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.banner img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+@keyframes slide {
+    50% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+#Contenido-para-img {
+  position: relative;
+  text-align: center;
+  top: -450px; 
+  left: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+
+.typewriter-animation1 {
+  display: flex;       
+  white-space: nowrap;          
+  overflow: hidden;             
+  border-right: 2px solid rgba(255,255,255,.75); 
+  animation: typewriter1 4s steps(var(--steps)) 1 forwards, 
+             blinkingCursor 0.75s step-end infinite;       
+}
+
+@keyframes typewriter1 {
+  from { width: 0; }
+  to { width: 25%; }
+}
+
+@keyframes blinkingCursor {
+  0%, 50% { border-right-color: rgba(255,255,255,.75); }
+  51%, 100% { border-right-color: transparent; }
+}
+.typewriter-animation2 {
+  display: flex;       
+  white-space: nowrap;          
+  overflow: hidden;             
+  border-right: 2px solid rgba(255,255,255,.75); 
+  animation: typewriter2 4s steps(var(--steps)) 1 forwards, 
+             blinkingCursor 0.75s step-end infinite;       
+}
+
+@keyframes typewriter2 {
+  from { width: 0; }
+  to { width: 65%; }
+}
+
+.typewriter-animation3 {
+  display: flex;       
+  white-space: nowrap;          
+  overflow: hidden;             
+  border-right: 2px solid rgba(255,255,255,.75); 
+  animation: typewriter3 4s steps(var(--steps)) 1 forwards, 
+             blinkingCursor3 0.75s step-end infinite;       
+}
+
+@keyframes typewriter3 {
+  from { width: 0; }
+  to { width: 50%; }
+}
+
+
+.contenido-texto{
+transform: translateX(400px);
+}
+.contenido-texto1{
+transform: translateX(500px);
+}
+.contenido-texto2{
+transform: translateX(380px);
+}
+
+.beneficios {
+    transform: translateY(-280px);
+    padding: 50px;
+    text-align: center;
+    height: 50px;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+
+#tex1, #tex2, #tex3, #tex4 {
+    position: relative;
+    width: 120px;
+    font-size: 10px;
+}       
+#banner3, #banner4, #banner5, #banner6{
+    width: 250px;
+}
+.curso1, .curso2, .curso3, .curso4 {
+    background-color: transparent;
+    height: 310px;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+#text1, .curso1{
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+
+#banner3{
+    position: relative;
+    top: 40px;
+    left: -75px;
+}
+
+#text3, .curso3{
+    display: flex;
+    position: relative;
+    left: -160px;
+}
+
+#banner5{
+    position: relative;
+    top: 40px;
+    left: -75px;
+}
+
+
+#text2 , .curso2 {
+    display: flex;
+    position: relative;
+    left: 350px;
+}
+#banner4{
+    position: relative;
+    display: flex;
+    top: 50px;
+    width: 240px;
+    left: -70px;
+}
+
+#text4, .curso4{
+    display: flex;
+    position: relative;
+    left: 95px;
+}
+#banner6{
+    position:relative;
+    top: 50px;
+    width: 240px;
+    left: -80px;
+}
+
+.servicios {
+    background-color: aliceblue;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    height: 700px;
+    left: 0px;
+}
+
+#grupo-1 {
+    display: flex;
+    position: relative;
+    transform: translateX(92px);
+}
+
+#grupo-2 {
+    display: flex;
+    position: relative;
+    top: 350px;
+    transform: translateX(-480px); 
+}
+
+
+
+#cambiar:hover {
+    color: white;
+}
+
+@media (max-width: 780px) {
+
+    .contenido-image {
+        display: flex;
+        margin-top: 0%;
+        transform: translateY(-50px);
+    }
+    .contenido-texto1{
+        font-size: 10px;
+        transform: translatex(160px);
+    }
+    .contenido-texto{
+        font-size: 15px;
+        transform: translatex(100px);
+    }
+    .contenido-texto2{
+        font-size: 10px;
+        transform: translatex(130px);
+    }
+
+    .banner-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .beneficios {
+        padding: 50px;
+        text-align: center;
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .beneficios-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 20px;
+    }
+
+
+    #tex1, #tex2, #tex3, #tex4 {
+    position: relative;
+    width: 80%;
+    font-size: 10px;
+    }           
+    
+    #banner3, #banner4, #banner5, #banner6{
+    width: 5%;
+    }
+
+    .curso1, .curso2, .curso3, .curso4 {
+    background-color: transparent;
+    height: 30%;
+    border-radius: 5px;
+    border: 5px solid white;
+    }
+
+    #text1, .curso1{
+    display: flex;
+    position: relative;
+    left: 0px;
+    }
+
+    #banner3{
+    position: relative;
+    top: 40px;
+    left: -75px;
+    }
+
+    #text3, .curso3{
+    display: flex;
+    position: relative;
+    left: -30%;
+    top: 100px;
+    }
+
+    #banner5{
+    position: relative;
+    top: 40px;
+    left: 5px;
+    }
+
+    #text2 , .curso2 {
+    display: flex;
+    position: relative;
+    left: 5px;
+    top: 100px;
+    }
+    #banner4{
+    position: relative;
+    display: flex;
+    top: 250px;
+    width: 150px;
+    left: 50px;
+    }
+
+    #text4, .curso4{
+    display: flex;
+    position: relative;
+    left: 5px;
+    }
+    #banner6{
+    position:relative;
+    top: 50px;
+    width: 150px;
+    left: 5px;
+    }
+
+    .servicios {
+    background-color: aliceblue;
+    position: relative;
+    display: none;
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    }
+
+    #grupo-1 {
+    display: flex;
+    position: relative;
+    transform: translateX(0%);
+    }
+
+    #grupo-2 {
+    display: flex;
+    position: relative;
+    top: 350px;
+    transform: translateX(-100%); 
+    }
+
+    #cambiar:hover {
+    color: white;
+    }
+
+}
+

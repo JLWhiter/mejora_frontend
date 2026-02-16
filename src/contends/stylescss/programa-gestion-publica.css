@@ -1,0 +1,209 @@
+.programa-gestion-publica-contexto p{
+    font-size: 1rem;
+    max-width: 100%;
+    font-family:'Roboto', sans-serif;
+}
+.programa-gestion-publica-contexto li{
+    font-family:'Roboto', sans-serif;
+}
+
+.logo_inicio_gest_public {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-img-titulos-gest {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -3rem;
+}
+
+.logo_inicio_gest_public .public {
+    position: absolute;
+    transform: translate(0rem , 0rem);
+    top: 40%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    font-size: 2.5rem;
+}
+
+.typewriter-animation-public {
+    --steps: 20; 
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    animation:
+        typewriter 2s steps(var(--steps)) 1 forwards,
+        blinkingCursor 0.75s step-end infinite;
+}
+
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 40%; }
+}
+
+@keyframes blinkingCursor {
+    0%, 50% { border-right-color: rgba(255,255,255,.75); }
+    51%, 100% { border-right-color: transparent; }
+}
+
+.parrafo-contexto {
+    max-width: 600px;
+    padding: 2rem;
+    margin-left: 1.2rem;
+    text-align: justify;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+.parrafo-contexto h1{
+    max-width: 100%;
+}
+
+.parrafo-contexto p{
+    max-width: 100%;
+    font-family:'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.parrafo-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 600px;
+    padding: 1.5rem;
+    margin: 3.5rem 2rem 3.5rem auto;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+.parrafo-2 h2 {
+    width: 100%;
+}
+
+.parrafo-2 p {
+    width: 100%;
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.objetivos{
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: 0rem 0rem 0rem 1.8rem ;
+    padding: 1rem;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+.objetivos p{
+    font-size: 1rem;    
+}
+.objetivos li{
+    width: 600px;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+.logo-gest-public-1,.logo-gest-public-2,.logo-gest-public-3{
+    position:absolute;
+    width: 30rem;
+    height: 25rem;
+    margin-top: 2.5rem;
+}
+.logo-gest-public-1,
+.logo-gest-public-3{
+    left: 46rem;
+}  
+.logo-gest-public-2{
+    left: 2.5rem;
+}
+    
+@media (max-width:1080px) {
+    
+    .logo_inicio_gest_public .public {
+        position: absolute;
+        top: 35%;
+        left: 45%;
+        transform: translate(-40%, -100%);
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        font-size: 1.5rem;
+    }
+    
+    @keyframes typewriter {
+    from { width: 0; }
+    to { width: 80%; }
+    }
+
+    @keyframes blinkingCursor {
+    0%, 50% { border-right-color: rgba(255,255,255,.75); }
+    51%, 100% { border-right-color: transparent; }
+    }
+    
+    .parrafo-contexto{
+        display: flex;
+        height: 300px;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .parrafo-contexto h1{
+        display: block;
+        transform: translatex(50px);
+        width: 900px;
+    }
+    .parrafo-contexto p{
+        display: flex;
+        left: 0px;
+        width: 500px;
+    }
+
+    .parrafo-1{
+        display: flex;
+        width: 00px;
+        text-align: justify;
+        transform: translatex(50px);
+    }
+    .parrafo-2{
+        display:flex;
+        justify-content:center;
+    }
+    .parrafo-2 h2{
+        width: 200px;
+        transform: translateX(50px);
+    }
+    .parrafo-2 p{
+        position: absolute;
+        width: 400px;
+        text-align: justify;
+    }
+
+    .objetivos{
+        display: block;
+        height: 600px;
+    }
+    .objetivos h2{
+        transform: translateY(50px);
+    }
+    .objetivos p{
+        font-size: 20px;
+        transform: translatey(50px);    
+    }
+    .objetivos li{
+        width: 330px;
+        padding-top: 15px;
+        transform: translateY(30px);
+    }
+}

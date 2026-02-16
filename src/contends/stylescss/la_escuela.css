@@ -1,0 +1,188 @@
+.la_escuela-cont p{
+    padding: 1rem;
+    font-family:'Roboto', sans-serif;
+}
+.la_escuela-cont li {
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+.parrafo-presentacion{
+    width: 720px;
+    text-align:justify;
+    transform: translateX(30px);
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+
+}
+.parrafo-presentacion p {
+    width: 660px;
+    font-size: 1rem;
+}
+
+.contenedor-vision-meta{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(-20px);
+    margin-top: 2rem;
+}
+.contenedor-vision-meta p{
+    font-size: 1rem;
+}
+.vision-meta{ 
+    padding: 10px;
+    position: relative;
+    text-align:justify;
+    width: 510px;
+}
+
+.contenedor-valores{
+   transform: translatex(-780px);
+   margin-top: 5rem;
+}
+.logo-escuela1, .logo-escuela2, .logo-escuela3{
+    position: absolute;
+}
+.logo-escuela1 {
+    top: 1rem;
+    right: 0;   
+    width: 450px;
+    height: 320px;
+    transform: translateX(560px);
+}
+.logo-escuela2{
+    top: 40px;
+    transform: translateX(-760px);
+}
+.logo-escuela3 {
+    top: 50px;
+    right: 0;   
+    width: 600px;
+    transform: translateX(750px);
+}
+
+.nuestro-servicios-contexto{
+    width: 600px;
+    display: flex;
+    transform: translate(30px);
+    margin-top: 1.5rem;
+}
+
+.nuestro-servicios-contexto h1{
+    width: 400px;
+}
+.nuestro-servicios-contexto p {
+    width: 400px;
+    text-align: justify;
+    font-size: 1rem;
+}
+.servicio-parte-1 {
+    display: inline-block;
+    padding: 1rem;
+    margin-left: 1rem;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+.servicio-parte-2 {
+    display:block;
+    margin-left: 19rem;
+    padding: 1rem;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+/*/ responsive para celular/*/
+@media (max-width: 1080px) {
+    .la_escuela-cont{
+        margin: 2.5rem auto;
+    }
+
+    .parrafo-presentacion{
+        width: 80%;
+        text-align: justify;
+        border-radius: 6px;
+        transform: translateX(20px);
+        margin-top: 250px;
+    }
+
+    .parrafo-presentacion p{
+        width: 90%;
+    }
+
+    .vision-meta{ 
+        width: 85%;
+        text-align: justify;
+        border-radius: 6px;
+        transform: translateX(-15px);
+        margin-top: 250px;
+    }
+
+    .contenedor-valores{
+        display: block;
+        transform: translateX(0);
+        margin-top: 250px;
+        font-family: sans-serif;
+    }
+
+    .logo-escuela1,
+    .logo-escuela2,
+    .logo-escuela3{
+        position: absolute;
+        width: 360px;
+        height: 220px;
+        max-width: 85%;
+    }
+
+    .logo-escuela1 {
+        top: -250px;
+        right: 0;
+        transform: translateX(-20px);
+    }
+
+    .logo-escuela2{
+        top: 0px;
+        transform: translateX(-20px);
+    }
+
+    .logo-escuela3 {
+        top: -250px;
+        right: 0;
+        transform: translateX(-25px);
+    }
+    .nuestro-servicios-contexto{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        columns: 1;
+    }
+    .servicio-parte-1{
+        display:inline-block;
+        margin: 2.5rem auto;
+        margin-left: -0.5rem;
+        width:50% ;
+    }
+    .servicio-parte-1 h1{
+        font-size: 1rem;
+        width: 80%;
+    }
+    .servicio-parte-1 >p{
+        display:inline-block;
+        margin: 2.5rem auto;
+        margin-left: -0.5rem;
+        width:90% ;
+    }
+    .servicio-parte-2{
+        display: inline-block;
+        position: relative;
+        width: 50%;
+        right: 35rem;
+        display: none;
+    }
+    .servicio-parte-2 h1,
+    .servicio-parte-2 p{
+        width: 80%;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,90 @@
+
+.pro-gest-emp-contexto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 95%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    margin: 0 0 0 1.5rem;
+    columns: 2;
+    column-gap: 2vmax;
+}
+.conteiner-prom-gest-empresarial{
+    padding: 1rem;
+    margin: 0;
+    max-width: 99%;
+}
+.prom-gest-empresarial p{
+    width: 500px;
+    font-size: 1rem;
+    margin: 0 0 0 3rem;
+    text-align: justify;
+    font-family: 'robot','sans-serif';
+}
+.pro-gest-emp-contexto >ul>li{
+    font-family: 'robot','sans-serif';
+}
+.logo-gest-empresarial-1{
+    display: flex;
+    padding: 2rem;
+    margin-top: -1.5rem;
+    width: 23rem;
+}
+.logo-gest-empresarial1{
+    display: flex;
+    max-width: 50%;
+}
+.area-formacion{
+    padding: 1rem;
+    columns: 2;
+    margin-top: 5rem;
+}
+.area-formacion h1{
+    margin-top: -2rem;
+    margin-left: 3rem;
+}
+.area-formacion li{
+    margin-top: 0.2rem;
+    font-family: 'robot','sans-serif';
+    padding: 0.1rem;
+}
+
+.area-formacion >ul >li,
+.area-formacion ul li ul {
+    font-size: 0.8rem;
+    max-width: 500px;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+.arrow-down {
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+li:hover .arrow-down {
+    transform: rotate(180deg);
+}
+
+.contendor-lista-empresarial {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: transform 1.5s ease;
+}
+
+li:hover > .contendor-lista-empresarial {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0.5rem);
+    transition: transform 1.5 ease;
+    padding: 0.8rem;
+}
