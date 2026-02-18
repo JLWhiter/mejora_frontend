@@ -88,3 +88,43 @@ li:hover > .contendor-lista-empresarial {
     transition: transform 1.5 ease;
     padding: 0.8rem;
 }
+
+@media (max-width:1080px) {
+    .conteiner-prom-gest-empresarial{
+        width: 98%;
+        margin-left: -1.6rem;
+    }
+    .pro-gest-emp-contexto{
+        display: list-item;
+        margin-top: -2rem;
+        columns: 1;
+    }
+    .pro-gest-emp-contexto>img{
+        width: 90%;
+        margin-left: .4rem;
+        padding: .5rem;
+        margin-top: .2rem;
+    }
+    .pro-gest-emp-contexto>p{
+        padding: 1rem;
+        width: 90%;
+        margin-left: 0;
+    }
+    .area-formacion{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .contenedor-area-formacion-submenu{
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .area-formacion > ul {
+        list-style: none;
+        padding: 0;
+    }
+    .area-formacion > ul > li{
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+}

@@ -8,6 +8,7 @@ function CursoMedida (){
                 <img src='/uploads/banner2.jpg' alt='logo-img' className='no-radius logo-img-titulos' />
                 <h1 className='typewriter-animation'>CURSOS INHOUSE</h1>
             </div>
+            <div className='contenedor-cursos-inhouse'></div>
             <div className="curso-medida-contexto">
                 <p className="intro-texto">
                     En la Escuela de Gerencia y Gestión SAC desarrollamos Cursos a la Medida

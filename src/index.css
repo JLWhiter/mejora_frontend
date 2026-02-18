@@ -6,49 +6,39 @@ html, body {
 img[class^="logo-"] {
   border-radius: 1rem;
 }
-
 img[class^="logo-img-titulos"]:not(.no-radius) {
   border-radius: 1rem;
 }
-
-
 body {
     font-family: sans-serif;
     background-color: white;
 }
-
 #root {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
 .app-container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
 .content {
     flex: 0;
 }
-
 p {
     font-size: 18px;
     font-family: 'Franklin Gothic Medium';
 }
-
 a {
     text-decoration: none;
     color: black;
     font-family: 'Franklin Gothic Medium';
 }
-
 li {
     list-style: none;
     font-family: 'Franklin Gothic Medium';
 }
-
 .btn-cta {
     font-family: 'Franklin Gothic Medium';
     background: none;
@@ -56,8 +46,6 @@ li {
     font-size: 1rem;
     font-weight: 700;
 }
-
-
 .logo-principal {
     display: block;
     position: relative;
@@ -68,7 +56,6 @@ li {
 .menu-list-1001-celular{
     display: none;
 }
-
 .menu-cabecera-1001 {
     position: absolute;
     top: 20px;
@@ -78,20 +65,17 @@ li {
     gap: 10px;
     font-size: 17px;
 }
-
 .menu-cabecera-1001 li,
 .menu-cabecera-1001 a {
     padding: 10px 15px;
     border-radius: 4px;
     transition: background-color .3s ease, color .3s ease;
 }
-
 .menu-cabecera-1001 a:hover,
 .menu-cabecera-1001 li:hover {
     background-color: rgb(60, 114, 131);
     color: #000000;
 }
-
 .menu-cabecera-1002 {
     position: relative;
     display: flex;
@@ -102,7 +86,6 @@ li {
     font-size: 14px;
     z-index: 2;
 }
-
 .menu-cabecera-1002::before {
     content: "";
     position: absolute;
@@ -110,12 +93,10 @@ li {
     background-color: rgb(245, 242, 239);
     z-index: 2;
 }
-
 .menu-cabecera-1002 > * {
     position: relative;
     z-index: 3;
 }
-
 .menu-cabecera-1003-columna {
     display: flex;
     left: 340px;
@@ -124,12 +105,10 @@ li {
     margin: 0;
     padding: 0;
 }
-
 .menu-cabecera-1003-columna > li {
     position: relative;
     list-style: none;
 }
-
 .menu-cabecera-1003-columna a {
     display: flex;
     align-items: center;
@@ -137,13 +116,11 @@ li {
     padding: 10px 15px;
     transition: background-color .3s ease, color .3s ease;
 }
-
 .menu-cabecera-1003-columna a:hover {
     background-color: rgb(119, 173, 162);
     color: #000;
     border-radius: 4px;
 }
-
 .menu-cabecera-1003-columna > li > ul {
     position: absolute;
     top: 2.5rem;
@@ -162,25 +139,20 @@ li {
     transition: all 0.3s ease;
     z-index: 999;
 }
-
 .menu-cabecera-1003-columna > li:hover > ul {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
-
 .menu-cabecera-1003-columna ul li {
     list-style: none;
     break-inside: avoid;
 }
-
 .menu-cabecera-1003-columna ul li a {
     display: block;
     padding: 8px 12px;
     white-space: normal;
 }
-
-
 .menu-cabecera-1003 {
     display: flex;
     left: 340px;
@@ -190,12 +162,10 @@ li {
     margin: 0;
     padding: 0;
 }
-
 .menu-cabecera-1003 > li {
     position: relative;
     list-style: none;
 }
-
 .menu-cabecera-1003 a {
     display: flex;
     align-items: center;
@@ -203,18 +173,15 @@ li {
     padding: 10px 15px;
     transition: background-color .3s ease, color .3s ease;
 }
-
 .menu-cabecera-1003 a:hover {
     background-color: rgb(119, 173, 162);
     color: #000;
     border-radius: 4px;
 }
-
 .arrow-down {
     font-size: 10px;
     transition: transform 0.3s ease;
 }
-
 .menu-cabecera-1003 li:hover .arrow-down, 
 .menu-cabecera-1003-columna :hover .arrow-down{
     transform: rotate(180deg);
@@ -236,27 +203,22 @@ li {
     transition: all 0.3s ease;
     z-index: 999;
 }
-
 .menu-cabecera-1003 > li:hover > ul {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
-
 .menu-cabecera-1003 ul li {
     list-style: none;
 }
-
 .menu-cabecera-1003 ul li a {
     padding: 10px 20px;
     white-space: nowrap;
 }
-
 .menu-cabecera-1003 ul li ul {
     top: 100%;
     left: 0;
 }
-
 .menu-cabecera-1003 ul li ul a {
     display: block;
     transform: translate(0px,0px);
@@ -270,11 +232,9 @@ li {
     display: none;
     background: #fff;
 }
-
 .menu-cabecera-1003 ul li:hover > ul {
     display: block;
 }
-
 .parrafo-final {
     position: relative; 
     background-color: rgb(0, 128, 128);
@@ -282,14 +242,11 @@ li {
     padding: 40px 0;
     top: 50px;
 }
-
-
 .parrafo-102-10,
 .parrafo-102-11,
 .parrafo-102-12 {
     width: 250px;
 }
-
 .parrafo-102-10{
     position: relative;
     top: -140px;
@@ -300,7 +257,6 @@ li {
     top: -90px;
     left: 590px;
 }
-
 .parrafo-102-12 {
     position: relative;
     top: -340px;
@@ -311,14 +267,12 @@ li {
     color: aliceblue;
     padding: 40px 30px;
 }
-
 .logo-final {
     position: relative;
     width: 250px;
     margin-bottom: 10px;
     top: 90px;
 }
-
 .parrafo-100 {
     position: relative;
     top: 100px;
@@ -326,32 +280,26 @@ li {
     font-size: 18px;
     margin-bottom: 20px;
 }
-
 .parrafo-102-10 {
     font-weight: bold;
     top: -160px;
 }
-
 .parrafo-102-11,
 .parrafo-102-12 {
     max-width: 250px;
     margin-top: 10px;
 }
-
 .parrafo-102-11{
     top: -140px;
 }
-
 .parrafo-102-12 {
     max-width: 250px;
     top: -375px;
 }
-
 .iconos-busqueda{
     position: relative;
     top: 50px;
 }
-
 .fondo {
     background-color: rgb(39, 68, 83);
     width: 20px;
@@ -370,7 +318,6 @@ li {
     background-color: rgb(149, 229, 231);
     border: 6px solid rgb(149, 229, 231);
 }
-
 .icon-bob {
     transition: transform 0.3s ease;
 }
@@ -379,26 +326,24 @@ li {
     background-color: rgb(149, 229, 231); 
 
 }
-
 .header {
 display: none;
 }
 .menu-overlay {
   display: none;
 }
-
 .footer-copyright {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
 }
-
 .footer-copyright span {
     font-size: 1rem;
 }
-
-
+.menu-list-1004{
+    display: none;
+}
 @media (max-width: 800px) {
     .logo-principal {
         width: 140px;
@@ -481,15 +426,13 @@ display: none;
         border-radius: 4px;
     }
 
-    .header {
-        display: flex;
-        position: relative;
+    .menu-list-1004{
+        display: block;
     }
-    
     .icono-menu{
         position: absolute;
         right: .4rem;
-        top: 1rem;
+        top: -5rem;
         font-size: 30px;
         cursor: pointer;
         z-index: 3;
@@ -501,37 +444,126 @@ display: none;
     }
     .icono-menu:hover {
         background-color: rgb(250, 250, 250);
-        color: #fff;
+        color: #000000;
         border-radius: 4px;
         z-index: 4 ;
         visibility: visible;
     }
-
-    .menu-cabecera-1002 {
-        display: block;
+    .menu-list-1004-celular {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 88%;
+        margin-top: -4rem;
+        height: 4rem;
     }
-    
-    .menu-cabecera-1003 {
+
+    .menu-list-1004-celular > li {
+        position: relative;
+        list-style: none;
+    }
+
+    .menu-list-1004-celular h1 {
+        padding: 10px 15px;
+        transition: background-color .3s ease;
+    }
+
+    .menu-list-1004-celular h1:hover {
+        background-color: rgb(119, 173, 162);
+        border-radius: 4px;
+    }
+
+    .menu-list-1004-celular > li > ul {
         display: none;
-    }
-    .menu-overlay {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 600px;
-        height: 100%;
-        background-color: #ffffff;
+        position: absolute;
+        top: 88%;
+        right: 0rem;
+        width: 18rem;
+        height: 50rem;
+        padding: 2rem;
+        background-position-x: -1;
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        opacity: 0;
+        visibility: hidden;
         z-index: 10;
-        transform: translateX(-100%);
-        transition: transform 0.3s ease;
-        overflow-y: auto;
-        padding: 20px;
     }
 
-    .menu-overlay.open {
-        transform: translateX(0);
+    .menu-list-1004-celular > li:hover > ul {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        transform: translateX(0.8rem);
+        transition: all 0.8s ease;
     }
+
+    .menu-list-1004-celular ul li {
+        list-style: none;
+        padding: 2rem;
+        font-weight: 600;
+        transition: background-color .3s ease;
+    }
+
+    .menu-list-1004-celular ul li:hover{
+        background-color: rgba(118, 190, 190, 0.4);
+        border-radius: 4px;
+    }
+
+    
+.menu-cabecera-1003-1 li:hover .arrow-down, 
+.menu-cabecera-1003-1 :hover .arrow-down{
+    transform: rotate(180deg);
+}
+.menu-cabecera-1003-1 > li > ul {
+    position: absolute;
+    top: 2.5rem;       
+    left: 0;
+    min-width: 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 6px;
+    padding: 10px 0;
+    margin: 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+.menu-cabecera-1003-1 > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.menu-cabecera-1003-1 ul li {
+    list-style: none;
+}
+.menu-cabecera-1003-1 ul li a {
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+.menu-cabecera-1003-1 ul li ul {
+    top: 100%;
+    left: 0;
+}
+.menu-cabecera-1003-1 ul li ul a {
+    display: block;
+    transform: translate(0px,0px);
+    margin: 0;
+    font-size: 0.7rem;
+    max-width: 20rem;
+    white-space: normal;
+    word-break: break-word;
+}
+.menu-cabecera-1003-1 ul li ul {
+    display: none;
+    background: #fff;
+}
+.menu-cabecera-1003-1 ul li:hover > ul {
+    display: block;
+}
 
     .parrafo-final {
         position: relative; 
@@ -606,5 +638,3 @@ display: none;
         max-width: 92%;
     }
 }
-
-

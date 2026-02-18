@@ -24,7 +24,7 @@ function ProgramaGestionEmpresarial(){
                 </div>
                 <div className='area-formacion'>
                     <h1>ÁREAS DE FORMACIÓN</h1>
-                    <ul>
+                    <ul className='contenedor-area-formacion-submenu'>
                         <li>
                             <h2 className="has-arrow"> 1. Gestión de negocios <span className="arrow-down">▼</span></h2>
                             <div  className='contendor-lista-empresarial'>

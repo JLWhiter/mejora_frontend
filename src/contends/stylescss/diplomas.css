@@ -127,109 +127,49 @@
 }
 
 @media (max-width:780px) {
-    .Curso-Diplomas div{
-        display: block;
-        position: relative;
+    .logo_inicio >h1{
+        font-size: 1rem;
     }
-    .Curso-Diplomas p{
-        font-family: sans-serif;
-    }
-    .logo-img-titulos{
-        display: inline-flex;
-        position: relative;
-        top: -50px;
-        width: 100%;
-        max-height: 350px;
-        z-index: -1;
-    }
-
-    .logo_inicio h1 {
-        position: absolute;
-        width: 100%;
-        top: 30%;
-        left: 30;
-        color: rgb(255, 255, 255);
-        z-index: 1;
-        font-size: 1.5rem;
-    }
-
-    .typewriter-animation {
-    --steps: 20; 
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
-    animation:
-        typewriter 2s steps(var(--steps)) 1 forwards,
-        blinkingCursor 0.75s step-end infinite;
-    }
-
-    @keyframes typewriter {
-    from { width: 0; }
-    to { width: 65%; }
-    }
-
-    @keyframes blinkingCursor {
-    0%, 50% { border-right-color: rgba(255,255,255,.75); }
-    51%, 100% { border-right-color: transparent; }
+    @keyframes typewriter5 {
+        from { width: 0; }
+        to { width: 65%; }
     }
     .contenedor-txt-img{
-        max-width: 100%;
+        display: list-item;
+        width: 98%;
+        columns: 1;
     }
-    .contenedor-txt-img img{
-        width: 600px;
+    .contenedor-txt-img>img{
+        width: 90%;
+        margin-left: .5rem;
+        padding: 1rem;
     }
     .diploma-text{
-        display: block;
-        width: 500px;
-        text-align: justify;
-        transform: translate(780px , -300px);
+        position: relative;
+        font-size: 1rem;
+        width: 85%;
     }
     .contendor-diplomado-curs{
-        display: inline-flex;
-        position: absolute;
-        align-items:center;
-        top: -70px;
-        height: 400px;
+        height: 100%;
+        margin: 0;
     }
     .diplomado-curso{
-        display: block;
-        transform: translateX(30px);
-        font-size: 5px;
-        width: 300px;
-        margin-bottom: 2rem;
-        border-radius: 10px;
-        border: 2px solid rgb(207, 205, 205);
-        background-color: rgb(163, 161, 161);
+        margin-top: 5rem;
     }
-    .diplomado-curso h1, .diplomado-curso p{
-        transform: translateX(15px);
-        text-align: center;
-        width: 250px;
-        background-color: aliceblue;
-        border: 6px solid aliceblue;
-        border-radius: 5px;
+    .diplomado-curso>p{
+        top: 3.5rem;
     }
-    .diplomado-curso h1{
-        font-size: 15px;
-    }
-    .curs-diploma-img{
-        transform: translate(15px);
-        width: 260px;
-        height: 300px;
-        border-radius: 10px;
-    }
-    .contendor-diplomado-curs {
+    .group {
         display: flex;
-        gap: 20px;
-        overflow: hidden; 
-        width: 100%;
-        scroll-behavior: smooth;
+        animation: spin 45s linear infinite;
     }
-
-    .diplomado-curso {
-        flex: 0 0 auto; 
-        min-width: 300px;
-        transition: transform 0.5s ease;
+    @keyframes spin {
+    from { transform: translateX(-2%); }
+    to { transform: translateX(-80%); }
+}
+    .curs-diploma-img{
+        margin-top: 0.6rem;
+        width: 5%;
+        height: 95%;
     }
-
 }
