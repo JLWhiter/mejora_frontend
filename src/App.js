@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Principal from './contends/principal';
 import LaEscuela from './contends/escuela-contends/la_escuela';
 import Diplomas from './contends/diplomas_especializados/diplomas';
@@ -14,7 +15,6 @@ import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-ge
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
 import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 
 function App() {
   const solicitarinformacion = ()=>{
@@ -188,18 +188,18 @@ function App() {
                   CURSO GESTIÓN EMPRESARIAL
                 </Link>
               </li></ul>
-              <ul className='menu-cabecera-1003-2'>
-              <li>
-                <Link to="/diplomas ">
-                  DIPLOMAS Y ESPECIALIZADO
-                </Link>
-                <ul>
-                  <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
-                    <ul>
-                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública Moderna</Link></li>
-                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
-                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Presupuesto por Resultados</Link></li>
-                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
+            <ul className='menu-cabecera-1003-2'>
+             <li>
+              <Link to="/diplomas ">
+                DIPLOMAS Y ESPECIALIZADO
+              </Link>
+              <ul>
+                <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
+                  <ul>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública Moderna</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Presupuesto por Resultados</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Finanzas Públicas</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
                   </ul>
@@ -243,7 +243,7 @@ function App() {
               </ul>
             </li>
             </ul>
-            <ul><li><Link to="/curso-medida">CURSOS INHOUSE</Link></li> </ul>
+            <ul><li><Link to="/curso-medida">CURSOS INHOUSE</Link></li></ul>
           </ul>
           </li>
           </ul>
@@ -266,7 +266,6 @@ function App() {
         <Route path="/programa-gest-emp-1" element={<ProgramaGestEmp1 />} />
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
-        <Route path="*" element={<NotFound />} />
       </Routes>
 <footer className="parrafo-final">
 <div className='parrafo-final-contenido'>
