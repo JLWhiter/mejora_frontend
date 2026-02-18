@@ -156,9 +156,9 @@ function App() {
           <ul className="menu-list-1004-celular">
             <li ><h1 className="icono-menu">≡</h1>
             <ul>
-              <li> <Link to="/la_escuela">LA ESCUELA</Link></li>
-              <li><Link to="/programa-gestion-publica" className="has-arrow">
-                  CURSO GESTIÓN PUBLICA <span className="arrow-down">▼</span>
+              <ul><li><Link to="/la_escuela">LA ESCUELA</Link></li></ul>
+              <ul className='menu-cabecera-1003-2'> <li><Link to="/programa-gestion-publica">
+                  CURSO GESTIÓN PUBLICA 
                 </Link> 
                 <ul> 
                     <li><Link to="/programa-gest-1">GESTIÓN DE BIBLIOTECA</Link></li>
@@ -183,16 +183,16 @@ function App() {
                     <li><Link to="/programa-gest-1" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
                     <li><Link to="/programa-gest-1" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
                     <li><Link to="/programa-gest-1" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
-                </ul> </li> 
-              <li> 
-                <Link to="/programa-gestion-empresarial" className="has-arrow">
+                </ul> </li> </ul>
+              <ul><li> 
+                <Link to="/programa-gestion-empresarial">
                   CURSO GESTIÓN EMPRESARIAL
                 </Link>
-              </li>
-            <ul>
+              </li></ul>
+            <ul className='menu-cabecera-1003-2'>
              <li>
-              <Link to="/diplomas " className="has-arrow">
-                DIPLOMAS Y ESPECIALIZADO <span className="arrow-down">▼</span>
+              <Link to="/diplomas ">
+                DIPLOMAS Y ESPECIALIZADO
               </Link>
               <ul>
                 <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
@@ -243,10 +243,10 @@ function App() {
                 </li>
               </ul>
             </li>
-              </ul>
-            <li><Link to="/curso-medida">CURSOS INHOUSE</Link></li>  
             </ul>
-            </li>
+            <ul><li><Link to="/curso-medida">CURSOS INHOUSE</Link></li> </ul>
+          </ul>
+          </li>
           </ul>
         </div>
 

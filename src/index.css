@@ -450,22 +450,21 @@ display: none;
         visibility: visible;
     }
     .menu-list-1004-celular {
-        display: flex;
+        display:list-item;
         justify-content: flex-end;
         align-items: center;
         width: 88%;
-        margin-top: -4rem;
+        margin-top: -2rem;
         height: 4rem;
     }
 
     .menu-list-1004-celular > li {
         position: relative;
-        list-style: none;
     }
 
     .menu-list-1004-celular h1 {
         padding: 10px 15px;
-        transition: background-color .3s ease;
+        transition: background-color .8s ease;
     }
 
     .menu-list-1004-celular h1:hover {
@@ -476,14 +475,12 @@ display: none;
     .menu-list-1004-celular > li > ul {
         display: none;
         position: absolute;
-        top: 88%;
         right: 0rem;
-        width: 18rem;
+        left: -1.41rem;
+        width: 100%;
         height: 50rem;
-        padding: 2rem;
-        background-position-x: -1;
-        background-color: rgba(255, 255, 255, 0.95);
-        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        padding: .5rem;
+        background-color: rgb(255, 255, 255);
         opacity: 0;
         visibility: hidden;
         z-index: 10;
@@ -496,74 +493,71 @@ display: none;
         transform: translateY(0);
         transform: translateX(0.8rem);
         transition: all 0.8s ease;
+        font-size: 1rem;
     }
 
     .menu-list-1004-celular ul li {
         list-style: none;
-        padding: 2rem;
+        font-size: 0.5  rem;
+        margin-left: -2em;
+        padding: 1.5rem;
         font-weight: 600;
         transition: background-color .3s ease;
     }
-
     .menu-list-1004-celular ul li:hover{
-        background-color: rgba(118, 190, 190, 0.4);
         border-radius: 4px;
+        list-style: none;
     }
-
-    
-.menu-cabecera-1003-1 li:hover .arrow-down, 
-.menu-cabecera-1003-1 :hover .arrow-down{
-    transform: rotate(180deg);
-}
-.menu-cabecera-1003-1 > li > ul {
-    position: absolute;
-    top: 2.5rem;       
-    left: 0;
-    min-width: 2rem;
-    background-color: rgba(255, 255, 255, 0.95);
-    border-radius: 6px;
-    padding: 10px 0;
-    margin: 0;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: all 0.3s ease;
-    z-index: 999;
-}
-.menu-cabecera-1003-1 > li:hover > ul {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-.menu-cabecera-1003-1 ul li {
-    list-style: none;
-}
-.menu-cabecera-1003-1 ul li a {
-    padding: 10px 20px;
-    white-space: nowrap;
-}
-.menu-cabecera-1003-1 ul li ul {
-    top: 100%;
-    left: 0;
-}
-.menu-cabecera-1003-1 ul li ul a {
-    display: block;
-    transform: translate(0px,0px);
-    margin: 0;
-    font-size: 0.7rem;
-    max-width: 20rem;
-    white-space: normal;
-    word-break: break-word;
-}
-.menu-cabecera-1003-1 ul li ul {
-    display: none;
-    background: #fff;
-}
-.menu-cabecera-1003-1 ul li:hover > ul {
-    display: block;
-}
+    .menu-cabecera-1003-2 > li > ul {
+        display: none;
+        list-style: none;
+        top: 2.5rem;       
+        left: 0;
+        min-width: 2rem;
+        background-color: rgba(255, 255, 255);
+        border-radius: 6px;
+        padding: 10px 0;
+        margin: 0;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+        z-index: 999;
+    }
+    .menu-cabecera-1003-2 > li:hover > ul {
+        display:block;
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(-1.5em);
+    }
+    .menu-cabecera-1003-2 ul li {
+        list-style: none;
+    }
+    .menu-cabecera-1003-2 ul li a {
+        padding: 10px 20px;
+        white-space: nowrap;
+    }
+    .menu-cabecera-1003-2 ul li ul a {
+        display: block;
+        transform: translate(0px,0px);
+        margin: 0;
+        font-size: 0.8rem;
+        margin-left: 0rem;
+        max-width: 100%;
+        white-space: normal;
+        word-break: break-word;
+    }
+    .menu-cabecera-1003-2 ul li ul {
+        display: none;
+        background: #fff;
+    }
+    .menu-cabecera-1003-2 ul li:hover > ul {
+        display: block;
+    }
+    .menu-cabecera-1003-2 ul > a {
+    width: 20px;
+    }
 
     .parrafo-final {
         position: relative; 
