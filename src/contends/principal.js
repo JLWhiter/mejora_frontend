@@ -4,8 +4,8 @@ function Principal() {
     <div>
 
       <div className="banner">
-        <img src="/uploads/banner1.jpg" className="banner-img" />
-        <img src="/uploads/banner3.jpg" className="banner-img"/>
+        <img src="/uploads/banner1.jpg" alt='logo' className="banner-img" />
+        <img src="/uploads/banner3.jpg" alt='logo' className="banner-img"/>
       </div>
 
       <div id="Contenido-para-img">
