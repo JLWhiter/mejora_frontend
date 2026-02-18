@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
         <div id="encabezado">
           <Link to='/Principal'>
-            <img src="/uploads/Logop.png" alt-text="" className="logo-principal" />
+            <img src="/uploads/Logop.png" alt="logo" className="logo-principal" />
         </Link>
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
