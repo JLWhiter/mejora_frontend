@@ -31,8 +31,8 @@ function App() {
         </Link>
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
-          <ul><li><a href="#">AULA VIRTUAL</a></li></ul>
-          <ul><li><a href="#">REDES SOCIALES</a></li></ul>
+          <ul><li><Link href="#">AULA VIRTUAL</Link></li></ul>
+          <ul><li><Link href="#">REDES SOCIALES</Link></li></ul>
         </div>
 
         <div className="menu-list-1001">
@@ -40,8 +40,8 @@ function App() {
             <li ><h1 className="icono-menu-list">≡</h1>
             <ul>
               <li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li>
-              <li><a href="#">AULA VIRTUAL</a></li>
-              <li><a href="#">REDES SOCIALES</a></li></ul>
+              <li><Link href="#">AULA VIRTUAL</Link></li>
+              <li><Link href="#">REDES SOCIALES</Link></li></ul>
             </li>
           </ul>
         </div>
@@ -297,10 +297,10 @@ function App() {
     Encuentranos
     <div className='iconos-busqueda'>
     <div style={{ display: "flex", gap: "20px" }}>
-      <a href='https://www.instagram.com/egerencia?igsh=MWpmOGppN2g2djk5cQ=='><FaInstagram size={28} color="#ffffffff"  className='fondo icon-bob' /></a>
-      <a href='#'><FaXTwitter size={28} color="#ffffffff" className='fondo icon-bob'/></a>
-      <a href='https://www.facebook.com/share/1Ztggm115f/'><FaFacebook size={28} color="#ffffffff" className='fondo icon-bob'/></a>
-      <a href='https://www.tiktok.com/@escuelagerenciaygestion?_r=1&_t=ZS-93OlEGIQKMT'><FaTiktok size={28} color="#ffffffff" className='fondo icon-bob'/></a>
+      <Link to='https://www.instagram.com/egerencia?igsh=MWpmOGppN2g2djk5cQ=='><FaInstagram size={28} color="#ffffffff"  className='fondo icon-bob' /></Link>
+      <Link to='#'><FaXTwitter size={28} color="#ffffffff" className='fondo icon-bob'/></Link>
+      <Link to='https://www.facebook.com/share/1Ztggm115f/'><FaFacebook size={28} color="#ffffffff" className='fondo icon-bob'/></Link>
+      <Link to='https://www.tiktok.com/@escuelagerenciaygestion?_r=1&_t=ZS-93OlEGIQKMT'><FaTiktok size={28} color="#ffffffff" className='fondo icon-bob'/></Link>
     </div>
     </div>
   </h1>
