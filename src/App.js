@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
         <div id="encabezado">
           <Link to='/Principal'>
-            <img src="/uploads/Logop.png" alt="img-logo" className="logo-principal" />
+            <img src="/uploads/Logop.png" className="logo-principal" />
         </Link>
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
@@ -269,7 +269,7 @@ function App() {
       </Routes>
 <footer className="parrafo-final">
 <div className='parrafo-final-contenido'>
-  <a href="/"><img src="/uploads/Logop3.webp" alt="img-logo" className="logo-final"/></a>
+  <a href="/"><img src="/uploads/Logop3.webp" className="logo-final"/></a>
 
   <p className="parrafo-100">
     Escuela de Gerencia y Gestión es un centro especializado 
