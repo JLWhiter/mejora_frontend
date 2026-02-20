@@ -1,7 +1,7 @@
 
 function Cgestadobeotros(){
     return(
-        <div className="contenedor-riesgodesastre">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>Curso práctico de diseño gráfico digital para comunicación visual y publicaciones profesionales.</p>

@@ -1,7 +1,7 @@
 
 function CgestGestionJuridicaAdministrativa(){
     return(
-        <div className="contenedor-gestionjuridica">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>

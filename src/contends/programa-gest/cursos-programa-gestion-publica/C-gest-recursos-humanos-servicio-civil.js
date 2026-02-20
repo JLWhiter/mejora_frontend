@@ -1,6 +1,6 @@
 function CgestRecursosHumanosServicioCivil(){
     return(
-        <div className="contenedor-recursoshumanos">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>

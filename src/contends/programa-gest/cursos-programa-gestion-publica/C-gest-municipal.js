@@ -1,7 +1,7 @@
 
 function Cgestmunicipal(){
     return(
-        <div className="contenedor-riesgodesastre">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>

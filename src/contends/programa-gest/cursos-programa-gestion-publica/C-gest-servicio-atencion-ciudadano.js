@@ -1,7 +1,7 @@
 
 function Cgestionserviciociudadano(){
     return(
-        <div className="contenedor-serviciociudadano">
+        <div className="contenedor">
             <div className="presentacion">
                 <h1> Presentación </h1>
                 <p>

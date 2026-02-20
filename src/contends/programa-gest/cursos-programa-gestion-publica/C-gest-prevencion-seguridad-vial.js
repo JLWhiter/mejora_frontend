@@ -1,7 +1,7 @@
 
 function Cgestprevencionseguridadvial(){
     return(
-        <div className="contenedor-riesgodesastre">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>Curso orientado a la prevención de accidentes y promoción de la cultura vial.</p>

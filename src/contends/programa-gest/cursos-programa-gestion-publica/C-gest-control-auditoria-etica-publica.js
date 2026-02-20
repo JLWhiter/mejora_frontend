@@ -1,7 +1,7 @@
 
 function CgestControlAuditoriaEticaPublica(){
     return(
-        <div className="contenedor-controlauditoria">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>

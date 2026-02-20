@@ -1,7 +1,7 @@
 
 function Cgesproyectobim(){
     return(
-        <div className="contenedor-riesgodesastre">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>Curso enfocado en la gestión de proyectos bajo metodología BIM y trabajo colaborativo digital.</p>

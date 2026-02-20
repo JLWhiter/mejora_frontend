@@ -1,7 +1,7 @@
 
 function Cgestpaisajimosotros(){
     return(
-        <div className="contenedor-riesgodesastre">
+        <div className="contenedor">
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>Curso técnico-práctico para el manejo, mantenimiento y diseño de áreas verdes.</p>
