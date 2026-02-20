@@ -4,13 +4,37 @@ import LaEscuela from './contends/escuela-contends/la_escuela';
 import Diplomas from './contends/diplomas_especializados/diplomas';
 import Cursos from './contends/escuela-contends/cursos';
 import Congresos from './contends/escuela-contends/congresos';
-import ProgramaGest1 from './contends/programa-gest/programa-gest-1';
-import ProgramaGest2 from './contends/programa-gest/programa-gest-2';
-import ProgramaGest3 from './contends/programa-gest/programa-gest-3';
-import ProgramaGest4 from './contends/programa-gest/programa-gest-4';
-import ProgramaGest5 from './contends/programa-gest/programa-gest-5';
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
-import ProgramaGestEmp1 from './contends/diplomas_especializados/programa-gest-emp-1';
+import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros'
+import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion'
+import Cgestambiental from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-ambiental'
+import Cgestbiblioteca from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-biblioteca'
+import Cgestcontenidoredacciondigital from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-contenido-redaccion-digital'
+import CgestControlAuditoriaEticaPublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-control-auditoria-etica-publica'
+import CgestDerechoLaboral from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-derecho-laboral'
+import Cgestderechopenalfp from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-derecho-penal-publica'
+import Cgestpublicaestrategica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-estrategia-planeamiento'
+import Cgestfinanzaspublicas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-finanzas-publicas'
+import Cgesthabilidadesblandas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-habilidades-blandas'
+import Cgestinteligenciaartificial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-inteligencia-artificial'
+import Cgestinversionpublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-inversion-publica'
+import Cgestjardineriapoda from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-jardineria-poda-trabajosaltura'
+import CgestGestionJuridicaAdministrativa from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-juridica-administrativa'
+import Cgestgestionminera from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-minera'
+import Cgestmsproject from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-msproject'
+import Cgestmunicipal from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-municipal'
+import Cgestobraspublicas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-obras-publicas'
+import Cgestofimatica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-ofimatica'
+import Cgestpaisajimosotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-paisajismo-otros'
+import Cgestprevencionseguridadvial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-prevencion-seguridad-vial'
+import Cgesproyectobim from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-proyecto-BIM'
+import Cgestsaludpublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-publica-salud'
+import CgestRecursosHumanosServicioCivil from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-recursos-humanos-servicio-civil'
+import Cgestriesgodesastre from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-riesgodesaste'
+import Cgestionserviciociudadano from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-servicio-atencion-ciudadano'
+import Cgestabastecimiento from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-sitema-nacional-abastecimiento'
+import Cgestsqlserver from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-sqlserver'
+import Cgesttrabajosocial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-trabajo-social'
 import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-gestion-empresarial';
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
 import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
@@ -57,28 +81,36 @@ function App() {
                   CURSO GESTIÓN PUBLICA <span className="arrow-down">▼</span>
                 </Link> 
                 <ul> 
-                    <li><Link to="/programa-gest-1">GESTIÓN DE BIBLIOTECA</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN MUNICIPAL</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN AMBIENTAL</Link></li>
-                    <li><Link to="/programa-gest-1" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
-                    <li><Link to="/programa-gest-1" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
-                    <li><Link to="/programa-gest-1" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
-                    <li><Link to="/programa-gest-1" >DERECHO LABORAL</Link></li>
-                    <li><Link to="/programa-gest-1" >HABILIDADES BLANDAS</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN MINERA</Link></li>
-                    <li><Link to="/programa-gest-1" >TRABAJO SOCIAL</Link></li>
-                    <li><Link to="/programa-gest-1" >OFIMÁTICA</Link></li>
-                    <li><Link to="/programa-gest-1" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
-                    <li><Link to="/programa-gest-1" >CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
-                    <li><Link to="/programa-gest-1" >SQL SERVER</Link></li>
-                    <li><Link to="/programa-gest-1" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
-                    <li><Link to="/programa-gest-1" >MS PROJECT</Link></li>
-                    <li><Link to="/programa-gest-1" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
-                    <li><Link to="/programa-gest-1" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
+                    <li><Link to="/C-gest-estrategia-planeamiento">GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
+                    <li><Link to="/C-gest-finanzas-publicas">FINANZAS PÚBLICAS</Link></li>
+                    <li><Link to="/C-gest-sitema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
+                    <li><Link to="/C-gest-inversion-publica">INVERSIÓN PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-obras-publicas">GESTIÓN DE OBRAS PÚBLICAS</Link></li>
+                    <li><Link to="/C-gest-derecho-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-publica-salus">GESTIÓN PÚBLICA EN SALUD</Link></li>
+                    <li><Link to="/C-gest-biblioteca">GESTIÓN DE BIBLIOTECA</Link></li>
+                    <li><Link to="/C-gest-municipal" >GESTIÓN MUNICIPAL</Link></li>
+                    <li><Link to="/C-gest-ambiental" >GESTIÓN AMBIENTAL</Link></li>
+                    <li><Link to="/C-gest-alimentacion-nutricion" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
+                    <li><Link to="/C-gest-jardineria-poda-trabajosaltura" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
+                    <li><Link to="/C-gest-recursos-humanos-servicio-civil" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
+                    <li><Link to="/C-gest-juridica-administrativa" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
+                    <li><Link to="/C-gest-control-auditoria-etica-publica" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-derecho-laboral" >DERECHO LABORAL</Link></li>
+                    <li><Link to="/C-gest-habilidades-blandas" >HABILIDADES BLANDAS</Link></li>
+                    <li><Link to="/C-gest-minera" >GESTIÓN MINERA</Link></li>
+                    <li><Link to="/C-gest-trabajo-social" >TRABAJO SOCIAL</Link></li>
+                    <li><Link to="/C-gest-ofimatica" >OFIMÁTICA</Link></li>
+                    <li><Link to="/C-gest-inteligencia-artificial" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
+                    <li><Link to="/C-gest-contenido-redaccion-digital" >CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
+                    <li><Link to="/C-gest-sqlserver" >SQL SERVER</Link></li>
+                    <li><Link to="/C-gest-adobe-otros" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
+                    <li><Link to="/C-gest-msproject" >MS PROJECT</Link></li>
+                    <li><Link to="/C-gest-proyecto-BIM" >GESTIÓN DE PROYECTOS BIM</Link></li>
+                    <li><Link to="/C-gest-prevencion-seguridad-vial" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
+                    <li><Link to="/C-gest-paisajismo-otros" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
+                    <li><Link to="/C-gest-riesgodesaste" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
+                    <li><Link to="/C-gest-servicio-atencion-ciudadano" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
                 </ul> 
               </li> 
           </ul> 
@@ -160,29 +192,39 @@ function App() {
                   CURSO GESTIÓN PUBLICA 
                 </Link> 
                 <ul> 
-                    <li><Link to="/programa-gest-1">GESTIÓN DE BIBLIOTECA</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN MUNICIPAL</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN AMBIENTAL</Link></li>
-                    <li><Link to="/programa-gest-1" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
-                    <li><Link to="/programa-gest-1" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
-                    <li><Link to="/programa-gest-1" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
-                    <li><Link to="/programa-gest-1" >DERECHO LABORAL</Link></li>
-                    <li><Link to="/programa-gest-1" >HABILIDADES BLANDAS</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN MINERA</Link></li>
-                    <li><Link to="/programa-gest-1" >TRABAJO SOCIAL</Link></li>
-                    <li><Link to="/programa-gest-1" >OFIMÁTICA</Link></li>
-                    <li><Link to="/programa-gest-1" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
-                    <li><Link to="/programa-gest-1" >CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
-                    <li><Link to="/programa-gest-1" >SQL SERVER</Link></li>
-                    <li><Link to="/programa-gest-1" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
-                    <li><Link to="/programa-gest-1" >MS PROJECT</Link></li>
-                    <li><Link to="/programa-gest-1" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
-                    <li><Link to="/programa-gest-1" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
-                    <li><Link to="/programa-gest-1" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
-                </ul> </li> </ul>
+                    <li><Link to="/C-gest-estrategia-planeamiento">GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
+                    <li><Link to="/C-gest-finanzas-publicas">FINANZAS PÚBLICAS</Link></li>
+                    <li><Link to="/C-sistema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
+                    <li><Link to="/C-gest-inversion-publica">INVERSIÓN PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-obras-publicas">GESTIÓN DE OBRAS PÚBLICAS</Link></li>
+                    <li><Link to="/C-gest-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-publica-salus">GESTIÓN PÚBLICA EN SALUD</Link></li>
+                    <li><Link to="/C-gest-biblioteca">GESTIÓN DE BIBLIOTECA</Link></li>
+                    <li><Link to="/C-gest-municipal" >GESTIÓN MUNICIPAL</Link></li>
+                    <li><Link to="/C-gest-ambiental" >GESTIÓN AMBIENTAL</Link></li>
+                    <li><Link to="/C-gest-alimentacion-nutricion" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
+                    <li><Link to="/C-gest-jardineria-poda-trabajoaltura" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
+                    <li><Link to="/C-gest-recursos-humanos-servicio-civil" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
+                    <li><Link to="/C-gest-juridica-administrativa" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
+                    <li><Link to="/C-gest-control-auditoria-etica-publica" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-derecho-laboral" >DERECHO LABORAL</Link></li>
+                    <li><Link to="/C-gest-habilidades-blandas" >HABILIDADES BLANDAS</Link></li>
+                    <li><Link to="/C-gest-minera" >GESTIÓN MINERA</Link></li>
+                    <li><Link to="/C-gest-trabajo-social" >TRABAJO SOCIAL</Link></li>
+                    <li><Link to="/C-gest-ofimatica" >OFIMÁTICA</Link></li>
+                    <li><Link to="/C-gest-inteligencia-artificial" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
+                    <li><Link to="/C-gest-contenido-redaccion-digital" >CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
+                    <li><Link to="/C-gest-sqlserver" >SQL SERVER</Link></li>
+                    <li><Link to="/C-gest-adobe-otros" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
+                    <li><Link to="/C-gest-msproject" >MS PROJECT</Link></li>
+                    <li><Link to="/C-gest-proyecto-BIM" >GESTIÓN DE PROYECTOS BIM</Link></li>
+                    <li><Link to="/C-gest-prevencion-seguridad-vial" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
+                    <li><Link to="/C-gest-paisajismo-otros" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
+                    <li><Link to="/C-gest-riesgo-desastre" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
+                    <li><Link to="/C-gest-servicio-atencion-ciudadano" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
+                </ul>  
+                </li>
+                </ul>
               <ul><li> 
                 <Link to="/programa-gestion-empresarial">
                   CURSO GESTIÓN EMPRESARIAL
@@ -252,18 +294,42 @@ function App() {
     
       <Routes>
         <Route path="/principal" element={<Principal/>} />
+        <Route path="/C-gest-adobe-otros" element={<Cgestadobeotros />} />
+        <Route path="/C-gest-alimentacion-nutricion" element={<Cgestalimentacionnutricion/>} />
+        <Route path="/C-gest-ambiental" element={<Cgestambiental />} />
+        <Route path="/C-gest-biblioteca" element={<Cgestbiblioteca />} />
+        <Route path="/C-gest-contenido-redaccion-digital" element={<Cgestcontenidoredacciondigital/>} />
+        <Route path="/C-gest-control-auditoria-etica-publica" element={<CgestControlAuditoriaEticaPublica />} />
+        <Route path="/C-gest-derecho-laboral" element={<CgestDerechoLaboral />} />
+        <Route path="/C-gest-derecho-penal-publica" element={<Cgestderechopenalfp />} />
+        <Route path="/C-gest-estrategia-planeamiento" element={<Cgestpublicaestrategica />} />
+        <Route path="/C-gest-finanzas-publicas" element={<Cgestfinanzaspublicas />} />
+        <Route path="/C-gest-habilidades-blandas" element={<Cgesthabilidadesblandas />} />
+        <Route path="/C-gest-inteligencia-artificial" element={<Cgestinteligenciaartificial />} />
+        <Route path="/C-gest-inversion-publica" element={<Cgestinversionpublica />} />
+        <Route path="/C-gest-jardineria-poda-trabajosaltura" element={<Cgestjardineriapoda />} />
+        <Route path="/C-gest-juridica-administrativa" element={<CgestGestionJuridicaAdministrativa />} />
+        <Route path="/C-gest-minera" element={<Cgestgestionminera />} />
+        <Route path="/C-gest-msproject" element={<Cgestmsproject />} />
+        <Route path="/C-gest-municipal" element={<Cgestmunicipal />} />
+        <Route path="/C-gest-obras-publicas" element={<Cgestobraspublicas />} />
+        <Route path="/C-gest-ofimatica" element={<Cgestofimatica />} />
+        <Route path="/C-gest-paisajismo-otros" element={<Cgestpaisajimosotros />} />
+        <Route path="/C-gest-prevencion-seguridad-vial" element={<Cgestprevencionseguridadvial />} />
+        <Route path="/C-gest-proyecto-BIM" element={<Cgesproyectobim />} />
+        <Route path="/C-gest-publica-salus" element={<Cgestsaludpublica />} />
+        <Route path="/C-gest-recursos-humanos-servicio-civil" element={<CgestRecursosHumanosServicioCivil />} />
+        <Route path="/C-gest-riesgodesaste" element={<Cgestriesgodesastre/>} />
+        <Route path="/C-gest-servicio-atencion-ciudadano" element={<Cgestionserviciociudadano />} />
+        <Route path="/C-gest-sitema-nacional-abastecimiento" element={<Cgestabastecimiento/>} />
+        <Route path="/C-gest-sqlserver" element={<Cgestsqlserver />} />
+        <Route path="/C-gest-trabajo-social" element={<Cgesttrabajosocial />} />
         <Route path="/" element={<Principal/>} />        
         <Route path="/la_escuela" element={<LaEscuela/>} />
         <Route path="/diplomas" element={<Diplomas />} />
         <Route path="/cursos" element={<Cursos />} />
         <Route path="/congresos" element={<Congresos />} />
-        <Route path="/programa-gest-1" element={<ProgramaGest1 />} />
-        <Route path="/programa-gest-2" element={<ProgramaGest2 />} />
-        <Route path="/programa-gest-3" element={<ProgramaGest3 />} />
-        <Route path="/programa-gest-4" element={<ProgramaGest4 />} />
-        <Route path="/programa-gest-5" element={<ProgramaGest5 />} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
-        <Route path="/programa-gest-emp-1" element={<ProgramaGestEmp1 />} />
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
       </Routes>

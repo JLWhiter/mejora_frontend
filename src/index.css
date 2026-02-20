@@ -336,8 +336,9 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    padding: 1rem 0;
 }
+
 .footer-copyright span {
     font-size: 1rem;
 }
@@ -627,7 +628,7 @@ display: none;
     }
     .footer-copyright {
         text-align: center;
-        top: 91%;
+        margin-top: 70%;
         left: 1rem;
         max-width: 92%;
     }
