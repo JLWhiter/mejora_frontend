@@ -194,16 +194,16 @@ function App() {
                 <ul> 
                     <li><Link to="/C-gest-estrategia-planeamiento">GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
                     <li><Link to="/C-gest-finanzas-publicas">FINANZAS PÚBLICAS</Link></li>
-                    <li><Link to="/C-sistema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
+                    <li><Link to="/C-gest-sitema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
                     <li><Link to="/C-gest-inversion-publica">INVERSIÓN PÚBLICA</Link></li>
                     <li><Link to="/C-gest-obras-publicas">GESTIÓN DE OBRAS PÚBLICAS</Link></li>
-                    <li><Link to="/C-gest-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-derecho-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
                     <li><Link to="/C-gest-publica-salus">GESTIÓN PÚBLICA EN SALUD</Link></li>
                     <li><Link to="/C-gest-biblioteca">GESTIÓN DE BIBLIOTECA</Link></li>
                     <li><Link to="/C-gest-municipal" >GESTIÓN MUNICIPAL</Link></li>
                     <li><Link to="/C-gest-ambiental" >GESTIÓN AMBIENTAL</Link></li>
                     <li><Link to="/C-gest-alimentacion-nutricion" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
-                    <li><Link to="/C-gest-jardineria-poda-trabajoaltura" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
+                    <li><Link to="/C-gest-jardineria-poda-trabajosaltura" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
                     <li><Link to="/C-gest-recursos-humanos-servicio-civil" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
                     <li><Link to="/C-gest-juridica-administrativa" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
                     <li><Link to="/C-gest-control-auditoria-etica-publica" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
@@ -220,7 +220,7 @@ function App() {
                     <li><Link to="/C-gest-proyecto-BIM" >GESTIÓN DE PROYECTOS BIM</Link></li>
                     <li><Link to="/C-gest-prevencion-seguridad-vial" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
                     <li><Link to="/C-gest-paisajismo-otros" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
-                    <li><Link to="/C-gest-riesgo-desastre" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
+                    <li><Link to="/C-gest-riesgodesaste" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
                     <li><Link to="/C-gest-servicio-atencion-ciudadano" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
                 </ul>  
                 </li>
