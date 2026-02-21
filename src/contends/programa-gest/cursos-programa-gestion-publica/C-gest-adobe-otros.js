@@ -1,3 +1,4 @@
+import '../curso-gest-publica.css'
 
 function Cgestadobeotros(){
     return(

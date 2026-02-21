@@ -2,8 +2,6 @@ import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Principal from './contends/principal';
 import LaEscuela from './contends/escuela-contends/la_escuela';
 import Diplomas from './contends/diplomas_especializados/diplomas';
-import Cursos from './contends/escuela-contends/cursos';
-import Congresos from './contends/escuela-contends/congresos';
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros'
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion'
@@ -327,8 +325,6 @@ function App() {
         <Route path="/" element={<Principal/>} />        
         <Route path="/la_escuela" element={<LaEscuela/>} />
         <Route path="/diplomas" element={<Diplomas />} />
-        <Route path="/cursos" element={<Cursos />} />
-        <Route path="/congresos" element={<Congresos />} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
