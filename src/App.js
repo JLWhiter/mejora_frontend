@@ -63,7 +63,7 @@ function App() {
             <ul>
               <li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li>
               <li><Link href="#">AULA VIRTUAL</Link></li>
-              <li><Link to="#footer">REDES SOCIALES</Link></li></ul>
+              <li><Link to="footer">REDES SOCIALES</Link></li></ul>
             </li>
           </ul>
         </div>
@@ -189,7 +189,7 @@ function App() {
               <ul className='menu-cabecera-1003-2'> <li><Link to="/programa-gestion-publica">
                   CURSO GESTIÓN PUBLICA 
                 </Link> 
-                <ul> 
+                <ul className='contenedor-menu-cabecera-1003-2-1'> 
                     <li><Link to="/C-gest-estrategia-planeamiento">GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
                     <li><Link to="/C-gest-finanzas-publicas">FINANZAS PÚBLICAS</Link></li>
                     <li><Link to="/C-gest-sitema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>

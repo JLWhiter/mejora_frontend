@@ -89,7 +89,7 @@
     font-size: .8rem;
 }
 
-@media (max-width:1080px) {
+@media (max-width:800px) {
     .presentacion p{
         max-width: 30%;
         margin-left: -5rem;
