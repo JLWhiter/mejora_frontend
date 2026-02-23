@@ -13,10 +13,46 @@ function Diplomas() {
             <div className='contenedor-txt-img'>
                 <img src='/uploads/port.jpg' alt='logo-img' className='logo-img-diplomas'/>
                 <p className='diploma-text'>
-                Nuestro Diploma de Especialización te prepara para destacar en gerencia y gestión, 
-                fortaleciendo tus habilidades de liderazgo, planificación estratégica y toma de decisiones. 
-                Un programa práctico y actualizado, enfocado en resultados reales que impulsan tu crecimiento profesional y competitividad laboral.
+                    La EMPRESA ESCUELA DE GERENCIA Y GESTIÓN desarrolla programas de capacitación y 
+                    especialización orientados a ejecutivos, profesionales y funcionarios que desean 
+                    fortalecer y actualizar sus competencias en áreas administrativas, empresariales 
+                    y tecnologías de la información.
+                    <p>
+                    Nuestros programas están diseñados para potenciar el pensamiento estratégico, la 
+                    capacidad analítica y la resolución efectiva de problemas organizacionales, 
+                    considerando los contextos nacional e internacional.</p>
+                    <p>
+                    Un Diploma de Especialización constituye una propuesta académica de formación 
+                    continua dirigida a profesionales con experiencia laboral o estudios superiores
+                    previos, que buscan profundizar conocimientos y perfeccionar habilidades en un
+                    campo específico, sin alcanzar el grado de maestría.</p>
+                     <p>
+                    La certificación se otorga a quienes culminen satisfactoriamente el plan de 
+                    estudios, acreditando competencias técnicas avanzadas y especializadas.</p>
                 </p>
+            </div>
+            <div className='caracteristica-generales'>
+                <ul>
+                    <li>Duración: Entre 90 y 250 horas académicas, según el programa.</li>
+                    <li>Certificación: Se entrega al cumplir los requisitos académicos, asistencia mínima y evaluaciones establecidas.</li>
+                    <li>Enfoque práctico: Aplicación inmediata en el entorno laboral mediante casos reales y proyectos aplicados</li>
+                </ul>
+                <ul> 
+                    <h2>Enfoque Pedagógico</h2>
+                    <li> 
+                        La propuesta formativa se basa en principios de andragogía, priorizando:
+                    </li>
+                    <li>
+                        La experiencia profesional previa como eje del aprendizaje.
+                    </li>
+                    <li>
+                        El aprendizaje significativo sustentado en la práctica y la reflexión crítica.
+                    </li>
+                    <li>
+                        La transferencia inmediata del conocimiento al ámbito profesional y organizacional.
+                    </li>
+                </ul>
+
             </div>
             <div className='contendor-diplomado-curs' > 
                 <div className='group'>

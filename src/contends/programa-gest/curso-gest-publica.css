@@ -70,6 +70,18 @@
     margin-top: 1rem;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.331);
 }
+.caracteristica-generales{
+    max-width: 89%;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-top: 1rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.331);
+}
+.caracteristica-generales ul li{
+    font-family: 'robot','sans-serif';
+    font-weight: 300;
+}
 .logo-metodologia{
     align-items: center;
     display: flex;
