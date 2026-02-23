@@ -3,12 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
 }
-img[class^="logo-"] {
-  border-radius: 1rem;
-}
-img[class^="logo-img-titulos"]:not(.no-radius) {
-  border-radius: 1rem;
-}
+
 body {
     font-family: sans-serif;
     background-color: white;

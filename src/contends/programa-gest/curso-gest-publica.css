@@ -1,10 +1,11 @@
 *{
-
     font-family: 'robot','sans-serif';
     font-weight: 200;
 }
 .contenedor{
     display: block;
+    font-family: 'robot','sans-serif';
+    font-weight: 200;
     align-items: center;
     font-weight: 100;
     max-width: 90%;
@@ -13,6 +14,8 @@
 }
 .contenedor p{
     position: relative;
+    font-family: 'robot','sans-serif';
+    font-weight: 200;
     height: 50%;
     max-width: 80%;
     margin-top: 80%;
@@ -33,7 +36,103 @@
     display: flex;
     float: left;
     font-size: 1rem;
-    top: 20%;
+    top: 15%;
     max-width: 40%;
     padding: 1rem;
+}
+.presentacion ul{
+    margin-top: -1rem;
+}
+.presentacion ul li{
+    padding: .4rem;
+    font-family: 'robot','sans-serif';
+    font-weight: 200;
+    list-style:inherit;
+}
+.metedologia, .metodologia{
+    display: flex;
+    max-width: 50%;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.331);
+}
+.metedologia p{
+    font-family: 'robot','sans-serif';
+    font-weight: 300;
+    font-size: 1rem;
+}
+.temario-principal{
+    display: flex;
+    position: relative;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-top: 1rem;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.331);
+}
+.logo-metodologia{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 32rem;
+    height: 25rem;
+    margin-left: 42em;
+}
+.temario-principal ul{
+    display: flex;
+    position: relative;
+    padding: .5rem;
+    font-size: 1rem;
+}
+.temario-principal ul li{
+    padding: 1rem;
+    font-size: .8rem;
+}
+
+@media (max-width:1080px) {
+    .presentacion p{
+        max-width: 30%;
+        margin-left: -5rem;
+        margin-top: -1rem;
+        font-size: 0.7rem;
+    }
+    .presentacion h1{
+        font-size: 1rem;
+    }
+    .presentacion ul{
+        margin-top: 0rem;
+    }
+    .presentacion ul li{
+        font-size: 0.7rem;
+        width: 7rem;
+        margin-left: -1rem;
+    }
+    .metedologia, .metodologia{
+        max-width: 100%;
+        text-align:left;
+        margin-left: 0;
+        font-size: .7rem;
+    }
+    .metedologia, .metodologia h1{
+        margin: 5 auto; 
+        z-index: 5;
+    }
+    .logo-metodologia{
+        margin-left: 0;
+        max-width: 82%;
+        z-index: 1;
+        opacity: 0.5;
+        height: 74%;
+    }
+    .temario-principal{
+        display: list-item;
+        list-style: none;
+    }
+    .temario-principal ul {
+        display: block;
+    }
+    .temario-principal ul li{
+        display: block;
+        position: relative;
+    }
 }

@@ -54,7 +54,7 @@ function App() {
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
           <ul><li><Link href="#">AULA VIRTUAL</Link></li></ul>
-          <ul><li><Link href="#">REDES SOCIALES</Link></li></ul>
+          <ul><li><Link to='footer'>REDES SOCIALES</Link></li></ul>
         </div>
 
         <div className="menu-list-1001">
@@ -63,7 +63,7 @@ function App() {
             <ul>
               <li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li>
               <li><Link href="#">AULA VIRTUAL</Link></li>
-              <li><Link href="#">REDES SOCIALES</Link></li></ul>
+              <li><Link to="#footer">REDES SOCIALES</Link></li></ul>
             </li>
           </ul>
         </div>
@@ -366,7 +366,7 @@ function App() {
     </div>
     </div>
   </h1>
-  <div className='footer-copyright'>
+  <div className='footer-copyright' id='footer'>
     <span>© Escuela De Gerencia y Gestion. Todos los derechos reservados.</span>
   </div>
 </div>

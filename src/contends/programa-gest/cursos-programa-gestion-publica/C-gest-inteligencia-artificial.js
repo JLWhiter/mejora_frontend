@@ -21,6 +21,8 @@ function Cgestinteligenciaartificial(){
             </div>
 
             <div className="metedologia">
+                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
+                
                 <ul> 
                     <li>
                         <h1> Metodología </h1>

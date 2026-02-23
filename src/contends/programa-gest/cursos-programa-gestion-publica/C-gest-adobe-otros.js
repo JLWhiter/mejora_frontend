@@ -15,10 +15,11 @@ function Cgestadobeotros(){
                 </ul>
             </div>
             <div className="metedologia">
+                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
                 <ul> 
                     <li>
                         <h1> Metodología </h1>
-                        <p> Talleres prácticos, proyectos creativos y aprendizaje visual.</p>
+                        <p> Talleres prácticos, proyectos creativos y aprendizaje visual.</p> 
                     </li>
                     <li>
                         <h1>Material Académico</h1>
