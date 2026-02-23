@@ -1,6 +1,7 @@
 import '../curso-gest-publica.css'
 
 function Cgestadobeotros(){
+    
     return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -52,6 +53,7 @@ function Cgestadobeotros(){
                     <li> 4. InDesign </li>
                     <li> 5. Proyecto final </li>
                 </ul>
+                
             </div>
         </div>
     );

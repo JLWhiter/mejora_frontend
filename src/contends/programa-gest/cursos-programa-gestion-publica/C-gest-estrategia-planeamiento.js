@@ -1,4 +1,10 @@
 function Cgestpublicaestrategica(){
+    const solicitarinformacionCgestpublicaestrategica = ()=>{
+            window.open(
+            "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO",
+            "_blank"
+            );
+    }
     return(
         <div className="contenedor">
 
@@ -52,6 +58,8 @@ function Cgestpublicaestrategica(){
             </div>
 
             <div className="temario-principal">
+                <li><button className="btn-solicitar-informacion" onClick={solicitarinformacionCgestpublicaestrategica}>SOLICITAR INFORMACIÓN</button></li>
+              
                 <h1>Temario Principal</h1>
                 <ul>
                     <li>1. Gestión Pública Moderna</li>
