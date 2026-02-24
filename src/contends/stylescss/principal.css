@@ -113,7 +113,7 @@ transform: translateX(380px);
     max-width: 90%;
     text-align: center;
     align-items: center;
-    margin-top: -10%;
+    margin-top: -20%;
 }
 .beneficios>h1 {
     margin-bottom: 2rem;
@@ -144,110 +144,30 @@ transform: translateX(380px);
     background-color: #ffffff;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
 }   
-
 .beneficios-grid :hover{
     transform: scale(1.1);
     transition: .5s;
 }
 
-
-
-#tex1, #tex2, #tex3, #tex4 {
-    display: none;
-    position: relative;
-    width: 120px;
-    font-size: 10px;
-}       
-#banner3, #banner4, #banner5, #banner6{
-    width: 250px;
-}
 .curso1, .curso2, .curso3, .curso4 {
-    background-color: transparent;
-    height: 310px;
-    border-radius: 5px;
-    border: 5px solid white;
+    display: list-item;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.349);
 }
-
-#text1, .curso1{
-    display: flex;
-    position: relative;
-    left: 100px;
+.servicios ul li img{
+    width: 20%;
 }
-
-#banner3{
-    position: relative;
-    top: 40px;
-    left: -75px;
-}
-
-#text3, .curso3{
-    display: flex;
-    position: relative;
-    left: -160px;
-}
-
-#banner5{
-    position: relative;
-    top: 40px;
-    left: -75px;
-}
-
-
-#text2 , .curso2 {
-    display: flex;
-    position: relative;
-    left: 350px;
-}
-#banner4{
-    position: relative;
-    display: flex;
-    top: 50px;
-    width: 240px;
-    left: -70px;
-}
-
-#text4, .curso4{
-    display: flex;
-    position: relative;
-    left: 95px;
-}
-#banner6{
-    position:relative;
-    top: 50px;
-    width: 240px;
-    left: -80px;
-}
-
-.servicios {
-    background-color: aliceblue;
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    height: 700px;
-    left: 0px;
-}
-
-#grupo-1 {
-    display: flex;
-    position: relative;
-    transform: translateX(92px);
-}
-
-#grupo-2 {
-    display: flex;
-    position: relative;
-    top: 350px;
-    transform: translateX(-480px); 
-}
-
-
-
-#cambiar:hover {
-    color: white;
-}
-
 @media (max-width: 780px) {
-
+    .Principal{
+        margin: 20px auto;
+        background: linear-gradient(to right, 
+        hsla(165, 43%, 41%, 0.37), 
+        #3996824f);
+    }
     .contenido-image {
         display: flex;
         margin-top: 0%;
@@ -284,11 +204,11 @@ transform: translateX(380px);
         gap: 20px;
     }
 
-
     #tex1, #tex2, #tex3, #tex4 {
-    position: relative;
-    width: 80%;
-    font-size: 10px;
+        display: flex;
+        position: relative;
+        width: 80%;
+        font-size: 10px;
     }           
     
     #banner3, #banner4, #banner5, #banner6{

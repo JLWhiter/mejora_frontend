@@ -5,7 +5,7 @@ import { GrCertificate } from "react-icons/gr";
 import { BsStar } from "react-icons/bs";
 function Principal() {
   return (
-    <div>
+    <div className='Principal'>
 
       <div className="banner">
         <img src="/uploads/banner1.jpg" alt='logo' className="banner-img" />
@@ -66,27 +66,28 @@ function Principal() {
 
         <section id="grupo-1">
           <ul className='curso1'>
-            <li><h1 id="tex1">GESTIÓN DE ALMACÉN E INVENTARIO</h1></li>
+            
             <li><img src="/uploads/curs_7.png" alt="Gestión" id="banner3" /></li>
+            <li><h1 id="tex1">GESTIÓN DE ALMACÉN E INVENTARIO</h1></li>
           </ul>
 
           <ul className='curso2'>
-            <li><h1 id="tex2">PROCESO ADMINISTRATIVO GENERAL</h1></li>
             <li><img src="/uploads/curs_9.webp" alt="Administrativo" id="banner4" /></li>
+            <li><h1 id="tex2">PROCESO ADMINISTRATIVO GENERAL</h1></li>
           </ul>
         </section>
 
         <section id="grupo-2">
           <ul className='curso3'>
-            <li><h1 id="tex3">PROCESO DISCIPLINARIO PASS</h1></li>
             <li><img src="/uploads/curs_10.webp" alt="Disciplinario" id="banner5" /></li>
+            <li><h1 id="tex3">PROCESO DISCIPLINARIO PASS</h1></li>
           </ul>
 
           <ul className='curso4'>
+            <li><img src="/uploads/curs_11.webp" alt="SIAF" id="banner6" /></li>
             <li>
               <h1 id="tex4">SISTEMA INTEGRADO DE ADMINISTRACIÓN FINANCIERA SIAF – RP </h1>
             </li>
-            <li><img src="/uploads/curs_11.webp" alt="SIAF" id="banner6" /></li>
           </ul>
         </section>
 
