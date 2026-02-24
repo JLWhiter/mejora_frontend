@@ -1,4 +1,8 @@
 import './stylescss/principal.css';
+import { IoMdClock,IoIosPeople } from "react-icons/io"; 
+import { MdComputer,MdOutlineWork } from "react-icons/md";
+import { GrCertificate } from "react-icons/gr";
+import { BsStar } from "react-icons/bs";
 function Principal() {
   return (
     <div>
@@ -27,17 +31,36 @@ function Principal() {
 
 
 
-      <section className="beneficios">
-        <h2>¿Por qué elegirnos?</h2>
+      <div className="beneficios">
+        <h1>¿Por qué elegirnos?</h1>
         <div className="beneficios-grid">
-          <p>Horarios flexibles</p>
-          <p>Desarrollo de casos reales de empresas</p>
-          <p>Aula moderna e intuitiva</p>
-          <p>Certificación de calidad</p>
-          <p>Expositores con experiencia</p>
-          <p>+30 años capacitando ejecutivos</p>
+          <li>
+            <IoMdClock className='reloj' size={60} />
+            <h1> Horarios flexibles </h1  >
+          </li>
+          <li>
+            <MdOutlineWork size={60}/>
+            <h1> Desarrollo de casos reales de empresas </h1>
+          </li>
+          <li>
+            
+            <MdComputer size={60} />
+            <h1>Aula moderna e intuitiva</h1>
+          </li>
+          <li>
+            <GrCertificate size={60} />
+            <h1>Certificación de calidad</h1>
+          </li>
+          <li>
+            <IoIosPeople size={60} />
+            <h1>Expositores con experiencia</h1>
+          </li>
+          <li>
+            <BsStar size={60} />
+            <h1>+30 años capacitando ejecutivos</h1>
+          </li>
         </div>
-      </section>
+      </div>
 
       <div className="servicios">
 

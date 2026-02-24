@@ -107,21 +107,53 @@ transform: translateX(500px);
 transform: translateX(380px);
 }
 
-.beneficios {
-    transform: translateY(-280px);
-    padding: 50px;
+.beneficios{
+    display: grid;
+    margin: 50px auto;
+    max-width: 90%;
     text-align: center;
-    height: 50px;
+    align-items: center;
+    margin-top: -10%;
+}
+.beneficios>h1 {
+    margin-bottom: 2rem;
+}
+.beneficios-grid {
+    columns: 3;
+}
+.reloj{
+    display:flex;
+    position: relative;
+    width: 90%;
+    max-width: 90%;
+}
+.beneficios-grid h1{
+    font-size: 100%;
+    font-family: 'robot', 'sans-serif';
+    font-weight: 800;
+    font-style:initial;
+    color: #479184d8;
+    box-shadow: 0 1px 0;
+
+}
+.beneficios-grid li {
+    list-style: none;
+    margin-bottom: 1rem;
+    height: 10rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+}   
+
+.beneficios-grid :hover{
+    transform: scale(1.1);
+    transition: .5s;
 }
 
-.beneficios-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 20px;
-}
 
 
 #tex1, #tex2, #tex3, #tex4 {
+    display: none;
     position: relative;
     width: 120px;
     font-size: 10px;
@@ -243,7 +275,7 @@ transform: translateX(380px);
         padding: 50px;
         text-align: center;
         width: 70%;
-        margin-top: 50px;
+        margin-top: -70%;
     }
 
     .beneficios-grid {

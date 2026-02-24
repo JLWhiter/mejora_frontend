@@ -100,13 +100,15 @@
     padding: 1rem;
     font-size: .8rem;
 }
+
 .btn-solicitar-informacion{
     cursor: pointer;
     font-size: 1rem;
     font-style: none;
-    border: none;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #5baf96ef;
+    border: 1rem solid #5baf96dc;
+    border-radius: 0.2rem;
     margin-left: 60%;
     margin-top: -20%;
 }
