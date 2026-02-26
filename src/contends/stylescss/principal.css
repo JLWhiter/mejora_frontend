@@ -109,8 +109,8 @@ transform: translateX(380px);
 
 .beneficios{
     display: grid;
-    margin: 50px auto;
-    max-width: 90%;
+    margin: 100px auto;
+    max-width: 70%;
     text-align: center;
     align-items: center;
     margin-top: -20%;
