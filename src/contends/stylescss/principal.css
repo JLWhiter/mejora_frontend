@@ -191,9 +191,6 @@ transform: translateX(380px);
 @media (max-width: 780px) {
     .Principal{
         margin: 20px auto;
-        background: linear-gradient(to right, 
-        hsla(165, 43%, 41%, 0.37), 
-        #3996824f);
     }
     .contenido-image {
         display: flex;
