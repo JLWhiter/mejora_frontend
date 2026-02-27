@@ -63,10 +63,9 @@ function Principal() {
       </div>
 
       <div className="servicios">
-
+        <h1> Cursos Destacados </h1>
         <section id="grupo-1">
           <ul className='curso1'>
-            
             <li><img src="/uploads/curs_7.png" alt="Gestión" id="banner3" /></li>
             <li><h1 id="tex1">GESTIÓN DE ALMACÉN E INVENTARIO</h1></li>
           </ul>
