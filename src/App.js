@@ -45,6 +45,9 @@ function App() {
             "_blank"
             );
   }
+  const aulavirtual=()=>{
+    window.open("https://escuelag.com/moodle/login");
+  }
   return (
     <BrowserRouter>
         <div id="encabezado">
@@ -53,7 +56,7 @@ function App() {
         </Link>
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
-          <ul><li><Link href="#">AULA VIRTUAL</Link></li></ul>
+          <ul><li><button className="btn-cta"  onClick={aulavirtual}>AULA VIRTUAL</button></li></ul>
           <ul><li><Link to='footer'>REDES SOCIALES</Link></li></ul>
         </div>
 
@@ -148,8 +151,6 @@ function App() {
                 <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
                   <ul>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Servicio Civil y Gestión del Desempeño</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión del Clima y Cultura Organizacional</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
                   </ul>
                 </li>
@@ -157,7 +158,6 @@ function App() {
                   <ul>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                      <li><Link to="/programa-gest-emp-1">DDiploma de Especialización en Seguridad de la Información y Protección de Datos</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
                   </ul>
                 </li>
@@ -255,8 +255,6 @@ function App() {
                 <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
                   <ul>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Servicio Civil y Gestión del Desempeño</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión del Clima y Cultura Organizacional</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
                   </ul>
                 </li>
@@ -264,7 +262,6 @@ function App() {
                   <ul>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                      <li><Link to="/programa-gest-emp-1">DDiploma de Especialización en Seguridad de la Información y Protección de Datos</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
                   </ul>
                 </li>
