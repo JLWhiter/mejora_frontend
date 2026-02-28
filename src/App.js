@@ -132,7 +132,6 @@ function App() {
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Presupuesto por Resultados</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Finanzas Públicas</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
                   </ul>
                 </li>
@@ -240,7 +239,6 @@ function App() {
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Presupuesto por Resultados</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Finanzas Públicas</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
                   </ul>
                 </li>
