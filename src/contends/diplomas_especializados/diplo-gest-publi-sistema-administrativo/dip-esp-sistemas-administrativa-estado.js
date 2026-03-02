@@ -1,4 +1,4 @@
-function dipespsistemasadministrativaestado(){
+function Dipespsistemasadministrativaestado(){
      return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -60,4 +60,4 @@ function dipespsistemasadministrativaestado(){
         </div>
     );
 }
-export default  dipespsistemasadministrativaestado
+export default  Dipespsistemasadministrativaestado
