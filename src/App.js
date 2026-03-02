@@ -134,7 +134,7 @@ function App() {
               </Link>
 
               <ul>
-                <li><p>GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</p>
+                <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
                   <ul>
                       <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Gestión Pública Moderna</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
