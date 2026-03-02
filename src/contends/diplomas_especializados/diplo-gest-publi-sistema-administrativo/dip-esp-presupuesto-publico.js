@@ -1,4 +1,4 @@
-function dipesppresupuestopublico(){
+function Dipesppresupuestopublico(){
 return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -59,4 +59,4 @@ return(
         </div>
     );
 }
-export default dipesppresupuestopublico
+export default Dipesppresupuestopublico
