@@ -7,6 +7,11 @@ import Dipespcontratacionestado from './contends/diplomas_especializados/diplo-c
 import Dipespderechoprocedimiento from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-derecho-procedimiento';
 import Dipespeticaintegridad from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-etica-integridad';
 import Dipespsistemaabastecimineto from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-sistema-abastecimiento';
+import Dipespinviertepe from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-esp-invierte-pe'
+import Dipesppresupuestopublico from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-esp-presupuesto-publico'
+import Dipespsistemasadministrativaestado from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-esp-sistemas-administrativa-estado'
+import Dipgestestrategico from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-gest-estrategico'
+import Dipgestpublicamoderna from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-gest-publica-moderna'
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros';
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion';
