@@ -1,5 +1,5 @@
 
-function dipgestpublicamoderna(){
+function Dipgestpublicamoderna(){
    return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -63,4 +63,4 @@ function dipgestpublicamoderna(){
     );
 }
 
-export default dipgestpublicamoderna
+export default Dipgestpublicamoderna
