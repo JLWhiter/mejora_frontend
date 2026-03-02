@@ -12,6 +12,8 @@ import Dipesppresupuestopublico from './contends/diplomas_especializados/diplo-g
 import Dipespsistemasadministrativaestado from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-esp-sistemas-administrativa-estado'
 import Dipgestestrategico from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-gest-estrategico'
 import Dipgestpublicamoderna from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-gest-publica-moderna'
+import Dipespgestrecursoshumanos from './contends/diplomas_especializados/diplo-gest-talento-humano/dip-esp-gest-recursos-humanos'
+import Dipespliderazgogestionequipos from './contends/diplomas_especializados/diplo-gest-talento-humano/dip-esp-liderazgo-gestion-equipos'
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros';
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion';
@@ -159,8 +161,8 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
+                      <li><Link to="/dip-esp-gest-recursos-humanos">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
+                      <li><Link to="/dip-esp-liderazgo-gestion-equipos">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
@@ -262,8 +264,8 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
+                      <li><Link to="/dip-esp-gest-recursos-humanos">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
+                      <li><Link to="/dip-esp-liderazgo-gestion-equipos">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
@@ -338,6 +340,8 @@ function App() {
         <Route path="/dip-esp-sistemas-administrativa-estado" element={<Dipespsistemasadministrativaestado/>} />
         <Route path="/dip-gest-estrategico" element={<Dipgestestrategico/>} />
         <Route path="/dip-gest-publica-moderna" element={<Dipgestpublicamoderna/>} />
+        <Route path="/dip-esp-gest-recursos-humanos" element={<Dipespgestrecursoshumanos/>} />
+        <Route path="/dip-esp-liderazgo-gestion-equipos" element={<Dipespliderazgogestionequipos/>} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
