@@ -1,4 +1,4 @@
-function dipgestestrategico(){
+function Dipgestestrategico(){
     return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -62,4 +62,4 @@ function dipgestestrategico(){
     );
 }
 
-export default dipgestestrategico
+export default Dipgestestrategico
