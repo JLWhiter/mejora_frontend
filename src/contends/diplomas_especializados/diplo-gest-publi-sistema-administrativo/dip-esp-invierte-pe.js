@@ -1,4 +1,4 @@
-function dipespinviertepe(){
+function Dipespinviertepe(){
      return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -61,3 +61,4 @@ function dipespinviertepe(){
         </div>
     );
 }
+Export Default Dipespinviertepe
