@@ -2,43 +2,42 @@ import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Principal from './contends/principal';
 import LaEscuela from './contends/escuela-contends/la_escuela';
 import Diplomas from './contends/diplomas_especializados/diplomas';
-import  dipespcontrolgubernamental from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-auditoria-gubernamental'
-import  dipespcontratacionestado from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-contratacion-estado'
-import  dipespcontrolgubernamental from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-control-gubernamental'
-import  dipespderechoprocedimiento from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-derecho-procedimiento'
-import  dipespeticaintegridad from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-etica-integridad'
-import  dipespsistemaabastecimineto from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-sistema-abastecimiento'
+import Dipespcontrolgubernamental from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-auditoria-gubernamental';
+import dipespcontratacionestado from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-contratacion-estado';
+import dipespderechoprocedimiento from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-derecho-procedimiento';
+import dipespeticaintegridad from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-etica-integridad';
+import dipespsistemaabastecimineto from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-sistema-abastecimiento';
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
-import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros'
-import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion'
-import Cgestambiental from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-ambiental'
-import Cgestbiblioteca from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-biblioteca'
-import Cgestcontenidoredacciondigital from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-contenido-redaccion-digital'
-import CgestControlAuditoriaEticaPublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-control-auditoria-etica-publica'
-import CgestDerechoLaboral from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-derecho-laboral'
-import Cgestderechopenalfp from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-derecho-penal-publica'
-import Cgestpublicaestrategica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-estrategia-planeamiento'
-import Cgestfinanzaspublicas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-finanzas-publicas'
-import Cgesthabilidadesblandas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-habilidades-blandas'
-import Cgestinteligenciaartificial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-inteligencia-artificial'
-import Cgestinversionpublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-inversion-publica'
-import Cgestjardineriapoda from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-jardineria-poda-trabajosaltura'
-import CgestGestionJuridicaAdministrativa from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-juridica-administrativa'
-import Cgestgestionminera from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-minera'
-import Cgestmsproject from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-msproject'
-import Cgestmunicipal from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-municipal'
-import Cgestobraspublicas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-obras-publicas'
-import Cgestofimatica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-ofimatica'
-import Cgestpaisajimosotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-paisajismo-otros'
-import Cgestprevencionseguridadvial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-prevencion-seguridad-vial'
-import Cgesproyectobim from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-proyecto-BIM'
-import Cgestsaludpublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-publica-salud'
-import CgestRecursosHumanosServicioCivil from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-recursos-humanos-servicio-civil'
-import Cgestriesgodesastre from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-riesgodesaste'
-import Cgestionserviciociudadano from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-servicio-atencion-ciudadano'
-import Cgestabastecimiento from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-sitema-nacional-abastecimiento'
-import Cgestsqlserver from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-sqlserver'
-import Cgesttrabajosocial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-trabajo-social'
+import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros';
+import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion';
+import Cgestambiental from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-ambiental';
+import Cgestbiblioteca from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-biblioteca';
+import Cgestcontenidoredacciondigital from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-contenido-redaccion-digital';
+import CgestControlAuditoriaEticaPublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-control-auditoria-etica-publica';
+import CgestDerechoLaboral from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-derecho-laboral';
+import Cgestderechopenalfp from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-derecho-penal-publica';
+import Cgestpublicaestrategica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-estrategia-planeamiento';
+import Cgestfinanzaspublicas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-finanzas-publicas';
+import Cgesthabilidadesblandas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-habilidades-blandas';
+import Cgestinteligenciaartificial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-inteligencia-artificial';
+import Cgestinversionpublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-inversion-publica';
+import Cgestjardineriapoda from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-jardineria-poda-trabajosaltura';
+import CgestGestionJuridicaAdministrativa from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-juridica-administrativa';
+import Cgestgestionminera from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-minera';
+import Cgestmsproject from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-msproject';
+import Cgestmunicipal from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-municipal';
+import Cgestobraspublicas from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-obras-publicas';
+import Cgestofimatica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-ofimatica';
+import Cgestpaisajimosotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-paisajismo-otros';
+import Cgestprevencionseguridadvial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-prevencion-seguridad-vial';
+import Cgesproyectobim from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-proyecto-BIM';
+import Cgestsaludpublica from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-publica-salud';
+import CgestRecursosHumanosServicioCivil from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-recursos-humanos-servicio-civil';
+import Cgestriesgodesastre from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-riesgodesaste';
+import Cgestionserviciociudadano from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-servicio-atencion-ciudadano';
+import Cgestabastecimiento from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-sitema-nacional-abastecimiento';
+import Cgestsqlserver from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-sqlserver';
+import Cgesttrabajosocial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-trabajo-social';
 import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-gestion-empresarial';
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
 import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
@@ -137,7 +136,7 @@ function App() {
               <ul>
                 <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública Moderna</Link></li>
+                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Gestión Pública Moderna</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Presupuesto por Resultados</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
@@ -146,10 +145,9 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Contrataciones del Estado</Link></li>
+                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Contrataciones del Estado</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Control Gubernamental y Control Interno</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Auditoría Gubernamental</Link></li>
+                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Auditoría Gubernamental</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
                   </ul>
@@ -250,9 +248,8 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Contrataciones del Estado</Link></li>
+                      <li><Link to="//dip-esp-auditoria-gubernamental">Diploma de Especialización en Contrataciones del Estado</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Control Gubernamental y Control Interno</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Auditoría Gubernamental</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
                       <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
@@ -326,6 +323,7 @@ function App() {
         <Route path="/" element={<Principal/>} />        
         <Route path="/la_escuela" element={<LaEscuela/>} />
         <Route path="/diplomas" element={<Diplomas />} />
+        <Route path="/dip-esp-auditoria-gubernamental" element={<Dipespcontrolgubernamental/>} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 

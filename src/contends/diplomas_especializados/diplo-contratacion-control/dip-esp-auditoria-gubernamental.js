@@ -1,4 +1,5 @@
-function dipespcontrolgubernamental() {
+
+function Dipespcontrolgubernamental() {
     return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -53,4 +54,4 @@ function dipespcontrolgubernamental() {
         </div>
     );
 }
-export  default dipespcontrolgubernamental
+export default Dipespcontrolgubernamental
