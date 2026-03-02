@@ -141,11 +141,11 @@ function App() {
               <ul>
                 <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
                   <ul>
-                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Gestión Pública Moderna</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Presupuesto por Resultados</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
+                      <li><Link to="/dip-gest-publica-moderna">Diploma de Especialización en Gestión Pública Moderna</Link></li>
+                      <li><Link to="/dip-gest-estrategico">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
+                      <li><Link to="/dip-esp-presupuesto-publico">Diploma de Especialización en Presupuesto por Resultados</Link></li>
+                      <li><Link to="/dip-esp-invierte-pe">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
+                      <li><Link to="/dip-esp-sistemas-administrativa-estado">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
@@ -244,11 +244,11 @@ function App() {
               <ul>
                 <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública Moderna</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Presupuesto por Resultados</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
+                      <li><Link to="/dip-gest-publica-moderna">Diploma de Especialización en Gestión Pública Moderna</Link></li>
+                      <li><Link to="/dip-gest-estrategico">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
+                      <li><Link to="/dip-esp-presupuesto-publico">Diploma de Especialización en Presupuesto por Resultados</Link></li>
+                      <li><Link to="/dip-esp-invierte-pe">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
+                      <li><Link to="/dip-esp-sistemas-administrativa-estado">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
@@ -333,6 +333,11 @@ function App() {
         <Route path="/dip-esp-derecho-procedimiento" element={<Dipespderechoprocedimiento/>} />
         <Route path="/dip-esp-etica-integridad" element={<Dipespeticaintegridad/>} />
         <Route path="/dip-esp-sistema-abastecimiento" element={<Dipespsistemaabastecimineto/>} />
+        <Route path="/dip-esp-invierte-pe" element={<Dipespinviertepe/>} />
+        <Route path="/dip-esp-presupuesto-publico" element={<Dipesppresupuestopublico/>} />
+        <Route path="/dip-esp-sistemas-administrativa-estado" element={<Dipespsistemasadministrativaestado/>} />
+        <Route path="/dip-gest-estrategico" element={<Dipgestestrategico/>} />
+        <Route path="/dip-gest-publica-moderna" element={<Dipgestpublicamoderna/>} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
