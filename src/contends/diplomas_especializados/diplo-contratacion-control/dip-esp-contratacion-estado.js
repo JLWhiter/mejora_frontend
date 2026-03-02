@@ -1,4 +1,4 @@
-function dipespcontratacionestado() {
+function Dipespcontratacionestado() {
     return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -60,4 +60,4 @@ function dipespcontratacionestado() {
         </div>
     );
 }
-export default dipespcontratacionestado
+export default Dipespcontratacionestado
