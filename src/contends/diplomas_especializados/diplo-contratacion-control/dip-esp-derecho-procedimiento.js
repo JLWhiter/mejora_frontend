@@ -1,4 +1,4 @@
-function dipespderechoprocedimiento() {
+function Dipespderechoprocedimiento() {
      return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -49,4 +49,4 @@ function dipespderechoprocedimiento() {
         </div>
     );
 }
-export default dipespderechoprocedimiento
+export default Dipespderechoprocedimiento
