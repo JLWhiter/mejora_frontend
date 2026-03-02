@@ -1,4 +1,4 @@
-function dipespsistemaabastecimineto() {
+function Dipespsistemaabastecimineto() {
     return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -61,4 +61,4 @@ function dipespsistemaabastecimineto() {
         </div>
     );
 }
-export default dipespsistemaabastecimineto
+export default Dipespsistemaabastecimineto
