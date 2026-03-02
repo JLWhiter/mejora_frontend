@@ -4,25 +4,26 @@ function Dipespcontratacionestado() {
             <div className="presentacion"> 
                <h1> Presentación </h1>
                <p>
-                    El Diploma de Especialización en Sistema Nacional de Abastecimiento 
-                    brinda formación técnica y actualizada sobre la normativa, procesos 
-                    y herramientas que regulan la gestión de abastecimiento en el sector público.
+                    El Diploma de Especialización en Contrataciones del Estado 
+                    ha sido diseñado para brindar una formación técnica y actualizada 
+                    sobre la normativa vigente y los procedimientos que regulan 
+                    el Sistema Nacional de Abastecimiento y las contrataciones públicas.
                </p>
                <p>
-                    El programa desarrolla contenidos vinculados a la programación multianual 
-                    de bienes, servicios y obras, gestión de requerimientos, planificación 
-                    de contrataciones, administración de almacenes, control patrimonial 
-                    y articulación con los sistemas administrativos del Estado.
+                    El programa desarrolla contenidos relacionados con la planificación 
+                    de contrataciones, actos preparatorios, procedimientos de selección, 
+                    ejecución contractual, modificaciones, solución de controversias y 
+                    responsabilidades administrativas.
                </p>
 
                 <ul>
                     <h1> Objetivo Específico </h1>
                     <ul>
                         <li>
-                            Desarrollar competencias técnicas para aplicar adecuadamente 
-                            la normativa y los procesos del Sistema Nacional de Abastecimiento, 
-                            garantizando una gestión eficiente, transparente y articulada 
-                            con los demás sistemas administrativos.
+                            Desarrollar competencias técnicas para aplicar correctamente 
+                            la normativa y los procedimientos de las contrataciones públicas, 
+                            gestionando procesos de selección y ejecución contractual con 
+                            eficiencia, transparencia y cumplimiento del marco legal vigente.
                         </li>
                     </ul>
                 </ul>
@@ -30,7 +31,7 @@ function Dipespcontratacionestado() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/sistema-abastecimiento.jpg' 
+                    src='/uploads/contrataciones-estado.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />
@@ -48,13 +49,13 @@ function Dipespcontratacionestado() {
             <div className="temario-principal">
                 <h1> Áreas Temáticas </h1>
                 <ul>
-                    <li> 1. Marco Normativo del Sistema de Abastecimiento </li>
-                    <li> 2. Programación Multianual de Bienes y Servicios </li>
-                    <li> 3. Gestión de Requerimientos </li>
-                    <li> 4. Planificación de Contrataciones </li>
-                    <li> 5. Administración de Almacenes </li>
-                    <li> 6. Control Patrimonial </li>
-                    <li> 7. Articulación con Sistemas Administrativos </li>
+                    <li> 1. Planificación de Contrataciones </li>
+                    <li> 2. Actos Preparatorios </li>
+                    <li> 3. Procedimientos de Selección </li>
+                    <li> 4. Ejecución Contractual </li>
+                    <li> 5. Modificaciones Contractuales </li>
+                    <li> 6. Solución de Controversias </li>
+                    <li> 7. Responsabilidades Administrativas </li>
                 </ul>
             </div>
         </div>
