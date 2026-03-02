@@ -61,4 +61,4 @@ function Dipespinviertepe(){
         </div>
     );
 }
-Export Default Dipespinviertepe
+export default Dipespinviertepe
