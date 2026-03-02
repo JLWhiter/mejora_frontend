@@ -1,4 +1,4 @@
-function dipespeticaintegridad() {
+function Dipespeticaintegridad() {
         return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -50,4 +50,4 @@ function dipespeticaintegridad() {
         </div>
     );
 }
-export default dipespeticaintegridad
+export default Dipespeticaintegridad
