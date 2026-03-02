@@ -3,10 +3,10 @@ import Principal from './contends/principal';
 import LaEscuela from './contends/escuela-contends/la_escuela';
 import Diplomas from './contends/diplomas_especializados/diplomas';
 import Dipespcontrolgubernamental from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-auditoria-gubernamental';
-import dipespcontratacionestado from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-contratacion-estado';
-import dipespderechoprocedimiento from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-derecho-procedimiento';
-import dipespeticaintegridad from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-etica-integridad';
-import dipespsistemaabastecimineto from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-sistema-abastecimiento';
+import Dipespcontratacionestado from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-contratacion-estado';
+import Dipespderechoprocedimiento from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-derecho-procedimiento';
+import Dipespeticaintegridad from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-etica-integridad';
+import Dipespsistemaabastecimineto from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-sistema-abastecimiento';
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros';
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion';
@@ -145,11 +145,11 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
                   <ul>
-                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Contrataciones del Estado</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
+                      <li><Link to="/dip-esp-contratacion-estado">Diploma de Especialización en Contrataciones del Estado</Link></li>
+                      <li><Link to="/dip-esp-sistema-abastecimiento">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
                       <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Auditoría Gubernamental</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
+                      <li><Link to="/dip-esp-derecho-procedimiento">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
+                      <li><Link to="/dip-esp-etica-integridad">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
@@ -248,11 +248,11 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
                   <ul>
-                      <li><Link to="//dip-esp-auditoria-gubernamental">Diploma de Especialización en Contrataciones del Estado</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Auditoría Gubernamental</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
+                      <li><Link to="/dip-esp-contratacion-estado">Diploma de Especialización en Contrataciones del Estado</Link></li>
+                      <li><Link to="/dip-esp-sistema-abastecimiento">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
+                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Auditoría Gubernamental</Link></li>
+                      <li><Link to="/dip-esp-derecho-procedimiento">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
+                      <li><Link to="/dip-esp-etica-integridad">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
@@ -324,6 +324,10 @@ function App() {
         <Route path="/la_escuela" element={<LaEscuela/>} />
         <Route path="/diplomas" element={<Diplomas />} />
         <Route path="/dip-esp-auditoria-gubernamental" element={<Dipespcontrolgubernamental/>} />
+        <Route path="/dip-esp-contratacion-estado" element={<Dipespcontratacionestado/>} />
+        <Route path="/dip-esp-derecho-procedimiento" element={<Dipespderechoprocedimiento/>} />
+        <Route path="/dip-esp-etica-integridad" element={<Dipespeticaintegridad/>} />
+        <Route path="/dip-esp-sistema-abastecimiento" element={<Dipespsistemaabastecimineto/>} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
