@@ -1,4 +1,4 @@
-function dipespgestrecursoshumanos() {
+function Dipespgestrecursoshumanos() {
      return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -58,4 +58,4 @@ function dipespgestrecursoshumanos() {
         </div>
     );
 }
-export default dipespgestrecursoshumanos
+export default Dipespgestrecursoshumanos
