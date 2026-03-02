@@ -1,4 +1,4 @@
-function dipespliderazgogestionequipos() {
+function Dipespliderazgogestionequipos() {
     return(
         <div className="contenedor">
             <div className="presentacion"> 
@@ -59,4 +59,4 @@ function dipespliderazgogestionequipos() {
     );
 }
 
-export default dipespliderazgogestionequipos
+export default Dipespliderazgogestionequipos
