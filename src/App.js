@@ -2,6 +2,12 @@ import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Principal from './contends/principal';
 import LaEscuela from './contends/escuela-contends/la_escuela';
 import Diplomas from './contends/diplomas_especializados/diplomas';
+import  dipespcontrolgubernamental from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-auditoria-gubernamental'
+import  dipespcontratacionestado from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-contratacion-estado'
+import  dipespcontrolgubernamental from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-control-gubernamental'
+import  dipespderechoprocedimiento from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-derecho-procedimiento'
+import  dipespeticaintegridad from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-etica-integridad'
+import  dipespsistemaabastecimineto from './contends/diplomas_especializados/diplo-contratacion-control/dip-esp-sistema-abastecimiento'
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros'
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion'
