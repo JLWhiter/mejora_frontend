@@ -14,6 +14,9 @@ import Dipgestestrategico from './contends/diplomas_especializados/diplo-gest-pu
 import Dipgestpublicamoderna from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-gest-publica-moderna'
 import Dipespgestrecursoshumanos from './contends/diplomas_especializados/diplo-gest-talento-humano/dip-esp-gest-recursos-humanos'
 import Dipespliderazgogestionequipos from './contends/diplomas_especializados/diplo-gest-talento-humano/dip-esp-liderazgo-gestion-equipos'
+import Dipespdigitaltransformacion from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-digital-transformacion'
+import Dipoespgestdocumental from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-gest-documental'
+import Dipespherramientasofimaticas from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-herramientas-ofimatica'
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros';
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion';
@@ -167,9 +170,9 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
+                      <li><Link to="/dip-esp-digital-transformacion">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
+                      <li><Link to="/dip-esp-gest-documental">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
+                      <li><Link to="/dip-esp-herramientas-ofimatica">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
@@ -270,9 +273,9 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
+                      <li><Link to="/dip-esp-digital-transformacion">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
+                      <li><Link to="/dip-esp-gest-documental">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
+                      <li><Link to="/dip-esp-herramientas-ofimatica">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
@@ -342,6 +345,10 @@ function App() {
         <Route path="/dip-gest-publica-moderna" element={<Dipgestpublicamoderna/>} />
         <Route path="/dip-esp-gest-recursos-humanos" element={<Dipespgestrecursoshumanos/>} />
         <Route path="/dip-esp-liderazgo-gestion-equipos" element={<Dipespliderazgogestionequipos/>} />
+        <Route path="/dip-esp-digital-transformacion" element={<Dipespdigitaltransformacion/>} />
+        <Route path="/dip-esp-gest-documental" element={<Dipoespgestdocumental/>} />
+        <Route path="/dip-esp-herramientas-ofimatica" element={<Dipespherramientasofimaticas/>} />
+        
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
