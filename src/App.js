@@ -17,6 +17,11 @@ import Dipespliderazgogestionequipos from './contends/diplomas_especializados/di
 import Dipespdigitaltransformacion from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-digital-transformacion'
 import Dipoespgestdocumental from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-gest-documental'
 import Dipespherramientasofimaticas from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-herramientas-ofimatica'
+import DipespGestionAmbiental from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-ambiental'
+import DipespGestionEmpresarial from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-empresarial'
+import DipespGestionObrasPublicas from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-obras-publicas'
+import DipespGestionProyectos from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-proyectos'
+import DipespGestionPublicaSalud from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-publica-salud'
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros';
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion';
@@ -177,12 +182,11 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública en Salud</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Educativa</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Proyectos</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
+                      <li><Link to="/dip-esp-gestion-obras-publicas">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
+                      <li><Link to="/dip-esp-gestion-publica-salud">Diploma de Especialización en Gestión Pública en Salud</Link></li>
+                      <li><Link to="/dip-esp-gestion-ambiental">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
+                      <li><Link to="/dip-esp-gestion-proyectos">Diploma de Especialización en Gestión de Proyectos</Link></li>
+                      <li><Link to="/dip-esp-gestion-empresarial">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -280,12 +284,11 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
                   <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública en Salud</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Educativa</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Proyectos</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
+                      <li><Link to="/dip-esp-gestion-obras-publicas">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
+                      <li><Link to="/dip-esp-gestion-publica-salud">Diploma de Especialización en Gestión Pública en Salud</Link></li>
+                      <li><Link to="/dip-esp-gestion-ambiental">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
+                      <li><Link to="/dip-esp-gestion-proyectos">Diploma de Especialización en Gestión de Proyectos</Link></li>
+                      <li><Link to="/dip-esp-gestion-empresarial">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -348,7 +351,11 @@ function App() {
         <Route path="/dip-esp-digital-transformacion" element={<Dipespdigitaltransformacion/>} />
         <Route path="/dip-esp-gest-documental" element={<Dipoespgestdocumental/>} />
         <Route path="/dip-esp-herramientas-ofimatica" element={<Dipespherramientasofimaticas/>} />
-        
+        <Route path="/dip-esp-gestion-ambiental" element={<DipespGestionAmbiental/>} />
+        <Route path="/dip-esp-gestion-empresarial" element={<DipespGestionEmpresarial/>} />
+        <Route path="/dip-esp-gestion-obras-publicas" element={<DipespGestionObrasPublicas/>} />
+        <Route path="/dip-esp-gestion-proyectos" element={<DipespGestionProyectos/>} />
+        <Route path="/dip-esp-gestion-publica-salud" element={<DipespGestionPublicaSalud/>} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
