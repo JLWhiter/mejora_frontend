@@ -15,7 +15,7 @@ import {
 } from "react-icons/fa";
 
 function ProgramaGestionEmpresarial() {
-  const [openArea, setOpenArea] = useState("gestion-negocios");
+  const [openArea, setOpenArea] = useState("");
 
   return (
     <section className="programa-empresarial">
