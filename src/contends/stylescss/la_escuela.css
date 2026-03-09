@@ -144,9 +144,18 @@
   .escuela-servicios__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 20px;
   }
-  
+  .servicio-card details, .servicio-card summary{ 
+    list-style: none;
+    cursor: pointer;
+  }
+  .servicio-card summary::-webkit-details-marker {
+    display: none;
+  }
+  .servicio-card p {
+    position: relative;
+  }
   .servicio-card h3 {
     font-size: 28px;
     line-height: 1.15;

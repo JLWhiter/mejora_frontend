@@ -1,7 +1,14 @@
-function Cgestambiental() {
+function CgestAmbiental() {
+
+  const solicitarInformacion = () => {
+    window.open(
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN%20AMBIENTAL",
+      "_blank"
+    );
+  };
 
   return (
-    <section className="curso-container">
+    <article className="curso-container">
 
       {/* TITULO */}
       <header className="curso-header">
@@ -117,14 +124,17 @@ function Cgestambiental() {
 
         <h3>Solicita información sobre este curso</h3>
 
-        <button className="btn-inscribirse">
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
           Solicitar Información
         </button>
 
       </section>
 
-    </section>
+    </article>
   );
 }
 
-export default Cgestambiental;
+export default CgestAmbiental;

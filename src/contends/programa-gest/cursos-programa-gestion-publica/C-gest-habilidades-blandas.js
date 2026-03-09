@@ -1,87 +1,137 @@
+import '../curso-gest-publica.css'
 
-function Cgesthabilidadesblandas(){
-    return(
-        <div className="contenedor">
-            <div className="presentacion"> 
-               <h1> Presentación </h1>
-               <p>
-                    El Curso de Habilidades Blandas está orientado al fortalecimiento de competencias 
-                    personales y profesionales como comunicación efectiva, liderazgo, trabajo en equipo 
-                    y resolución de conflictos, integrando tendencias actuales como inteligencia emocional, 
-                    pensamiento crítico, creatividad y bienestar organizacional.
-               </p>
-                <ul>
-                    <h1> Objetivos </h1>
-                    <ul>
-                        <li> Desarrollar competencias personales y sociales para entornos laborales. </li>
-                        <li> Mejorar comunicación, liderazgo y trabajo en equipo. </li>
-                        <li> Fomentar inteligencia emocional, adaptabilidad y creatividad. </li>
-                        <li> Integrar pensamiento crítico e innovación en la toma de decisiones. </li>
-                    </ul>
-                </ul>
-            </div>
+function CgestHabilidadesBlandas(){
 
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul> 
-                    <li>
-                        <h1> Metodología </h1>
-                        <p>
-                            Enfoque andragógico con clases expositivas, talleres vivenciales, dinámicas grupales,
-                            estudios de caso, simulaciones laborales y sesiones de retroalimentación y coaching.
-                        </p>
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>
-                            Presentaciones PPT, separatas PDF con ejercicios prácticos, lecturas especializadas
-                            y recursos digitales interactivos.
-                        </p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>
-                            Evaluaciones teóricas y prácticas, dinámicas grupales, simulaciones de liderazgo
-                            y participación activa en talleres.
-                        </p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>
-                            Presencial, virtual o mixta según disponibilidad institucional.
-                        </p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p> De 9 a 250 horas organizadas en módulos de 3 a 6 horas. </p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>
-                            Certificación por participación o aprobación, cumpliendo asistencia mínima
-                            y evaluación satisfactoria.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-
-            <div className="temario-principal">
-                <h1> Temario Principal </h1>
-                <ul>
-                    <li> 1. Introducción a las Habilidades Blandas </li>
-                    <li> 2. Comunicación Efectiva </li>
-                    <li> 3. Inteligencia Emocional y Autoconocimiento </li>
-                    <li> 4. Liderazgo y Motivación </li>
-                    <li> 5. Trabajo en Equipo y Resolución de Conflictos </li>
-                    <li> 6. Creatividad, Innovación y Pensamiento Crítico </li>
-                    <li> 7. Ética y Responsabilidad Profesional </li>
-                    <li> 8. Gestión del Tiempo y Productividad Personal </li>
-                    <li> 9. Proyecto Integrador y Evaluación Final </li>
-                </ul>
-            </div>
-        </div>
+  const solicitarInformacion = () => {
+    window.open(
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20el%20curso%20de%20Habilidades%20Blandas",
+      "_blank"
     );
+  }
+
+  return (
+    <article className="curso-container">
+
+      <header className="curso-header">
+        <h1>Habilidades Blandas</h1>
+      </header>
+
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          El curso de Habilidades Blandas está orientado al fortalecimiento
+          de competencias personales y profesionales como comunicación
+          efectiva, liderazgo, trabajo en equipo y resolución de conflictos,
+          integrando tendencias actuales como inteligencia emocional,
+          pensamiento crítico, creatividad y bienestar organizacional.
+        </p>
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Desarrollar competencias personales y sociales para entornos laborales.</li>
+          <li>Mejorar la comunicación, liderazgo y trabajo en equipo.</li>
+          <li>Fomentar inteligencia emocional, adaptabilidad y creatividad.</li>
+          <li>Integrar pensamiento crítico e innovación en la toma de decisiones.</li>
+        </ul>
+
+      </section>
+
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+          <img
+            src="/uploads/gestion-pu.jpg"
+            alt="Metodología del curso"
+          />
+        </div>
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong>
+              Enfoque andragógico con clases expositivas, talleres
+              vivenciales, dinámicas grupales, estudios de caso,
+              simulaciones laborales y sesiones de retroalimentación
+              y coaching.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, separatas en PDF con ejercicios
+              prácticos, lecturas especializadas y recursos digitales.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong>
+              Evaluaciones teóricas y prácticas, dinámicas grupales,
+              simulaciones de liderazgo y participación activa en talleres.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong>
+              Presencial, virtual o mixta según disponibilidad institucional.
+            </li>
+
+            <li>
+              <strong>Duración:</strong>
+              Entre 9 y 250 horas académicas organizadas en módulos
+              de 3 a 6 horas.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong>
+              Certificación por participación o aprobación cumpliendo
+              asistencia mínima y evaluación satisfactoria.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Introducción a las Habilidades Blandas</li>
+          <li>Comunicación Efectiva</li>
+          <li>Inteligencia Emocional y Autoconocimiento</li>
+          <li>Liderazgo y Motivación</li>
+          <li>Trabajo en Equipo y Resolución de Conflictos</li>
+          <li>Creatividad, Innovación y Pensamiento Crítico</li>
+          <li>Ética y Responsabilidad Profesional</li>
+          <li>Gestión del Tiempo y Productividad Personal</li>
+          <li>Proyecto Integrador y Evaluación Final</li>
+
+        </ul>
+
+      </section>
+
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </article>
+  );
 }
 
-export default Cgesthabilidadesblandas;
+export default CgestHabilidadesBlandas;

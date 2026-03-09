@@ -1,9 +1,16 @@
 import '../curso-gest-publica.css'
 
-function Cgestadobeotros(){
-    
-    return (
-    <section className="curso-container">
+function CgestPublicaEstrategicaPlaneamiento(){
+
+  const solicitarInformacion = () => {
+    window.open(
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN%20PÚBLICA%20ESTRATÉGICA%20Y%20PLANEAMIENTO",
+      "_blank"
+    );
+  }
+
+  return (
+    <article className="curso-container">
 
       <header className="curso-header">
         <h1>Gestión Pública Estratégica y Planeamiento</h1>
@@ -102,14 +109,17 @@ function Cgestadobeotros(){
 
         <h3>Solicita información sobre este curso</h3>
 
-        <button className="btn-inscribirse">
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
           Solicitar Información
         </button>
 
       </section>
 
-    </section>
+    </article>
   );
 }
 
-export default Cgestadobeotros
+export default CgestPublicaEstrategicaPlaneamiento;

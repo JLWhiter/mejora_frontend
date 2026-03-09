@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import '../stylescss/la_escuela.css';
 
 function LaEscuela() {
+  const [opencontexto, setOpenContexto] = useState("");
   return (
     <section className="la-escuela">
 
@@ -106,47 +108,96 @@ function LaEscuela() {
           <p className="section-heading__eyebrow">NUESTROS SERVICIOS</p>
           <h2 className="section-heading__title">Programas y servicios</h2>
         </div>
+        <div className="escuela-servicios__grid"> 
+          <div className="escuela-card servicio-card">
+            <details
+            open={opencontexto === "cursos-seminarios"}
+            >
+                <summary
+                onClick={(e) => {
+                  e.preventDefault();
+                  setOpenContexto(opencontexto === "cursos-seminarios" ? "" : "cursos-seminarios");
+                }}
+              >
+                <div>
+                  <h3>1. Cursos y Seminarios Talleres</h3>
+                </div>
+              </summary>
+                <p>
+                  Actividades de corta duración (12 a 24 horas académicas) que tratan temas específicos y especializados,
+                  novedosos o de coyuntura; están dirigidas a profesionales en general, propiciando la discusión de temas
+                  de interés mutuo. A través de estos eventos, la EGG busca atender las necesidades de capacitación de
+                  grupos específicos de las entidades del Sector Público y la actividad Empresarial en temas relacionados
+                  a la Gestión Pública y gestión de competencias empresariales.
+                </p>
+            </details>
+          </div>
 
-        <div className="escuela-servicios__grid">
-          <article className="escuela-card servicio-card">
-            <h3>1. Cursos y Seminarios Talleres</h3>
-            <p>
-              Actividades de corta duración (12 a 24 horas académicas) que tratan temas específicos y especializados,
-              novedosos o de coyuntura; están dirigidas a profesionales en general, propiciando la discusión de temas
-              de interés mutuo. A través de estos eventos, la EGG busca atender las necesidades de capacitación de
-              grupos específicos de las entidades del Sector Público y la actividad Empresarial en temas relacionados
-              a la Gestión Pública y gestión de competencias empresariales.
-            </p>
-          </article>
+          <div className="escuela-card servicio-card">
+            <details
+            open={opencontexto === "programas-perfeccionamiento"}
+            >
+            <summary
+            onClick={(e) =>{
+              e.preventDefault();
+              setOpenContexto(opencontexto === "programas-perfeccionamiento" ?"" : "programas-perfeccionamiento")
+            }}
+            >
+              <div>  
+                <h3>2. Programas de Perfeccionamiento - Cursos Regulares</h3>
+              </div>
+            </summary>
+              <p>
+                Cursos y Talleres cuyo objetivo es desarrollar competencias específicas para mejorar la eficiencia de los
+                procesos de la actividad profesional, capacitación y actualización en todas las áreas administrativas,
+                contables, tributarias, financieras, recursos humanos, tecnológicas y competencias.
+              </p>
+              <p>
+                Los cursos y talleres de estos programas tienen una duración entre 24 a 40 horas académicas,
+                dependiendo si se realizan en nuestras instalaciones respectivamente.
+              </p>
+              <p>
+                Se ofrecen en la modalidad presencial y a distancia.
+              </p>
+            </details>
+          </div>
 
-          <article className="escuela-card servicio-card">
-            <h3>2. Programas de Perfeccionamiento - Cursos Regulares</h3>
-            <p>
-              Cursos y Talleres cuyo objetivo es desarrollar competencias específicas para mejorar la eficiencia de los
-              procesos de la actividad profesional, capacitación y actualización en todas las áreas administrativas,
-              contables, tributarias, financieras, recursos humanos, tecnológicas y competencias.
-            </p>
-            <p>
-              Los cursos y talleres de estos programas tienen una duración entre 24 a 40 horas académicas,
-              dependiendo si se realizan en nuestras instalaciones respectivamente.
-            </p>
-            <p>
-              Se ofrecen en la modalidad presencial y a distancia.
-            </p>
-          </article>
-
-          <article className="escuela-card servicio-card">
-            <h3>3. Programas de Especialización</h3>
+          <div className="escuela-card servicio-card">
+            <details
+            open={opencontexto === "programa-especializacion"}
+            >    
+            <summary
+            onClick={(e)=>{
+              e.preventDefault();
+              setOpenContexto(opencontexto === "programa-especializacion" ? "": "programa-especializacion")
+            }}>          
+              <div>
+              <h3>3. Programas de Especialización</h3>
+              </div>
+            </summary>
             <p>
               Este programa está compuesto por cursos y talleres ordenados en una secuencia de aprendizaje para
               proporcionar al participante los conocimientos, habilidades y actitudes que lo califican como especialista
               en un área determinada de la Gestión Pública o la actividad empresarial. Se ofrecen en la modalidad
               presencial y virtual.
             </p>
-          </article>
+            </details>
+          </div>
 
-          <article className="escuela-card servicio-card">
-            <h3>4. Diplomas de Especialización</h3>
+          <div className="escuela-card servicio-card">
+            <details
+            open={opencontexto === "diplomas-especializacion"}
+            >
+            <summary
+            onClick={(e) => {
+              e.preventDefault();
+              setOpenContexto(opencontexto === "diplomas-especializacion" ? "" : "diplomas-especializacion")
+            }}
+            >
+              <div>
+              <h3>4. Diplomas de Especialización</h3>
+              </div>
+            </summary>
             <p>
               Programas compuestos por cursos y talleres orientados al perfeccionamiento de los servidores del Estado
               y la actividad Empresarial, graduados en disciplinas diversas, destinados a brindar una capacitación o
@@ -160,20 +211,46 @@ function LaEscuela() {
             <p>
               Se ofrecen en la modalidad presencial y virtual.
             </p>
-          </article>
+            </details>
+          </div>
 
-          <article className="escuela-card servicio-card">
-            <h3>5. Congresos</h3>
+          <div className="escuela-card servicio-card">
+          <details
+          open={opencontexto === "congresos"}
+          >
+            <summary
+            onClick={(e) =>{
+              e.preventDefault();
+              setOpenContexto(opencontexto === "congresos" ? "" : "congresos")
+            }}
+            >
+              <div>
+              <h3>5. Congresos</h3>
+              </div>
+            </summary>
             <p>
               Estos eventos están diseñados para el desarrollo y realización de eventos de impacto como congresos
               nacionales e internacionales. Escuela de Gerencia y Gestión SAC desarrolla desde 2003 eventos de
               negocios relevantes y de mayor convocatoria en el mercado en especialidades de retail, innovación,
               finanzas, logística, marketing, estrategia, innovación en la gestión pública y la actividad empresarial y de negocios.
             </p>
-          </article>
+          </details>
+          </div>
 
-          <article className="escuela-card servicio-card">
-            <h3>6. Programas a la Medida - Cursos In House</h3>
+          <div className="escuela-card servicio-card">
+            <details
+            open={opencontexto === "programas-medidas"}
+            >
+              <summary 
+              onClick={(e)=>{
+                e.preventDefault();
+                setOpenContexto(opencontexto === "programas-medidas" ? "":"programas-medidas")
+              }}
+              >
+              <div>
+              <h3>6. Programas a la Medida - Cursos In House</h3>
+              </div>
+              </summary>
             <p>
               Nuestros programas a la medida están diseñados para responder a las necesidades específicas de una
               institución o área en particular. Incluyen conferencias, cursos y talleres personalizados según los
@@ -188,10 +265,21 @@ function LaEscuela() {
               los objetivos de capacitación esperados, contribuyendo al desarrollo del personal y al cumplimiento del
               Plan de Desarrollo de Personas (PDP).
             </p>
-          </article>
+            </details>
+          </div>
 
-          <article className="escuela-card servicio-card servicio-card--full">
-            <h3>7. Asesoría y Consultoría</h3>
+          <div className="escuela-card servicio-card servicio-card--full">
+            <details
+            open={opencontexto === "asesoria-consulta"}
+            >
+              <summary
+              onClick={(e)=>{
+                e.preventDefault();
+                setOpenContexto(opencontexto === "asesoria-consulta" ? "" : "asesoria-consulta")
+              }}
+              >
+              <h3>7. Asesoría y Consultoría</h3>
+              </summary>
             <p>
               Además desarrollamos consultorías en todos los campos de la Gestión Pública y Empresarial que tienen como
               finalidad proponer la mejor estrategia para el crecimiento y desarrollo de las Instituciones y Empresas.
@@ -204,7 +292,8 @@ function LaEscuela() {
               <li>Desarrollo y elaboración de inventarios de bienes muebles e inmuebles.</li>
               <li>Auditoría médica y gestión de calidad en gestión salud.</li>
             </ul>
-          </article>
+            </details>
+          </div>
         </div>
       </section>
 
