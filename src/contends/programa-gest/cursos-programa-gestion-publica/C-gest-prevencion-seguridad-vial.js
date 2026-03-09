@@ -1,60 +1,133 @@
+import '../curso-gest-publica.css'
 
-function Cgestprevencionseguridadvial(){
-    return(
-        <div className="contenedor">
-            <div className="presentacion"> 
-               <h1> Presentación </h1>
-               <p>Curso orientado a la prevención de accidentes y promoción de la cultura vial.</p>
-                <ul>
-                    <h1> Objetivos </h1>
-                    <ul>
-                        <li> Identificar riesgos viales. </li>
-                        <li> Aplicar medidas preventivas. </li>
-                    </ul>
-                </ul>
-            </div>
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul> 
-                    <li>
-                        <h1> Metodología </h1>
-                        <p> Talleres, análisis de casos y prácticas vivenciales.</p>
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>PPT, PDF y guías prácticas.</p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>Exámenes cortos y actividades prácticas.</p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>Presencial, virtual y mixta.</p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p> De 9 a 250 horas.</p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>Certificado por participación/aprobación.</p>
-                    </li>
-                </ul>
-            </div>
-            <div className="temario-principal">
-                <h1> Temario Principal </h1>
-                <ul>
-                    <li> 1. Paisajismo</li>
-                    <li> 2. Factores de riesgo</li>
-                    <li> 3. Prevención</li>
-                    <li> 4. Educación vial</li>
-                    <li> 5. Seguridad urbana</li>
-                </ul>
-            </div>
-        </div>
+function CgestPrevencionSeguridadVial(){
+
+  const solicitarInformacion = () => {
+    window.open(
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20el%20curso%20de%20Prevención%20y%20Seguridad%20Vial",
+      "_blank"
     );
+  }
+
+  return (
+    <article className="curso-container">
+
+      <header className="curso-header">
+        <h1>Prevención y Seguridad Vial</h1>
+      </header>
+
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          Curso orientado a la prevención de accidentes de tránsito y
+          promoción de una adecuada cultura vial, fortaleciendo
+          conocimientos sobre normas de tránsito, identificación de
+          riesgos y aplicación de medidas de seguridad en la vía pública.
+        </p>
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Identificar riesgos y factores que generan accidentes viales.</li>
+          <li>Aplicar medidas preventivas para mejorar la seguridad vial.</li>
+          <li>Promover una cultura de respeto a las normas de tránsito.</li>
+          <li>Fomentar conductas responsables en conductores y peatones.</li>
+        </ul>
+
+      </section>
+
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+          <img
+            src="/uploads/seguridad-vial.jpg"
+            alt="Metodología del curso"
+          />
+        </div>
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong>
+              Talleres participativos, análisis de casos reales,
+              dinámicas educativas y prácticas vivenciales sobre
+              seguridad vial.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, separatas en PDF,
+              guías prácticas y material educativo
+              sobre normas de tránsito.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong>
+              Exámenes cortos, desarrollo de actividades
+              prácticas y participación en talleres.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong>
+              Presencial, virtual o modalidad mixta.
+            </li>
+
+            <li>
+              <strong>Duración:</strong>
+              Entre 9 y 250 horas académicas según
+              el nivel del programa.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong>
+              Certificado por participación o aprobación
+              cumpliendo asistencia mínima.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Introducción a la Seguridad Vial</li>
+          <li>Factores de Riesgo en la Vía Pública</li>
+          <li>Normas y Señalización de Tránsito</li>
+          <li>Prevención de Accidentes</li>
+          <li>Educación y Cultura Vial</li>
+          <li>Seguridad Vial Urbana</li>
+
+        </ul>
+
+      </section>
+
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </article>
+  );
 }
 
-export default Cgestprevencionseguridadvial
+export default CgestPrevencionSeguridadVial;
