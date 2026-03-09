@@ -14,14 +14,6 @@ import Dipgestestrategico from './contends/diplomas_especializados/diplo-gest-pu
 import Dipgestpublicamoderna from './contends/diplomas_especializados/diplo-gest-publi-sistema-administrativo/dip-gest-publica-moderna'
 import Dipespgestrecursoshumanos from './contends/diplomas_especializados/diplo-gest-talento-humano/dip-esp-gest-recursos-humanos'
 import Dipespliderazgogestionequipos from './contends/diplomas_especializados/diplo-gest-talento-humano/dip-esp-liderazgo-gestion-equipos'
-import Dipespdigitaltransformacion from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-digital-transformacion'
-import Dipoespgestdocumental from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-gest-documental'
-import Dipespherramientasofimaticas from './contends/diplomas_especializados/dipo-transformacion-digital/dip-esp-herramientas-ofimatica'
-import DipespGestionAmbiental from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-ambiental'
-import DipespGestionEmpresarial from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-empresarial'
-import DipespGestionObrasPublicas from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-obras-publicas'
-import DipespGestionProyectos from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-proyectos'
-import DipespGestionPublicaSalud from './contends/diplomas_especializados/dipo-sectores-especificos/dip-esp-gestion-publica-salud'
 import ProgramaGestionPublica from './contends/programa-gest/programa-gestion-publica';
 import Cgestadobeotros from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-adobe-otros';
 import Cgestalimentacionnutricion from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-alimentacion-nutricion';
@@ -175,18 +167,19 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
                   <ul>
-                      <li><Link to="/dip-esp-digital-transformacion">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
-                      <li><Link to="/dip-esp-gest-documental">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                      <li><Link to="/dip-esp-herramientas-ofimatica">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
                   <ul>
-                      <li><Link to="/dip-esp-gestion-obras-publicas">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
-                      <li><Link to="/dip-esp-gestion-publica-salud">Diploma de Especialización en Gestión Pública en Salud</Link></li>
-                      <li><Link to="/dip-esp-gestion-ambiental">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
-                      <li><Link to="/dip-esp-gestion-proyectos">Diploma de Especialización en Gestión de Proyectos</Link></li>
-                      <li><Link to="/dip-esp-gestion-empresarial">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública en Salud</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Educativa</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Proyectos</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -277,18 +270,19 @@ function App() {
                 </li>
                 <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
                   <ul>
-                      <li><Link to="/dip-esp-digital-transformacion">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
-                      <li><Link to="/dip-esp-gest-documental">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                      <li><Link to="/dip-esp-herramientas-ofimatica">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
                   <ul>
-                      <li><Link to="/dip-esp-gestion-obras-publicas">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
-                      <li><Link to="/dip-esp-gestion-publica-salud">Diploma de Especialización en Gestión Pública en Salud</Link></li>
-                      <li><Link to="/dip-esp-gestion-ambiental">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
-                      <li><Link to="/dip-esp-gestion-proyectos">Diploma de Especialización en Gestión de Proyectos</Link></li>
-                      <li><Link to="/dip-esp-gestion-empresarial">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública en Salud</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Educativa</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Proyectos</Link></li>
+                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -348,43 +342,34 @@ function App() {
         <Route path="/dip-gest-publica-moderna" element={<Dipgestpublicamoderna/>} />
         <Route path="/dip-esp-gest-recursos-humanos" element={<Dipespgestrecursoshumanos/>} />
         <Route path="/dip-esp-liderazgo-gestion-equipos" element={<Dipespliderazgogestionequipos/>} />
-        <Route path="/dip-esp-digital-transformacion" element={<Dipespdigitaltransformacion/>} />
-        <Route path="/dip-esp-gest-documental" element={<Dipoespgestdocumental/>} />
-        <Route path="/dip-esp-herramientas-ofimatica" element={<Dipespherramientasofimaticas/>} />
-        <Route path="/dip-esp-gestion-ambiental" element={<DipespGestionAmbiental/>} />
-        <Route path="/dip-esp-gestion-empresarial" element={<DipespGestionEmpresarial/>} />
-        <Route path="/dip-esp-gestion-obras-publicas" element={<DipespGestionObrasPublicas/>} />
-        <Route path="/dip-esp-gestion-proyectos" element={<DipespGestionProyectos/>} />
-        <Route path="/dip-esp-gestion-publica-salud" element={<DipespGestionPublicaSalud/>} />
         <Route path='/programa-gestion-publica' element={<ProgramaGestionPublica/>}/>
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
       </Routes>
 <footer className="parrafo-final">
-<div className='parrafo-final-contenido'>
-  <a href="/"><img src="/uploads/Logop3.webp" alt="img-logo" className="logo-final"/></a>
+    <div className="footer-bloque footer-bloque-izq">
+      <a href="/">
+        <img src="/uploads/Logop3.webp" alt="img-logo" className="logo-final" />
+      </a>
 
-  <p className="parrafo-100">
-    Escuela de Gerencia y Gestión es un centro especializado 
-    en altos estudios que ofrece enseñanza, capacitación y 
-    formación profesional en alta dirección, enfocada en la 
-    gestión pública y la actividad empresarial, cumpliendo con 
-    los estándares más exigentes de centros y universidades y 
-    grupos empresariales de nuestro país.
-  </p>
+      <p className="parrafo-100">
+        Escuela de Gerencia y Gestión es un centro especializado
+        en altos estudios que ofrece enseñanza, capacitación y
+        formación profesional en alta dirección, enfocada en la
+        gestión pública y la actividad empresarial.
+      </p>
+    </div>
 
-  <h1 className="parrafo-102-10">
-    Contáctanos
-  </h1>
+    <div className="footer-bloque footer-bloque-centro">
+      <h2 className="parrafo-102-10">Contáctanos</h2>
 
-  <p className="parrafo-102-11">
-    948 251 685 / 913 376 365 <br />
-    capacita@escuelag.com <br />
-    esscuelag@gmail.com <br />
-    Encuéntranos <br />
-    Av. Arenales 2081 4to. Piso of. 9 Lince <br /> 
-
-  </p> 
+      <p className="parrafo-102-11">
+        948 251 685 / 913 376 365 <br />
+        capacita@escuelag.com <br />
+        esscuelag@gmail.com <br />
+        Av. Arenales 2081 4to. Piso of. 9 Lince
+      </p>
+    </div>
   
   <h1 className="parrafo-102-12">
     Encuentranos
@@ -400,7 +385,6 @@ function App() {
   <div className='footer-copyright' id='footer'>
     <span>© Escuela De Gerencia y Gestion. Todos los derechos reservados.</span>
   </div>
-</div>
 </footer>
     </BrowserRouter>
   );

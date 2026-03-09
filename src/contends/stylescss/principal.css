@@ -1,327 +1,207 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-
-.body{
-    background-color: aliceblue;
-}
-
-.contenido-image {
-    display: flex;
-    margin-top: 100px;
-}
-    
-.banner-img {
-        width: 100%;
-        height: 600px;
-}
-.banner {
-    position: relative;
-    top: -20px;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}
-
-.banner img {
-    position: absolute;
-    animation: slide 6s infinite;
-}
-
-.banner img:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.banner img:nth-child(2) {
-    animation-delay: 3s;
-}
-
-@keyframes slide {
-    50% { opacity: 1; }
-    50% { opacity: 0; }
-}
-
-#Contenido-para-img {
-  position: relative;
-  text-align: center;
-  top: -450px; 
-  left: 0;
-  color: #fff;
-  z-index: 1;
-}
-
-
-.typewriter-animation1 {
-  display: flex;       
-  white-space: nowrap;          
-  overflow: hidden;             
-  border-right: 2px solid rgba(255,255,255,.75); 
-  animation: typewriter1 4s steps(var(--steps)) 1 forwards, 
-             blinkingCursor 0.75s step-end infinite;       
-}
-
-@keyframes typewriter1 {
-  from { width: 0; }
-  to { width: 25%; }
-}
-
-@keyframes blinkingCursor {
-  0%, 50% { border-right-color: rgba(255,255,255,.75); }
-  51%, 100% { border-right-color: transparent; }
-}
-.typewriter-animation2 {
-  display: flex;       
-  white-space: nowrap;          
-  overflow: hidden;             
-  border-right: 2px solid rgba(255,255,255,.75); 
-  animation: typewriter2 4s steps(var(--steps)) 1 forwards, 
-             blinkingCursor 0.75s step-end infinite;       
-}
-
-@keyframes typewriter2 {
-  from { width: 0; }
-  to { width: 65%; }
-}
-
-.typewriter-animation3 {
-  display: flex;       
-  white-space: nowrap;          
-  overflow: hidden;             
-  border-right: 2px solid rgba(255,255,255,.75); 
-  animation: typewriter3 4s steps(var(--steps)) 1 forwards, 
-             blinkingCursor3 0.75s step-end infinite;       
-}
-
-@keyframes typewriter3 {
-  from { width: 0; }
-  to { width: 50%; }
-}
-
-
-.contenido-texto{
-transform: translateX(400px);
-}
-.contenido-texto1{
-transform: translateX(500px);
-}
-.contenido-texto2{
-transform: translateX(380px);
-}
-
-.beneficios{
+body {
+    background: #f7f4f1;
+    color: #2e2e2e;
+  }
+  
+  .Principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+  
+  /* HERO */
+  .hero {
     display: grid;
-    margin: 100px auto;
-    max-width: 70%;
-    text-align: center;
+    grid-template-columns: 1fr 1.1fr;
     align-items: center;
-    margin-top: -20%;
-}
-.beneficios>h1 {
-    margin-bottom: 2rem;
-}
-.beneficios-grid {
-    columns: 3;
-}
-.reloj{
-    display:flex;
+    min-height: 620px;
+    gap: 24px;
+  }
+
+  .hero__content {
     position: relative;
-    width: 90%;
-    max-width: 90%;
-}
-.beneficios-grid h1{
-    font-size: 100%;
-    font-family: 'robot', 'sans-serif';
-    font-weight: 800;
-    font-style:initial;
-    color: #479184d8;
-    box-shadow: 0 1px 0;
+    z-index: 2;
+    max-width: 480px;
+  }
 
-}
-.beneficios-grid li {
-    list-style: none;
-    margin-bottom: 1rem;
-    height: 10rem;
-    padding: 1.5rem;
-    background-color: #ffffff;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
-}   
-.beneficios-grid :hover{
-    transform: scale(1.1);
-    transition: .5s;
-}
+  
+  .hero__eyebrow {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
 
-.servicios{
-    display: flex;
-    align-items: center;
-    margin: 50px auto;
-    max-width: 70%;
-    padding: 1rem;
-}
-.servicios ul{
-    list-style: none;
-    padding: 1rem;
-    width: 80%;
-}
-.servicios ul li img{
-    width: 100%;
-}
-.servicios h1{
-    font-size: 1rem;
-}
-.servicios>h1{
-    position: relative;
-    margin-top: -50%;
-    margin-left: -1rem;
-    padding: 1rem;
-    font-size: 3.5rem;
-}
-.curso1, .curso2, .curso3, .curso4 {
-    display: list-item;
-    height: 40%;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    background-color: #ffffff;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.349);
-}
+  .hero__title {
+    font-size: 64px;
+    line-height: 1.08;
+    font-weight: 500;
+    margin: 0 0 24px;
+  }
 
-.curso1:hover, .curso2:hover, .curso3:hover, .curso4:hover{
-    transform: scale(1.05);
-    transition: .1s;
-}
+  .hero__text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
 
-@media (max-width: 780px) {
-    .Principal{
-        margin: 20px auto;  
-    }
-    .contenido-image {
-        display: flex;
-        margin-top: 0%;
-        transform: translateY(-50px);
-    }
-    .contenido-texto1{
-        font-size: 10px;
-        transform: translatex(160px);
-    }
-    .contenido-texto{
-        font-size: 15px;
-        transform: translatex(100px);
-    }
-    .contenido-texto2{
-        font-size: 10px;
-        transform: translatex(130px);
-    }
-
-    .banner-img {
-        width: 100%;
-        height: 300px;
-    }
-
-    .beneficios {
-        padding: 50px;
-        text-align: center;
-        width: 70%;
-        margin-top: -70%;
-    }
-
-    .beneficios-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 20px;
-    }
-
-    #tex1, #tex2, #tex3, #tex4 {
-        display: flex;
-        position: relative;
-        width: 80%;
-        font-size: 10px;
-    }           
-    
-    #banner3, #banner4, #banner5, #banner6{
-    width: 5%;
-    }
-
-    .curso1, .curso2, .curso3, .curso4 {
-    background-color: transparent;
-    height: 30%;
-    border-radius: 5px;
-    border: 5px solid white;
-    }
-
-    #text1, .curso1{
-    display: flex;
-    position: relative;
-    left: 0px;
-    }
-
-    #banner3{
-    position: relative;
-    top: 40px;
-    left: -75px;
-    }
-
-    #text3, .curso3{
-    display: flex;
-    position: relative;
-    left: -30%;
-    top: 100px;
-    }
-
-    #banner5{
-    position: relative;
-    top: 40px;
-    left: 5px;
-    }
-
-    #text2 , .curso2 {
-    display: flex;
-    position: relative;
-    left: 5px;
-    top: 100px;
-    }
-    #banner4{
-    position: relative;
-    display: flex;
-    top: 250px;
-    width: 150px;
-    left: 50px;
-    }
-
-    #text4, .curso4{
-    display: flex;
-    position: relative;
-    left: 5px;
-    }
-    #banner6{
-    position:relative;
-    top: 50px;
-    width: 150px;
-    left: 5px;
-    }
-
-    .servicios {
-    background-color: aliceblue;
-    position: relative;
-    display: none;
-    margin-top: 20px;
-    width: 100%;
-    height: 700px;
-    }
-
-    #grupo-1 {
-    display: flex;
-    position: relative;
-    transform: translateX(0%);
-    }
-
-    #grupo-2 {
-    display: flex;
-    position: relative;
-    top: 350px;
-    transform: translateX(-100%); 
-    }
-
-    #cambiar:hover {
+  .hero__button {
+    background: #1f5a5d;
     color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 28px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .hero__media {
+    position: relative;
+    min-height: 520px;
+  }
+  
+  .hero__image {
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  
+  .hero__img-real {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .hero__image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      rgba(250,250,248,1) 0%,
+      rgba(250,250,248,0.82) 28%,
+      rgba(250,250,248,0.35) 55%,
+      rgba(250,250,248,0) 100%
+    );
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  /* BENEFICIOS */
+  .section-title {
+    text-align: center;
+    font-size: 48px;
+    margin: 60px 0 36px;
+    font-weight: 500;
+  }
+  
+  .beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  
+  .beneficio-card {
+    background: rgba(255,255,255,0.8);
+    border-radius: 22px;
+    padding: 34px 28px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  }
+  
+  .beneficio-icon {
+    color: #1f5a5d;
+    margin-bottom: 18px;
+  }
+  
+  .beneficio-card h3 {
+    font-size: 22px;
+    margin-bottom: 14px;
+    font-weight: 500;
+  }
+  
+  .beneficio-card p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* CURSOS */
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+  }
+  
+  .curso-card {
+    background: rgba(255,255,255,0.82);
+    border-radius: 22px;
+    padding: 14px 14px 18px;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .curso-img {
+    height: 250px;
+    background: #d9d9d9;
+  }
+  
+  .curso-card h3 {
+    font-size: 17px;
+    line-height: 1.4;
+    padding: 18px 18px 22px;
+    font-weight: 500;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 1100px) {
+    .hero {
+      grid-template-columns: 1fr;
+      min-height: auto;
+      padding-top: 40px;
     }
-
-}
-
+  
+    .hero__title {
+      font-size: 52px;
+    }
+  
+    .beneficios-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .servicios-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .Principal {
+      padding: 0 16px 60px;
+    }
+  
+    .hero__title {
+      font-size: 38px;
+    }
+  
+    .hero__text {
+      font-size: 18px;
+    }
+  
+    .section-title {
+      font-size: 34px;
+    }
+  
+    .beneficios-grid,
+    .servicios-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .hero__media {
+      min-height: 320px;
+    }
+  }

@@ -1,187 +1,233 @@
-.la_escuela-cont p{
-    padding: 1rem;
-    font-family:'Roboto', sans-serif;
-}
-.la_escuela-cont li {
-    margin-bottom: 1rem;
-    background-color: #ffffff;
-    padding: 1rem;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
-}
-.parrafo-presentacion{
-    width: 720px;
-    text-align:justify;
-    transform: translateX(30px);
-    background-color: #ffffff;
-    padding: 1rem;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
-
-}
-.parrafo-presentacion p {
-    width: 660px;
-    font-size: 1rem;
-}
-
-.contenedor-vision-meta{
-    display: flex;
-    justify-content: flex-end;
-    transform: translateX(-20px);
-    margin-top: 2rem;
-}
-.contenedor-vision-meta p{
-    font-size: 1rem;
-}
-.vision-meta{ 
-    padding: 10px;
-    position: relative;
-    text-align:justify;
-    width: 510px;
-}
-
-.contenedor-valores{
-   transform: translatex(-780px);
-   margin-top: 5rem;
-}
-.logo-escuela1, .logo-escuela2, .logo-escuela3{
-    position: absolute;
-}
-.logo-escuela1 {
-    top: 1rem;
-    right: 0;   
-    width: 450px;
-    height: 320px;
-    transform: translateX(560px);
-}
-.logo-escuela2{
-    top: 40px;
-    transform: translateX(-760px);
-}
-.logo-escuela3 {
-    top: 50px;
-    right: 0;   
-    width: 600px;
-    transform: translateX(750px);
-}
-
-.nuestro-servicios-contexto{
-    width: 600px;
-    display: flex;
-    transform: translate(30px);
-    margin-top: 1.5rem;
-}
-
-.nuestro-servicios-contexto h1{
-    width: 400px;
-}
-.nuestro-servicios-contexto p {
-    width: 400px;
-    text-align: justify;
-    font-size: 1rem;
-}
-.servicio-parte-1 {
-    display: inline-block;
-    padding: 1rem;
-    margin-left: 1rem;
+.la-escuela {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+    color: #2f2f2f;
+  }
+  
+  /* HERO */
+  .escuela-hero {
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: 36px;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+  
+  .escuela-hero__content {
+    max-width: 620px;
+  }
+  
+  .escuela-hero__eyebrow,
+  .section-heading__eyebrow {
+    margin: 0 0 14px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #1f5a5d;
+  }
+  
+  .escuela-hero__title {
+    margin: 0 0 22px;
+    font-size: 52px;
+    line-height: 1.08;
+    font-weight: 500;
+    color: #2e2c2b;
+  }
+  
+  .escuela-hero__text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #4d4a47;
+  }
+  
+  .escuela-hero__media {
+    min-height: 420px;
+  }
+  
+  .escuela-hero__image {
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    object-fit: cover;
+    display: block;
+    border-radius: 24px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* CARDS GENERALES */
+  .escuela-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  
+  .escuela-card {
     background: #ffffff;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
-}
-.servicio-parte-2 {
-    display:block;
-    margin-left: 19rem;
-    padding: 1rem;
-    background: #ffffff;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
-}
-
-@media (max-width: 1080px) {
-    .la_escuela-cont{
-        margin: .5rem ;
+    border-radius: 22px;
+    padding: 28px;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(31, 90, 93, 0.06);
+  }
+  
+  .escuela-card h2,
+  .escuela-card h3 {
+    margin-top: 0;
+    color: #2e2c2b;
+  }
+  
+  .escuela-card h2 {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 1.15;
+    font-weight: 500;
+  }
+  
+  .escuela-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 500;
+  }
+  
+  .escuela-card p {
+    margin: 0 0 14px;
+    font-size: 16px;
+    line-height: 1.85;
+    color: #4f4b48;
+  }
+  
+  /* VALORES */
+  .escuela-valores {
+    display: grid;
+    grid-template-columns: 1fr 0.95fr;
+    gap: 30px;
+    align-items: start;
+    margin-bottom: 56px;
+  }
+  
+  .escuela-valores__content {
+    display: grid;
+    gap: 24px;
+  }
+  
+  .escuela-valores__image {
+    width: 100%;
+    min-height: 520px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 24px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* SERVICIOS */
+  .escuela-servicios {
+    margin-top: 8px;
+  }
+  
+  .section-heading {
+    margin-bottom: 26px;
+  }
+  
+  .section-heading__title {
+    margin: 0;
+    font-size: 42px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #2e2c2b;
+  }
+  
+  .escuela-servicios__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .servicio-card h3 {
+    font-size: 28px;
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+  
+  .servicio-card--full {
+    grid-column: 1 / -1;
+  }
+  
+  .servicio-lista {
+    margin: 10px 0 0;
+    padding-left: 20px;
+  }
+  
+  .servicio-lista li {
+    list-style: disc;
+    margin-bottom: 10px;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    color: #4f4b48;
+    line-height: 1.75;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 1100px) {
+    .escuela-hero,
+    .escuela-valores {
+      grid-template-columns: 1fr;
     }
-
-    .parrafo-presentacion{
-        width: 80%;
-        text-align: justify;
-        border-radius: 6px;
-        transform: translateX(20px);
-        margin-top: 250px;
+  
+    .escuela-cards {
+      grid-template-columns: 1fr;
     }
-
-    .parrafo-presentacion p{
-        width: 90%;
+  
+    .escuela-servicios__grid {
+      grid-template-columns: 1fr;
     }
-
-    .vision-meta{ 
-        width: 85%;
-        text-align: justify;
-        border-radius: 6px;
-        transform: translateX(-15px);
-        margin-top: 250px;
+  
+    .servicio-card--full {
+      grid-column: auto;
     }
-
-    .contenedor-valores{
-        display: block;
-        transform: translateX(0);
-        margin-top: 250px;
-        font-family: sans-serif;
+  
+    .escuela-hero__title {
+      font-size: 44px;
     }
-
-    .logo-escuela1,
-    .logo-escuela2,
-    .logo-escuela3{
-        position: absolute;
-        width: 360px;
-        height: 220px;
-        max-width: 85%;
+  
+    .section-heading__title {
+      font-size: 36px;
     }
-
-    .logo-escuela1 {
-        top: -250px;
-        right: 0;
-        transform: translateX(-20px);
+  }
+  
+  @media (max-width: 700px) {
+    .la-escuela {
+      padding: 36px 16px 56px;
     }
-
-    .logo-escuela2{
-        top: 0px;
-        transform: translateX(-20px);
+  
+    .escuela-card {
+      padding: 22px;
+      border-radius: 18px;
     }
-
-    .logo-escuela3 {
-        top: -250px;
-        right: 0;
-        transform: translateX(-25px);
+  
+    .escuela-hero__title {
+      font-size: 36px;
     }
-    .nuestro-servicios-contexto{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        columns: 1;
+  
+    .escuela-card h2 {
+      font-size: 26px;
     }
-    .servicio-parte-1{
-        display: none;
-        margin: 2.5rem auto;
-        margin-left: -0.5rem;
-        width:50% ;
+  
+    .servicio-card h3 {
+      font-size: 24px;
     }
-    .servicio-parte-1 h1{
-        font-size: 1rem;
-        width: 80%;
+  
+    .section-heading__title {
+      font-size: 30px;
     }
-    .servicio-parte-1 >p{
-        display:inline-block;
-        margin: 2.5rem auto;
-        margin-left: -0.5rem;
-        width:90% ;
+  
+    .escuela-hero__image,
+    .escuela-valores__image {
+      min-height: 300px;
     }
-    .servicio-parte-2{
-        display: inline-block;
-        position: relative;
-        width: 50%;
-        right: 35rem;
-        display: none;
-    }
-    .servicio-parte-2 h1,
-    .servicio-parte-2 p{
-        width: 80%;
-        font-size: 1rem;
-    }
-}
+  }

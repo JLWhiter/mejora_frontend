@@ -68,10 +68,11 @@ li {
 }
 .menu-cabecera-1001 a:hover,
 .menu-cabecera-1001 li:hover {
-    background-color: rgb(60, 114, 131);
-    color: #000000;
+    background-color: #e8f1ef;
+    color: #1f5a5d;
 }
 .menu-cabecera-1002 {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
     position: relative;
     display: flex;
     width: 100%;
@@ -79,14 +80,15 @@ li {
     margin-top: 24px;
     top: -20px;
     font-size: 14px;
-    z-index: 2;
+    z-index: 1000;
 }
 .menu-cabecera-1002::before {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgb(245, 242, 239);
+    background-color: #ffffff;
     z-index: 2;
+    border-bottom: 1px solid #e9e4dc;
 }
 .menu-cabecera-1002 > * {
     position: relative;
@@ -124,7 +126,7 @@ li {
     column-gap: 30px;
     min-width: 420px;
     max-width: 600px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 6px;
     padding: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
@@ -165,8 +167,9 @@ li {
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 10px 15px;
+    padding: 12px 18px;
     transition: background-color .3s ease, color .3s ease;
+    font-weight: 500;
 }
 .menu-cabecera-1003 a:hover {
     background-color: rgb(119, 173, 162);
@@ -232,7 +235,7 @@ li {
 }
 .parrafo-final {
     position: relative; 
-    background-color: rgb(0, 128, 128);
+    background-color: #1f5a5d;
     color: aliceblue;
     padding: 40px 0;
     top: 50px;
