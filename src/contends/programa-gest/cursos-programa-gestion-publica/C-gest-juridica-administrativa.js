@@ -1,91 +1,140 @@
+import '../curso-gest-publica.css'
 
 function CgestGestionJuridicaAdministrativa(){
-    return(
-        <div className="contenedor">
-            <div className="presentacion"> 
-               <h1> Presentación </h1>
-               <p>
-                    El Curso de Gestión Jurídica y Administrativa está diseñado para formar profesionales 
-                    capaces de integrar los aspectos legales y administrativos en la gestión organizacional. 
-                    Se enfoca en normativa administrativa, procedimientos legales, transparencia y control interno. 
-                    Incorpora tendencias como digitalización de procesos, gobierno electrónico, gestión de riesgos 
-                    legales y cumplimiento normativo.
-               </p>
 
-                <ul>
-                    <h1> Objetivos </h1>
-                    <ul>
-                        <li> Comprender principios y normas de la gestión jurídica y administrativa. </li>
-                        <li> Desarrollar habilidades de organización y control administrativo. </li>
-                        <li> Aplicar herramientas jurídicas en la toma de decisiones. </li>
-                        <li> Integrar digitalización, gobierno electrónico y gestión de riesgos legales. </li>
-                    </ul>
-                </ul>
-            </div>
-
-            <div className="metodologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul> 
-                    <li>
-                        <h1> Metodología </h1>
-                        <p>
-                            Enfoque andragógico combinando clases expositivas, análisis normativo,
-                            talleres prácticos, simulaciones de procedimientos administrativos
-                            y elaboración de documentos legales.
-                        </p>
-                    </li>
-                    <li>
-                        <h1> Material Académico </h1>
-                        <p>
-                            Presentaciones PPT, separatas PDF con normativas y formatos administrativos,
-                            lecturas especializadas y recursos digitales interactivos.
-                        </p>
-                    </li>
-                    <li>
-                        <h1> Evaluación </h1>
-                        <p>
-                            Evaluación progresiva mediante exámenes teóricos y prácticos,
-                            desarrollo de proyectos administrativos y participación activa en talleres.
-                        </p>
-                    </li>
-                    <li>
-                        <h1> Modalidad </h1>
-                        <p>
-                            Presencial, virtual o mixta según disponibilidad institucional.
-                        </p>
-                    </li>
-                    <li>
-                        <h1> Duración </h1>
-                        <p>
-                            De 9 a 250 horas organizadas en módulos de 3 a 6 horas.
-                        </p>
-                    </li>
-                    <li>
-                        <h1> Certificación </h1>
-                        <p>
-                            Certificado de participación o aprobación cumpliendo asistencia mínima
-                            y evaluación satisfactoria.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-
-            <div className="temario-principal">
-                <h1> Temario Principal </h1>
-                <ul>
-                    <li> 1. Introducción a la Gestión Jurídica y Administrativa </li>
-                    <li> 2. Organización y Planeamiento Administrativo </li>
-                    <li> 3. Procedimientos Administrativos y Trámites Legales </li>
-                    <li> 4. Gestión Jurídica Aplicada a la Administración </li>
-                    <li> 5. Transparencia, Control y Cumplimiento Normativo </li>
-                    <li> 6. Gestión Documental y Digitalización de Procesos </li>
-                    <li> 7. Evaluación y Mejora Continua </li>
-                    <li> 8. Tendencias y Buenas Prácticas en Gestión Jurídica </li>
-                </ul>
-            </div>
-        </div>
+  const solicitarInformacion = () => {
+    window.open(
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20el%20curso%20de%20Gestión%20Jurídica%20y%20Administrativa",
+      "_blank"
     );
+  }
+
+  return (
+    <article className="curso-container">
+
+      <header className="curso-header">
+        <h1>Gestión Jurídica y Administrativa</h1>
+      </header>
+
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          El curso de Gestión Jurídica y Administrativa está diseñado para
+          formar profesionales capaces de integrar los aspectos legales y
+          administrativos en la gestión organizacional. Se enfoca en normativa
+          administrativa, procedimientos legales, transparencia y control
+          interno, incorporando tendencias como digitalización de procesos,
+          gobierno electrónico, gestión de riesgos legales y cumplimiento
+          normativo.
+        </p>
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Comprender principios y normas de la gestión jurídica y administrativa.</li>
+          <li>Desarrollar habilidades de organización y control administrativo.</li>
+          <li>Aplicar herramientas jurídicas en la toma de decisiones.</li>
+          <li>Integrar digitalización, gobierno electrónico y gestión de riesgos legales.</li>
+        </ul>
+
+      </section>
+
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+          <img
+            src="/uploads/gestion-pu.jpg"
+            alt="Metodología del curso"
+          />
+        </div>
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong>
+              Enfoque andragógico combinando clases expositivas,
+              análisis normativo, talleres prácticos, simulaciones
+              de procedimientos administrativos y elaboración de
+              documentos legales.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, separatas PDF con normativas y
+              formatos administrativos, lecturas especializadas
+              y recursos digitales interactivos.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong>
+              Evaluación progresiva mediante exámenes teóricos
+              y prácticos, desarrollo de proyectos administrativos
+              y participación activa en talleres.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong>
+              Presencial, virtual o modalidad mixta.
+            </li>
+
+            <li>
+              <strong>Duración:</strong>
+              Entre 9 y 250 horas académicas organizadas
+              en módulos de 3 a 6 horas.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong>
+              Certificado de participación o aprobación
+              cumpliendo asistencia mínima y evaluación satisfactoria.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Introducción a la Gestión Jurídica y Administrativa</li>
+          <li>Organización y Planeamiento Administrativo</li>
+          <li>Procedimientos Administrativos y Trámites Legales</li>
+          <li>Gestión Jurídica Aplicada a la Administración</li>
+          <li>Transparencia, Control y Cumplimiento Normativo</li>
+          <li>Gestión Documental y Digitalización de Procesos</li>
+          <li>Evaluación y Mejora Continua</li>
+          <li>Tendencias y Buenas Prácticas en Gestión Jurídica</li>
+
+        </ul>
+
+      </section>
+
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </article>
+  );
 }
 
 export default CgestGestionJuridicaAdministrativa;

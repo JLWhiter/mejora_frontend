@@ -1,76 +1,137 @@
+import '../curso-gest-publica.css'
 
-function Cgestmunicipal(){
-    return(
-        <div className="contenedor">
-            <div className="presentacion"> 
-               <h1> Presentación </h1>
-               <p>
-               Curso orientado a capacitar en administración y gobernanza de gobiernos locales,
-               abordando normativa municipal, planificación estratégica, gestión de recursos,
-               transparencia, participación ciudadana y digitalización de servicios públicos.
-               </p>
+function CgestMunicipal(){
 
-                <ul>
-                    <h1> Objetivos </h1>
-                    <ul>
-                        <li> Comprender principios y normas de la gestión municipal. </li>
-                        <li> Planificar y evaluar proyectos y servicios públicos locales. </li>
-                        <li> Aplicar estrategias de eficiencia y participación ciudadana. </li>
-                        <li> Fomentar innovación y uso de tecnologías en gobiernos locales. </li>
-                    </ul>
-                </ul>
-            </div>
-
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul> 
-                    <li>
-                        <h1> Metodología </h1>
-                        <p>
-                        Andragogía con clases expositivas, talleres prácticos, aprendizaje basado en problemas,
-                        simulaciones de toma de decisiones y uso de herramientas digitales municipales.
-                        </p>
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>PPT, PDF con normativa municipal, guías prácticas y recursos digitales interactivos.</p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>Exámenes teóricos, proyectos municipales y prácticas de planificación y gestión.</p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>Presencial, virtual y mixta.</p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p>De 9 a 250 horas.</p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>Certificado por aprobación y cumplimiento de asistencia.</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div className="temario-principal">
-                <h1> Temario Principal </h1>
-                <ul>
-                    <li> 1. Introducción a la Gestión Municipal </li>
-                    <li> 2. Planificación Estratégica y Proyectos Municipales </li>
-                    <li> 3. Gestión Financiera y Presupuestal </li>
-                    <li> 4. Gestión de Recursos Humanos Municipales </li>
-                    <li> 5. Servicios Públicos y Participación Ciudadana </li>
-                    <li> 6. Tecnologías y Gobierno Digital </li>
-                    <li> 7. Gestión Ambiental y Sostenibilidad Local </li>
-                    <li> 8. Evaluación y Mejora Municipal </li>
-                    <li> 9. Tendencias en Gestión Municipal </li>
-                </ul>
-            </div>
-        </div>
+  const solicitarInformacion = () => {
+    window.open(
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20el%20curso%20de%20Gestión%20Municipal",
+      "_blank"
     );
+  }
+
+  return (
+    <article className="curso-container">
+
+      <header className="curso-header">
+        <h1>Gestión Municipal</h1>
+      </header>
+
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          Curso orientado a capacitar en administración y gobernanza
+          de gobiernos locales, abordando normativa municipal,
+          planificación estratégica, gestión de recursos,
+          transparencia, participación ciudadana y digitalización
+          de servicios públicos.
+        </p>
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Comprender principios y normas de la gestión municipal.</li>
+          <li>Planificar y evaluar proyectos y servicios públicos locales.</li>
+          <li>Aplicar estrategias de eficiencia y participación ciudadana.</li>
+          <li>Fomentar innovación y uso de tecnologías en gobiernos locales.</li>
+        </ul>
+
+      </section>
+
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+          <img
+            src="/uploads/gestion-pu.jpg"
+            alt="Metodología del curso"
+          />
+        </div>
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong>
+              Enfoque andragógico con clases expositivas,
+              talleres prácticos, aprendizaje basado en problemas,
+              simulaciones de toma de decisiones y uso de
+              herramientas digitales municipales.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, separatas en PDF con normativa
+              municipal, guías prácticas y recursos digitales
+              interactivos.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong>
+              Exámenes teóricos, desarrollo de proyectos
+              municipales y prácticas de planificación y gestión.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong>
+              Presencial, virtual o modalidad mixta.
+            </li>
+
+            <li>
+              <strong>Duración:</strong>
+              Entre 9 y 250 horas académicas.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong>
+              Certificado por aprobación y cumplimiento
+              de asistencia mínima.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Introducción a la Gestión Municipal</li>
+          <li>Planificación Estratégica y Proyectos Municipales</li>
+          <li>Gestión Financiera y Presupuestal</li>
+          <li>Gestión de Recursos Humanos Municipales</li>
+          <li>Servicios Públicos y Participación Ciudadana</li>
+          <li>Tecnologías y Gobierno Digital</li>
+          <li>Gestión Ambiental y Sostenibilidad Local</li>
+          <li>Evaluación y Mejora Municipal</li>
+          <li>Tendencias en Gestión Municipal</li>
+
+        </ul>
+
+      </section>
+
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </article>
+  );
 }
 
-export default Cgestmunicipal;
+export default CgestMunicipal;
