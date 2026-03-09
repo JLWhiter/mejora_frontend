@@ -145,6 +145,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    align-items: start;
   }
   .servicio-card details, .servicio-card summary{ 
     list-style: none;
