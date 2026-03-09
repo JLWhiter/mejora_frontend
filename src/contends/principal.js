@@ -1,101 +1,109 @@
 import './stylescss/principal.css';
-import { IoMdClock,IoIosPeople } from "react-icons/io"; 
-import { MdComputer,MdOutlineWork } from "react-icons/md";
+import { IoMdClock, IoIosPeople } from "react-icons/io";
+import { MdComputer, MdOutlineWork } from "react-icons/md";
 import { GrCertificate } from "react-icons/gr";
 import { BsStar } from "react-icons/bs";
+
 function Principal() {
   return (
-    <div className='Principal'>
+    <div className="Principal">
 
-      <div className="banner">
-        <img src="/uploads/banner1.jpg" alt='logo' className="banner-img" />
-        <img src="/uploads/banner3.jpg" alt='logo' className="banner-img"/>
-      </div>
+      <section className="hero">
+        <div className="hero__content">
+          <p className="hero__eyebrow">DIPLOMA DE ESPECIALIZACIÓN</p>
 
-      <div id="Contenido-para-img">
-        <h1 className="contenido-texto1 typewriter-animation1"
-        style={{ "--steps": 50 }}>
-        Conviértete en el
-        </h1>
-        <h1 className="contenido-texto typewriter-animation2"
-          style={{ "--steps": 40 }}>
-          Líder que tu organización necesita
-        </h1>
-        <h1 className="contenido-texto2 typewriter-animation3"
-          style={{ "--steps": 50 }}>
-          Programas especializados en Gerencia<br />
-          y Gestión<br />
-          Transforma tu carrera profesional
-        </h1>
-      </div>
+          <h1 className="hero__title">
+            Conviértete en el <br />
+            Líder que tu organización <br />
+            necesita
+          </h1>
 
+          <p className="hero__text">
+            Programas especializados en Gerencia y Gestión
+            <br />
+            Transforma tu carrera profesional
+          </p>
 
-
-      <div className="beneficios">
-        <h1>¿Por qué elegirnos?</h1>
-        <div className="beneficios-grid">
-          <li>
-            <IoMdClock className='reloj' size={60} />
-            <h1> Horarios flexibles </h1  >
-          </li>
-          <li>
-            <MdOutlineWork size={60}/>
-            <h1> Desarrollo de casos reales de empresas </h1>
-          </li>
-          <li>
-            
-            <MdComputer size={60} />
-            <h1>Aula moderna e intuitiva</h1>
-          </li>
-          <li>
-            <GrCertificate size={60} />
-            <h1>Certificación de calidad</h1>
-          </li>
-          <li>
-            <IoIosPeople size={60} />
-            <h1>Expositores con experiencia</h1>
-          </li>
-          <li>
-            <BsStar size={60} />
-            <h1>+30 años capacitando ejecutivos</h1>
-          </li>
+          <button className="hero__button">¿Por qué elegirnos?</button>
         </div>
-      </div>
 
-      <div className="servicios">
-        <h1> Cursos Destacados </h1>
-        <section id="grupo-1">
-          <ul className='curso1'>
-            <li><img src="/uploads/curs_7.png" alt="Gestión" id="banner3" /></li>
-            <li><h1 id="tex1">GESTIÓN DE ALMACÉN E INVENTARIO</h1></li>
-          </ul>
+        <div className="hero__media">
+  <div className="hero__image">
+    <img src="/uploads/port.jpg" alt="Portada" className="hero__img-real" />
+  </div>
+</div>
+      </section>
 
-          <ul className='curso2'>
-            <li><img src="/uploads/curs_9.webp" alt="Administrativo" id="banner4" /></li>
-            <li><h1 id="tex2">PROCESO ADMINISTRATIVO GENERAL</h1></li>
-          </ul>
-        </section>
+      <section className="beneficios">
+        <h2 className="section-title">¿Por qué elegirnos?</h2>
 
-        <section id="grupo-2">
-          <ul className='curso3'>
-            <li><img src="/uploads/curs_10.webp" alt="Disciplinario" id="banner5" /></li>
-            <li><h1 id="tex3">PROCESO DISCIPLINARIO PASS</h1></li>
-          </ul>
+        <div className="beneficios-grid">
+          <article className="beneficio-card">
+            <IoMdClock size={54} className="beneficio-icon" />
+            <h3>Horarios flexibles</h3>
+            <p>Programas adaptados a tu tiempo.</p>
+          </article>
 
-          <ul className='curso4'>
-            <li><img src="/uploads/curs_11.webp" alt="SIAF" id="banner6" /></li>
-            <li>
-              <h1 id="tex4">SISTEMA INTEGRADO DE ADMINISTRACIÓN FINANCIERA SIAF – RP </h1>
-            </li>
-          </ul>
-        </section>
+          <article className="beneficio-card">
+            <MdOutlineWork size={54} className="beneficio-icon" />
+            <h3>Desarrollo de casos reales de empresas</h3>
+            <p>Estudia casos prácticos reales del mundo empresarial.</p>
+          </article>
 
-      </div>
+          <article className="beneficio-card">
+            <MdComputer size={54} className="beneficio-icon" />
+            <h3>Aula moderna e intuitiva</h3>
+            <p>Ambiente de aprendizaje innovador y accesible.</p>
+          </article>
+
+          <article className="beneficio-card">
+            <GrCertificate size={54} className="beneficio-icon" />
+            <h3>Certificación de calidad</h3>
+            <p>Diplomas reconocidos que avalan tu formación.</p>
+          </article>
+
+          <article className="beneficio-card">
+            <IoIosPeople size={54} className="beneficio-icon" />
+            <h3>Expositores con experiencia</h3>
+            <p>Profesionales expertos en gerencia y gestión.</p>
+          </article>
+
+          <article className="beneficio-card">
+            <BsStar size={54} className="beneficio-icon" />
+            <h3>+30 años capacitando ejecutivos</h3>
+            <p>Trayectoria sólida y comprobada en el sector.</p>
+          </article>
+        </div>
+      </section>
+
+      <section className="servicios">
+        <h2 className="section-title">Cursos Destacados</h2>
+
+        <div className="servicios-grid">
+          <article className="curso-card">
+          <img src="/uploads/curs_7.png" className="curso-img" alt="Gestión de almacén" />
+            <h3>GESTIÓN DE ALMACÉN E INVENTARIO</h3>
+          </article>
+
+          <article className="curso-card">
+          <img src="/uploads/curs_9.png" className="curso-img" alt="PROCESO ADMINISTRATIVO" />
+            <h3>PROCESO ADMINISTRATIVO GENERAL</h3>
+          </article>
+
+          <article className="curso-card">
+          <img src="/uploads/curs_10.webp" className="curso-img" alt="PROCESO DISCIPLINARIO" />
+            <h3>PROCESO DISCIPLINARIO PASS</h3>
+          </article>
+
+          <article className="curso-card">
+          <img src="/uploads/curs_11.webp" className="curso-img" alt="SISTEMA INTEGRADO" />
+            <h3>SISTEMA INTEGRADO DE ADMINISTRACIÓN FINANCIERA SIAF – RP</h3>
+          </article>
+        </div>
+      </section>
+
     </div>
   );
 }
-
-
-
 
 export default Principal;
