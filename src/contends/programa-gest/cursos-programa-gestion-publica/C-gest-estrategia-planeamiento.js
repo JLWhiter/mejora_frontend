@@ -1,78 +1,130 @@
-function Cgestpublicaestrategica(){
-    const solicitarinformacionCgestpublicaestrategica = ()=>{
-            window.open(
-            "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO",
-            "_blank"
-            );
-    }
-    return(
-        <div className="contenedor">
+function CgestPublicaEstrategica(){
 
-            <div className="presentacion">
-                <h1>Presentación</h1>
-                <p>
-                    Curso orientado al diseño, implementación y evaluación de políticas públicas y planes estratégicos,
-                    enfocado en gestión por resultados, innovación pública y creación de valor público.
-                </p>
+  const solicitarInformacion = () => {
+    window.open(
+    "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN%20PÚBLICA%20ESTRATÉGICA%20Y%20PLANEAMIENTO",
+    "_blank"
+    );
+  }
 
-                <ul>
-                    <h1>Objetivos</h1>
-                    <ul>
-                        <li>Desarrollar capacidades estratégicas en el sector público.</li>
-                        <li>Fortalecer la toma de decisiones basada en evidencia.</li>
-                        <li>Aplicar herramientas modernas de planeamiento estratégico.</li>
-                        <li>Promover una gestión pública eficiente e innovadora.</li>
-                    </ul>
-                </ul>
-            </div>
+  return(
 
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul>
-                    <li>
-                        <h1>Metodología</h1>
-                        <p>Clases teórico-prácticas, análisis de casos reales, talleres aplicados y trabajo colaborativo.</p>
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>PPT, separatas PDF, guías estratégicas, casos nacionales e internacionales.</p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>Evaluaciones modulares, trabajos prácticos y proyecto final integrador.</p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>Presencial, Virtual y Mixta.</p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p>De 9 a 250 horas académicas.</p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>Certificado oficial por aprobación.</p>
-                    </li>
-                </ul>
-            </div>
+    <article className="curso-container">
 
-            <div className="temario-principal">
-                <li><button className="btn-solicitar-informacion" onClick={solicitarinformacionCgestpublicaestrategica}>SOLICITAR INFORMACIÓN</button></li>
-              
-                <h1>Temario Principal</h1>
-                <ul>
-                    <li>1. Gestión Pública Moderna</li>
-                    <li>2. Planeamiento Estratégico</li>
-                    <li>3. Gestión por Resultados</li>
-                    <li>4. Políticas Públicas</li>
-                    <li>5. Indicadores y Evaluación</li>
-                    <li>6. Innovación y Transformación Digital</li>
-                </ul>
-            </div>
+      <header className="curso-header">
+        <h1>Gestión Pública Estratégica y Planeamiento</h1>
+      </header>
+
+
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          Curso orientado al diseño, implementación y evaluación de políticas públicas 
+          y planes estratégicos, enfocado en gestión por resultados, innovación pública 
+          y creación de valor público.
+        </p>
+
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Desarrollar capacidades estratégicas en el sector público.</li>
+          <li>Fortalecer la toma de decisiones basada en evidencia.</li>
+          <li>Aplicar herramientas modernas de planeamiento estratégico.</li>
+          <li>Promover una gestión pública eficiente e innovadora.</li>
+        </ul>
+
+      </section>
+
+
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+
+          <img
+            src="/uploads/gestion-pu.jpg"
+            alt="Metodología del curso"
+          />
 
         </div>
-    );
+
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong> Clases teórico-prácticas,
+              análisis de casos reales, talleres aplicados y trabajo colaborativo.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong> Presentaciones PPT,
+              separatas PDF, guías estratégicas y casos nacionales e internacionales.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong> Evaluaciones modulares,
+              trabajos prácticos y proyecto final integrador.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong> Presencial, Virtual y Mixta.
+            </li>
+
+            <li>
+              <strong>Duración:</strong> De 9 a 250 horas académicas.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong> Certificado oficial por aprobación.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Gestión Pública Moderna</li>
+          <li>Planeamiento Estratégico</li>
+          <li>Gestión por Resultados</li>
+          <li>Políticas Públicas</li>
+          <li>Indicadores y Evaluación</li>
+          <li>Innovación y Transformación Digital</li>
+
+        </ul>
+
+      </section>
+
+
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </article>
+
+  );
 }
 
-export default Cgestpublicaestrategica;
+export default CgestPublicaEstrategica;

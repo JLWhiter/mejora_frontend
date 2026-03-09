@@ -2,61 +2,114 @@ import '../curso-gest-publica.css'
 
 function Cgestadobeotros(){
     
-    return(
-        <div className="contenedor">
-            <div className="presentacion"> 
-               <h1> Presentación </h1>
-               <p>Curso práctico de diseño gráfico digital para comunicación visual y publicaciones profesionales.</p>
-                <ul>
-                    <h1> Objetivos </h1>
-                    <ul>
-                        <li> Diseñar piezas gráficas y editoriales. </li>
-                        <li> Manejar herramientas Adobe. </li>
-                    </ul>
-                </ul>
-            </div>
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                <ul> 
-                    <li>
-                        <h1> Metodología </h1>
-                        <p> Talleres prácticos, proyectos creativos y aprendizaje visual.</p> 
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>PPT, PDF, archivos de práctica y recursos gráficos.</p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>Ejercicios prácticos y proyecto final.</p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>Presencial, virtual y mixta.</p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p> De 9 a 250 horas.</p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>Certificado por aprobación.</p>
-                    </li>
-                </ul>
-            </div>
-            <div className="temario-principal">
-                <h1> Temario Principal </h1>
-                <ul>
-                    <li> 1. Fundamentos de diseño</li>
-                    <li> 2. Photoshop </li>
-                    <li> 3. Illustrator y costos</li>
-                    <li> 4. InDesign </li>
-                    <li> 5. Proyecto final </li>
-                </ul>
-                
-            </div>
+    return (
+    <section className="curso-container">
+
+      <header className="curso-header">
+        <h1>Gestión Pública Estratégica y Planeamiento</h1>
+      </header>
+
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          Programa especializado orientado a fortalecer las capacidades de
+          planificación estratégica y gestión pública en entidades del
+          Estado, permitiendo una adecuada toma de decisiones orientada
+          a resultados.
+        </p>
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Fortalecer capacidades de planeamiento estratégico.</li>
+          <li>Comprender instrumentos de gestión pública.</li>
+          <li>Aplicar metodologías de planificación institucional.</li>
+        </ul>
+
+      </section>
+
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+          <img
+            src="/uploads/gestion-pu.jpg"
+            alt="Metodología del curso"
+          />
         </div>
-    );
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong>
+              Talleres prácticos, análisis de casos y desarrollo de
+              ejercicios aplicados al sector público.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, guías en PDF y recursos complementarios.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong>
+              Desarrollo de actividades prácticas y evaluación final.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong>
+              Presencial, virtual o semipresencial.
+            </li>
+
+            <li>
+              <strong>Duración:</strong>
+              Entre 90 y 250 horas académicas.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong>
+              Certificado otorgado por la Escuela de Gerencia y Gestión.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Fundamentos de la Gestión Pública Estratégica</li>
+          <li>Planeamiento Estratégico Institucional</li>
+          <li>Gestión por Resultados en el Sector Público</li>
+          <li>Instrumentos de Gestión y Presupuesto Público</li>
+          <li>Proyecto Aplicado de Planeamiento Estratégico</li>
+
+        </ul>
+
+      </section>
+
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button className="btn-inscribirse">
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </section>
+  );
 }
 
 export default Cgestadobeotros

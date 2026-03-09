@@ -1,76 +1,110 @@
 function Cgestbiblioteca(){
-    return(
-        <div className="contenedor">
-            <div className="presentacion"> 
-               <h1> Presentación </h1>
-               <p>
-               Curso orientado a la organización, administración y optimización de bibliotecas
-               y centros de información, abordando normativa, propiedad intelectual,
-               digitalización, acceso abierto y gestión de colecciones físicas y digitales.
-               </p>
+    return (
+  <section className="curso-container">
 
-                <ul>
-                    <h1> Objetivos </h1>
-                    <ul>
-                        <li> Comprender normas y principios de gestión bibliotecaria. </li>
-                        <li> Planificar y evaluar servicios bibliotecarios. </li>
-                        <li> Aplicar estrategias de digitalización y modernización. </li>
-                        <li> Promover atención al usuario y servicios innovadores. </li>
-                    </ul>
-                </ul>
-            </div>
+    {/* PRESENTACIÓN */}
+    <section className="curso-presentacion">
 
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul> 
-                    <li>
-                        <h1> Metodología </h1>
-                        <p>
-                        Enfoque andragógico con clases expositivas, talleres prácticos,
-                        estudios de caso, simulaciones de gestión bibliotecaria y uso
-                        de herramientas digitales especializadas.
-                        </p>
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>PPT, PDF con normas y procedimientos, manuales de bibliotecología y recursos digitales.</p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>Exámenes teóricos, proyectos de organización y digitalización, y prácticas vivenciales.</p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>Presencial, virtual y mixta.</p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p>De 9 a 250 horas.</p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>Certificado por aprobación y asistencia mínima requerida.</p>
-                    </li>
-                </ul>
-            </div>
+      <h2>Presentación</h2>
 
-            <div className="temario-principal">
-                <h1> Temario Principal </h1>
-                <ul>
-                    <li> 1. Introducción a la Gestión de Bibliotecas </li>
-                    <li> 2. Planificación y Organización </li>
-                    <li> 3. Gestión de Recursos Humanos </li>
-                    <li> 4. Gestión de Colecciones </li>
-                    <li> 5. Servicios al Usuario </li>
-                    <li> 6. Gestión Financiera y Presupuestal </li>
-                    <li> 7. Tecnologías y Automatización </li>
-                    <li> 8. Evaluación y Mejora de Servicios </li>
-                    <li> 9. Tendencias en Bibliotecas Modernas </li>
-                </ul>
-            </div>
-        </div>
-    );
+      <p>
+        Curso orientado a la organización, administración y optimización de
+        bibliotecas y centros de información, abordando normativa,
+        propiedad intelectual, digitalización, acceso abierto y gestión
+        de colecciones físicas y digitales.
+      </p>
+
+      <h2>Objetivos</h2>
+
+      <ul className="lista-objetivos">
+        <li>Comprender normas y principios de gestión bibliotecaria.</li>
+        <li>Planificar y evaluar servicios bibliotecarios.</li>
+        <li>Aplicar estrategias de digitalización y modernización.</li>
+        <li>Promover atención al usuario y servicios innovadores.</li>
+      </ul>
+
+    </section>
+
+
+    {/* METODOLOGÍA */}
+    <section className="curso-metodologia">
+
+      <div className="metodologia-img">
+        <img
+          src="/uploads/gestion-pu.jpg"
+          alt="Metodología del curso"
+          className="logo-metodologia"
+        />
+      </div>
+
+      <div className="metodologia-info">
+
+        <h2>Metodología</h2>
+
+        <ul className="metodologia-lista">
+
+          <li>
+            <strong>Metodología:</strong>
+            Enfoque andragógico con clases expositivas, talleres prácticos,
+            estudios de caso, simulaciones de gestión bibliotecaria y uso
+            de herramientas digitales especializadas.
+          </li>
+
+          <li>
+            <strong>Material Académico:</strong>
+            PPT, PDF con normas y procedimientos, manuales de
+            bibliotecología y recursos digitales.
+          </li>
+
+          <li>
+            <strong>Evaluación:</strong>
+            Exámenes teóricos, proyectos de organización y
+            digitalización, y prácticas aplicadas.
+          </li>
+
+          <li>
+            <strong>Modalidad:</strong>
+            Presencial, virtual y mixta.
+          </li>
+
+          <li>
+            <strong>Duración:</strong>
+            De 9 a 250 horas.
+          </li>
+
+          <li>
+            <strong>Certificación:</strong>
+            Certificado por aprobación y asistencia mínima requerida.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+
+    {/* TEMARIO */}
+    <section className="curso-temario">
+
+      <h2>Temario Principal</h2>
+
+      <ul className="temario-lista">
+        <li>Introducción a la Gestión de Bibliotecas</li>
+        <li>Planificación y Organización</li>
+        <li>Gestión de Recursos Humanos</li>
+        <li>Gestión de Colecciones</li>
+        <li>Servicios al Usuario</li>
+        <li>Gestión Financiera y Presupuestal</li>
+        <li>Tecnologías y Automatización</li>
+        <li>Evaluación y Mejora de Servicios</li>
+        <li>Tendencias en Bibliotecas Modernas</li>
+      </ul>
+
+    </section>
+
+  </section>
+);
 }
 
 export default Cgestbiblioteca;

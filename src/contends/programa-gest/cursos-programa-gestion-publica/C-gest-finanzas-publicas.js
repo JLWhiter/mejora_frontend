@@ -1,68 +1,131 @@
-function Cgestfinanzaspublicas(){
-    return(
-        <div className="contenedor">
+function CgestFinanzasPublicas(){
 
-            <div className="presentacion">
-                <h1>Presentación</h1>
-                <p>
-                    Curso orientado a la gestión estratégica de ingresos, gastos y endeudamiento público,
-                    bajo principios de eficiencia, transparencia y sostenibilidad fiscal.
-                </p>
+  const solicitarInformacion = () =>{
+      window.open(
+      "https://wa.me/51945504555?text=Hola%20quiero%20información%20sobre%20el%20curso%20de%20FINANZAS%20PÚBLICAS",
+      "_blank"
+      );
+  }
 
-                <ul>
-                    <h1>Objetivos</h1>
-                    <ul>
-                        <li>Comprender los fundamentos de las finanzas públicas.</li>
-                        <li>Fortalecer la gestión presupuestal.</li>
-                        <li>Aplicar criterios de eficiencia y transparencia.</li>
-                    </ul>
-                </ul>
-            </div>
+  return (
 
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul>
-                    <li>
-                        <h1>Metodología</h1>
-                        <p>Aprendizaje práctico, análisis de casos reales y talleres aplicados.</p>
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>PPT, separatas PDF, compendios normativos y casos prácticos.</p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>Exámenes, trabajos aplicados y participación activa.</p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>Presencial, Virtual o Mixta.</p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p>De 9 a 250 horas académicas.</p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>Certificado por aprobación.</p>
-                    </li>
-                </ul>
-            </div>
+    <article className="curso-container">
 
-            <div className="temario-principal">
-                <h1>Temario Principal</h1>
-                <ul>
-                    <li>1. Introducción a las Finanzas Públicas</li>
-                    <li>2. Sistema de Presupuesto Público</li>
-                    <li>3. Ingresos y Gasto Público</li>
-                    <li>4. Endeudamiento y Sostenibilidad Fiscal</li>
-                    <li>5. Control y Transparencia</li>
-                </ul>
-            </div>
+      <header className="curso-header">
+        <h1>Finanzas Públicas</h1>
+      </header>
+
+
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          Curso orientado a la gestión estratégica de ingresos, gastos
+          y endeudamiento público, bajo principios de eficiencia,
+          transparencia y sostenibilidad fiscal dentro del sector público.
+        </p>
+
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Comprender los fundamentos de las finanzas públicas.</li>
+          <li>Fortalecer la gestión presupuestal en el sector público.</li>
+          <li>Aplicar criterios de eficiencia, transparencia y control.</li>
+        </ul>
+
+      </section>
+
+
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+          <img
+            src="/uploads/gestion-pu.jpg"
+            alt="Metodología del curso"
+          />
+        </div>
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong>
+              Aprendizaje práctico, análisis de casos reales
+              y desarrollo de talleres aplicados al sector público.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, separatas en PDF,
+              compendios normativos y casos prácticos.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong>
+              Exámenes teóricos, trabajos aplicados
+              y participación activa en clase.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong>
+              Presencial, Virtual o Mixta.
+            </li>
+
+            <li>
+              <strong>Duración:</strong>
+              Entre 90 y 250 horas académicas.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong>
+              Certificado otorgado por la Escuela de Gerencia y Gestión.
+            </li>
+
+          </ul>
 
         </div>
-    );
+
+      </section>
+
+
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Introducción a las Finanzas Públicas</li>
+          <li>Sistema Nacional de Presupuesto Público</li>
+          <li>Ingresos y Gasto Público</li>
+          <li>Endeudamiento y Sostenibilidad Fiscal</li>
+          <li>Control y Transparencia en las Finanzas Públicas</li>
+
+        </ul>
+
+      </section>
+
+
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button
+          className="btn-inscribirse"
+          onClick={solicitarInformacion}
+        >
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </article>
+
+  );
 }
 
-export default Cgestfinanzaspublicas;
+export default CgestFinanzasPublicas;

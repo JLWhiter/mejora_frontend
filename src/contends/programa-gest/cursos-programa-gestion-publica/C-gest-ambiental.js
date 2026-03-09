@@ -1,76 +1,130 @@
+function Cgestambiental() {
 
-function Cgestambiental(){
-    return(
-        <div className="contenedor">
-            <div className="presentacion"> 
-               <h1> Presentación </h1>
-               <p>
-               Curso orientado a capacitar en planificación, implementación y evaluación de políticas
-               y proyectos ambientales, integrando legislación, sostenibilidad y tendencias como
-               economía circular y cambio climático.
-               </p>
+  return (
+    <section className="curso-container">
 
-                <ul>
-                    <h1> Objetivos </h1>
-                    <ul>
-                        <li> Comprender principios y normas de gestión ambiental. </li>
-                        <li> Planificar e implementar proyectos ambientales sostenibles. </li>
-                        <li> Aplicar herramientas de gestión en empresas y comunidades. </li>
-                        <li> Promover conciencia ambiental e innovación en recursos naturales. </li>
-                    </ul>
-                </ul>
-            </div>
+      {/* TITULO */}
+      <header className="curso-header">
+        <h1>Gestión Ambiental</h1>
+      </header>
 
-            <div className="metedologia">
-                <img src='/uploads/gestion-pu.jpg' alt='logo-de-metedologia' className='logo-metodologia'/>
-                
-                <ul> 
-                    <li>
-                        <h1> Metodología </h1>
-                        <p>
-                        Andragogía con clases expositivas, talleres prácticos, estudios de caso,
-                        simulaciones ambientales y uso de software de monitoreo.
-                        </p>
-                    </li>
-                    <li>
-                        <h1>Material Académico</h1>
-                        <p>PPT, PDF, normativas ambientales, guías técnicas y recursos digitales interactivos.</p>
-                    </li>
-                    <li>
-                        <h1>Evaluación</h1>
-                        <p>Exámenes teóricos, proyectos de gestión ambiental y prácticas aplicadas.</p>
-                    </li>
-                    <li>
-                        <h1>Modalidad</h1>
-                        <p>Presencial, virtual y mixta.</p>
-                    </li>
-                    <li>
-                        <h1>Duración</h1>
-                        <p>De 9 a 250 horas.</p>
-                    </li>
-                    <li>
-                        <h1>Certificación</h1>
-                        <p>Certificado por aprobación y cumplimiento de asistencia.</p>
-                    </li>
-                </ul>
-            </div>
 
-            <div className="temario-principal">
-                <h1> Temario Principal </h1>
-                <ul>
-                    <li> 1. Introducción a la Gestión Ambiental </li>
-                    <li> 2. Políticas y Planificación Ambiental </li>
-                    <li> 3. Gestión de Recursos Naturales </li>
-                    <li> 4. Gestión de Residuos y Economía Circular </li>
-                    <li> 5. Control Ambiental y Monitoreo </li>
-                    <li> 6. Cambio Climático y Gestión de Riesgos </li>
-                    <li> 7. Educación y Conciencia Ambiental </li>
-                    <li> 8. Evaluación y Mejora Ambiental </li>
-                    <li> 9. Tendencias en Gestión Ambiental </li>
-                </ul>
-            </div>
+      {/* PRESENTACIÓN */}
+      <section className="curso-presentacion">
+
+        <h2>Presentación</h2>
+
+        <p>
+          Curso orientado a capacitar en planificación, implementación y
+          evaluación de políticas y proyectos ambientales, integrando
+          legislación, sostenibilidad y tendencias actuales como
+          economía circular y gestión del cambio climático.
+        </p>
+
+        <h2>Objetivos</h2>
+
+        <ul className="lista-objetivos">
+          <li>Comprender principios y normas de gestión ambiental.</li>
+          <li>Planificar e implementar proyectos ambientales sostenibles.</li>
+          <li>Aplicar herramientas de gestión ambiental en organizaciones.</li>
+          <li>Promover conciencia ambiental e innovación en el uso de recursos naturales.</li>
+        </ul>
+
+      </section>
+
+
+      {/* METODOLOGÍA */}
+      <section className="curso-metodologia">
+
+        <div className="metodologia-img">
+          <img
+            src="/uploads/gestion-pu.jpg"
+            alt="Metodología del curso de gestión ambiental"
+          />
         </div>
-    );
+
+        <div className="metodologia-info">
+
+          <h2>Metodología</h2>
+
+          <ul className="metodologia-lista">
+
+            <li>
+              <strong>Metodología:</strong>
+              Andragogía con clases expositivas, talleres prácticos,
+              estudios de caso, simulaciones ambientales y uso de
+              herramientas de monitoreo ambiental.
+            </li>
+
+            <li>
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, documentos PDF, normativas ambientales,
+              guías técnicas y recursos digitales interactivos.
+            </li>
+
+            <li>
+              <strong>Evaluación:</strong>
+              Exámenes teóricos, desarrollo de proyectos de gestión
+              ambiental y prácticas aplicadas.
+            </li>
+
+            <li>
+              <strong>Modalidad:</strong>
+              Presencial, virtual o semipresencial.
+            </li>
+
+            <li>
+              <strong>Duración:</strong>
+              Entre 90 y 250 horas académicas.
+            </li>
+
+            <li>
+              <strong>Certificación:</strong>
+              Certificado por aprobación y cumplimiento de asistencia.
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+      {/* TEMARIO */}
+      <section className="curso-temario">
+
+        <h2>Temario Principal</h2>
+
+        <ul className="temario-lista">
+
+          <li>Introducción a la Gestión Ambiental</li>
+          <li>Políticas y Planificación Ambiental</li>
+          <li>Gestión de Recursos Naturales</li>
+          <li>Gestión de Residuos y Economía Circular</li>
+          <li>Control Ambiental y Monitoreo</li>
+          <li>Cambio Climático y Gestión de Riesgos</li>
+          <li>Educación y Conciencia Ambiental</li>
+          <li>Evaluación y Mejora Ambiental</li>
+          <li>Tendencias en Gestión Ambiental</li>
+
+        </ul>
+
+      </section>
+
+
+      {/* CTA */}
+      <section className="curso-cta">
+
+        <h3>Solicita información sobre este curso</h3>
+
+        <button className="btn-inscribirse">
+          Solicitar Información
+        </button>
+
+      </section>
+
+    </section>
+  );
 }
 
 export default Cgestambiental;
