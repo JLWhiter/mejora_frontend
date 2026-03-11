@@ -346,45 +346,69 @@ function App() {
         <Route path='/programa-gestion-empresarial' element={<ProgramaGestionEmpresarial/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
       </Routes>
-<footer className="parrafo-final">
-    <div className="footer-bloque footer-bloque-izq">
-      <a href="/">
-        <img src="/uploads/Logop3.webp" alt="img-logo" className="logo-final" />
-      </a>
+<footer className="contenedor-footer">
 
-      <p className="parrafo-100">
-        Escuela de Gerencia y Gestión es un centro especializado
-        en altos estudios que ofrece enseñanza, capacitación y
-        formación profesional en alta dirección, enfocada en la
-        gestión pública y la actividad empresarial.
-      </p>
-    </div>
+  <div className="footer-bloque footer-bloque-izq">
+    <a href="/">
+      <img src="/uploads/Logop3.webp" alt="Logo Escuela" className="logo-final" />
+    </a>
 
-    <div className="footer-bloque footer-bloque-centro">
-      <h2 className="parrafo-102-10">Contáctanos</h2>
-
-      <p className="parrafo-102-11">
-        948 251 685 / 913 376 365 <br />
-        capacita@escuelag.com <br />
-        esscuelag@gmail.com <br />
-        Av. Arenales 2081 4to. Piso of. 9 Lince
-      </p>
-    </div>
-  
-  <h1 className="parrafo-102-12">
-    Encuentranos
-    <div className='iconos-busqueda'>
-    <div style={{ display: "flex", gap: "20px" }}>
-      <Link to='https://www.instagram.com/egerencia?igsh=MWpmOGppN2g2djk5cQ=='><FaInstagram size={28} color="#ffffffff"  className='fondo icon-bob' /></Link>
-      <Link to='#'><FaXTwitter size={28} color="#ffffffff" className='fondo icon-bob'/></Link>
-      <Link to='https://www.facebook.com/share/1Ztggm115f/'><FaFacebook size={28} color="#ffffffff" className='fondo icon-bob'/></Link>
-      <Link to='https://www.tiktok.com/@escuelagerenciaygestion?_r=1&_t=ZS-93OlEGIQKMT'><FaTiktok size={28} color="#ffffffff" className='fondo icon-bob'/></Link>
-    </div>
-    </div>
-  </h1>
-  <div className='footer-copyright' id='footer'>
-    <span>© Escuela De Gerencia y Gestion. Todos los derechos reservados.</span>
+    <p>
+      Escuela de Gerencia y Gestión es un centro especializado
+      en altos estudios que ofrece enseñanza, capacitación y
+      formación profesional en alta dirección, enfocada en la
+      gestión pública y la actividad empresarial.
+    </p>
   </div>
+
+
+  <div className="footer-bloque footer-bloque-centro">
+    <h2>Contáctanos</h2>
+
+    <p>
+      948 251 685 / 913 376 365 <br/>
+      capacita@escuelag.com <br/>
+      esscuelag@gmail.com <br/>
+      Av. Arenales 2081 4to. Piso of. 9 Lince
+    </p>
+  </div>
+
+
+  <div className="footer-bloque footer-bloque-der">
+
+    <h2>Encuéntranos</h2>
+
+    <div className="iconos-busqueda">
+
+      <Link to="https://www.instagram.com/egerencia">
+        <FaInstagram size={20} className="fondo icon-bob"/>
+      </Link>
+
+      <Link to="#">
+        <FaXTwitter size={20} className="fondo icon-bob"/>
+      </Link>
+
+      <Link to="https://www.facebook.com/share/1Ztggm115f/">
+        <FaFacebook size={20} className="fondo icon-bob"/>
+      </Link>
+
+      <Link to="https://www.tiktok.com/@escuelagerenciaygestion">
+        <FaTiktok size={20} className="fondo icon-bob"/>
+      </Link>
+
+    </div>
+
+  </div>
+  <div className="autor">
+    <h3>by @jose1801</h3>
+  </div>
+
+  <div className="footer-copyright" id="footer">
+    <span>© Escuela De Gerencia y Gestión. Todos los derechos reservados.</span>
+  </div>
+
+
+
 </footer>
     </BrowserRouter>
   );

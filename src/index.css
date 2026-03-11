@@ -233,118 +233,77 @@ li {
 .menu-cabecera-1003 ul li:hover > ul {
     display: block;
 }
-.parrafo-final {
-    position: relative; 
-    background-color: #1f5a5d;
-    color: aliceblue;
-    padding: 40px 0;
-    top: 50px;
+/*FOOTER*/
+.contenedor-footer{
+    display: grid;
+    background-color: rgb(28, 97, 101);
+    align-items: center;
 }
-.parrafo-102-10,
-.parrafo-102-11,
-.parrafo-102-12 {
-    width: 250px;
+.footer-bloque-izq p{
+    max-width: 500px;
 }
-.parrafo-102-10{
-    position: relative;
-    top: -140px;
-    left: 590px;
+.footer-bloque-der {
+    margin-top: -60px;
 }
-.parrafo-102-11 {
-    position: relative;
-    top: -90px;
-    left: 590px;
+.contenedor-footer{
+    background:#008080;
+    color:white;
+    padding:50px 40px;
+    display:grid;
+    grid-template-columns:1.5fr 1fr 1fr;
+    gap:40px;
 }
-.parrafo-102-12 {
-    position: relative;
-    top: -340px;
-    left: 70%;
+.footer-bloque{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
 }
-.parrafo-final {
-    background-color: rgb(0, 128, 128);
-    color: aliceblue;
-    padding: 40px 30px;
-}
-.logo-final {
-    position: relative;
-    width: 250px;
-    margin-bottom: 10px;
-    top: 90px;
-}
-.parrafo-100 {
-    position: relative;
-    top: 100px;
-    max-width: 460px;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-.parrafo-102-10 {
-    font-weight: bold;
-    top: -160px;
-}
-.parrafo-102-11,
-.parrafo-102-12 {
-    max-width: 250px;
-    margin-top: 10px;
-}
-.parrafo-102-11{
-    top: -140px;
-}
-.parrafo-102-12 {
-    max-width: 250px;
-    top: -375px;
+.logo-final{
+    width:220px;
 }
 .iconos-busqueda{
-    position: relative;
-    top: 50px;
+    display:flex;
+    gap:20px;
+    margin-top:10px;
 }
-.fondo {
-    background-color: rgb(39, 68, 83);
-    width: 20px;
-    height: 20px;
-    border-radius: 6px;
-    border: 6px solid rgb(39, 68, 83);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 
-    background-color 0.6s ease,
-    border-color 0.6s ease,
-    transform 2s ease;
+.fondo{
+    background-color:#274453;
+    border-radius:6px;
+    padding:8px;
+    transition:.3s;
+    color: white
 }
-.fondo:hover{
-    background-color: rgb(149, 229, 231);
-    border: 6px solid rgb(149, 229, 231);
+.footer-copyright,
+.autor{
+    grid-column:1 / -1;
+    text-align:center;
 }
-.icon-bob {
-    transition: transform 0.3s ease;
+.autor{
+    position: absolute;
+    font-size:.5rem;
+    opacity:.7;
+    margin-top: 20%;
 }
-.icon-bob:hover {
-    transform: translateY(-6px);
-    background-color: rgb(149, 229, 231); 
 
+/*ANIMACION DE ICONOS */
+
+.fondo:hover{
+    color: #000;
+    background-color: rgb(149, 229, 231);
+    transition:0.5s ease;
 }
+
+/*las lineas del responsive*/
 .header {
 display: none;
-}
-.menu-overlay {
-  display: none;
-}
-.footer-copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.footer-copyright span {
-    font-size: 1rem;
 }
 .menu-list-1004{
     display: none;
 }
-
-@media (max-width: 800px) {
+.menu-overlay {
+  display: none;
+}
+@media (max-width: 700px) {
     .logo-principal {
         width: 140px;
         top: -10px;
@@ -562,76 +521,15 @@ display: none;
         columns: 2;
     }
 
-    .parrafo-final {
-        position: relative; 
-        text-align: justify;
-        background-color: rgb(0, 128, 128);
-        color: aliceblue;
-        padding: 40px 0;
+    /*FOOTER*/
+    .contenedor-footer{
+        grid-template-columns:1fr;
+        text-align:center;
     }
-
-    .parrafo-final-contenido{
-        margin-top: -5rem;
+    .iconos-busqueda{
+        justify-content:center;
     }
-    .parrafo-102-10,
-    .parrafo-102-11,
-    .parrafo-102-12 {
-        width: 230px;
-    }
-
-    .parrafo-102-10{
-        position: relative;
-        top: 100px;
-        left: 5px;
-    }
-    .parrafo-102-11 {
-        position: relative;
-        top: 6.5rem;
-        left: 5px;
-    }
-
-    .parrafo-102-12 {
-        position: relative;
-        top: 7.5rem;
-        left: 5px;
-    }
-    .parrafo-final {
-        top: 30px;
-        background-color: rgb(0, 128, 128);
-        color: aliceblue;
-        padding: 40px 30px;
-        height: 800px;
-    }
-
-    .logo-final {
-        position: relative;
-        width: 250px;
-        margin-bottom: 10px;
-        top: 90px;
-    }
-
-    .parrafo-100 {
-        position: relative;
-        top: 100px;
-        max-width: 460px;
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-
-    .parrafo-102-10 {
-        font-weight: bold;
-        margin-top: 20px;
-    }
-
-    .parrafo-102-11,
-    .parrafo-102-12 {
-        max-width: 250px;
-        margin-top: 10px;
-    }
-    .footer-copyright {
-        text-align: center;
-        margin-top: 70%;
-        left: 1rem;
-        max-width: 92%;
+    .autor{
+        margin-top: 180%;
     }
 }
