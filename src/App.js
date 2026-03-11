@@ -49,6 +49,7 @@ import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-ge
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
 import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { useState } from 'react';
 
 function App() {
   const solicitarinformacion = ()=>{
@@ -139,51 +140,50 @@ function App() {
               <Link to="/diplomas " className="has-arrow">
                 DIPLOMAS Y ESPECIALIZADO <span className="arrow-down">▼</span>
               </Link>
-
-              <ul>
-                <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
-                  <ul>
-                      <li><Link to="/dip-gest-publica-moderna">Diploma de Especialización en Gestión Pública Moderna</Link></li>
-                      <li><Link to="/dip-gest-estrategico">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
-                      <li><Link to="/dip-esp-presupuesto-publico">Diploma de Especialización en Presupuesto por Resultados</Link></li>
-                      <li><Link to="/dip-esp-invierte-pe">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
-                      <li><Link to="/dip-esp-sistemas-administrativa-estado">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
-                  </ul>
-                </li>
-                <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
-                  <ul>
-                      <li><Link to="/dip-esp-contratacion-estado">Diploma de Especialización en Contrataciones del Estado</Link></li>
-                      <li><Link to="/dip-esp-sistema-abastecimiento">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
-                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Auditoría Gubernamental</Link></li>
-                      <li><Link to="/dip-esp-derecho-procedimiento">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
-                      <li><Link to="/dip-esp-etica-integridad">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
-                  </ul>
-                </li>
-                <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
-                  <ul>
-                      <li><Link to="/dip-esp-gest-recursos-humanos">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
-                      <li><Link to="/dip-esp-liderazgo-gestion-equipos">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
-                  </ul>
-                </li>
-                <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
-                  <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
-                  </ul>
-                </li>
-                <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
-                  <ul>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública en Salud</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Educativa</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Proyectos</Link></li>
-                      <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
+                <ul>
+                  <li><h2>GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</h2>
+                    <ul>
+                        <li><Link to="/dip-gest-publica-moderna">Diploma de Especialización en Gestión Pública Moderna</Link></li>
+                        <li><Link to="/dip-gest-estrategico">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
+                        <li><Link to="/dip-esp-presupuesto-publico">Diploma de Especialización en Presupuesto por Resultados</Link></li>
+                        <li><Link to="/dip-esp-invierte-pe">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
+                        <li><Link to="/dip-esp-sistemas-administrativa-estado">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
+                    </ul>
+                  </li>
+                  <li><h2>CONTRATACIONES, CONTROL Y NORMATIVA</h2>
+                    <ul>
+                        <li><Link to="/dip-esp-contratacion-estado">Diploma de Especialización en Contrataciones del Estado</Link></li>
+                        <li><Link to="/dip-esp-sistema-abastecimiento">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
+                        <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Auditoría Gubernamental</Link></li>
+                        <li><Link to="/dip-esp-derecho-procedimiento">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
+                        <li><Link to="/dip-esp-etica-integridad">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
+                    </ul>
+                  </li>
+                  <li><h2>GESTIÓN DEL TALENTO HUMANO</h2>
+                    <ul>
+                        <li><Link to="/dip-esp-gest-recursos-humanos">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
+                        <li><Link to="/dip-esp-liderazgo-gestion-equipos">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
+                    </ul>
+                  </li>
+                  <li><h2>TRANSFORMACIÓN DIGITAL Y TIC</h2>
+                    <ul>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
+                    </ul>
+                  </li>
+                  <li><h2 >SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</h2>
+                    <ul>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Pública en Salud</Link></li>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Educativa</Link></li>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión de Proyectos</Link></li>
+                        <li><Link to="/programa-gest-emp-1">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
           </ul>
           <ul className="menu-cabecera-1003">
             <li><Link to="/curso-medida">CURSOS INHOUSE</Link></li>
@@ -400,7 +400,7 @@ function App() {
 
   </div>
   <div className="autor">
-    <h3>by @jose1801</h3>
+    <h3>by jose1801</h3>
   </div>
 
   <div className="footer-copyright" id="footer">

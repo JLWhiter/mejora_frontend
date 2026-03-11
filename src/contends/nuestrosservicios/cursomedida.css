@@ -47,9 +47,10 @@
 
 .logo-cursomedida{
     display: flexbox;
+    padding: 4rem;
     width: 25rem;
-    position: absolute;
-    margin-top: -24rem;
+    position: relative;
+    margin-top: -30rem;
     left: 1.5rem;
 }
 

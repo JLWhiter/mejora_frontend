@@ -46,16 +46,6 @@ function CursoMedida (){
             </div>
             <img src='./uploads/curs_10.webp' alt='logo-base' className='logo-cursomedida'/>
 
-
-
-
-
-
-
-
-
-
-
         </section>
     );
 
