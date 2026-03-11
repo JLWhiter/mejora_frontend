@@ -13,7 +13,7 @@ function CgestSQLServer() {
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>SQL Server</h1>
+        <h1>SQL SERVER</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -39,7 +39,7 @@ function CgestSQLServer() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_sql_server.jpg"
             alt="Metodología del curso"
           />
         </div>

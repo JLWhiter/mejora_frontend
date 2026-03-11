@@ -12,7 +12,7 @@ function CgestAlimentacionNutricion() {
 
       {/* TITULO */}
       <header className="curso-header">
-        <h1>Alimentación y Nutrición</h1>
+        <h1>ALIMENTACIÓN Y NUTRICIÓN</h1>
       </header>
 
 
@@ -45,7 +45,7 @@ function CgestAlimentacionNutricion() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_alimentacion_nutricion.jpg"
             alt="Metodología del curso de nutrición"
           />
         </div>

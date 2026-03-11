@@ -12,7 +12,7 @@ function CgestAmbiental() {
 
       {/* TITULO */}
       <header className="curso-header">
-        <h1>Gestión Ambiental</h1>
+        <h1>GESTIÓN AMBIENTAL</h1>
       </header>
 
 
@@ -45,7 +45,7 @@ function CgestAmbiental() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_gestion_ambiental.png"
             alt="Metodología del curso de gestión ambiental"
           />
         </div>

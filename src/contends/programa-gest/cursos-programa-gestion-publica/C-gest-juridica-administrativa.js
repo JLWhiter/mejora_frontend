@@ -13,7 +13,7 @@ function CgestGestionJuridicaAdministrativa(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión Jurídica y Administrativa</h1>
+        <h1>GESTIÓN JURÍDICA Y ADMINISTRATIVA</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -45,7 +45,7 @@ function CgestGestionJuridicaAdministrativa(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_juridica.jpg"
             alt="Metodología del curso"
           />
         </div>

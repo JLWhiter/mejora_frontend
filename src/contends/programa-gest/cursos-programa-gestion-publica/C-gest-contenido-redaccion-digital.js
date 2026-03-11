@@ -11,7 +11,7 @@ function CgestContenidoRedaccionDigital() {
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Contenido y Redacción Digital</h1>
+        <h1>CONTENIDO Y REDACCIÓN DIGITAL</h1>
       </header>
 
 
@@ -45,7 +45,7 @@ function CgestContenidoRedaccionDigital() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_contenido.jpg"
             alt="Metodología del curso de redacción digital"
           />
         </div>

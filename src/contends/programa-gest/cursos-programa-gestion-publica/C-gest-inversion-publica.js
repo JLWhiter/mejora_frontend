@@ -13,7 +13,7 @@ function CgestInversionPublica(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Inversión Pública</h1>
+        <h1>INVERSIÓN PÚBLICA</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -41,7 +41,7 @@ function CgestInversionPublica(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_inversion_publica.jpg"
             alt="Metodología del curso"
           />
         </div>

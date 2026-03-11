@@ -11,7 +11,7 @@ function CgestControlAuditoriaEticaPublica() {
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Control, Auditoría y Ética Pública</h1>
+        <h1>CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</h1>
       </header>
 
 
@@ -51,7 +51,7 @@ function CgestControlAuditoriaEticaPublica() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_control_auditoria.jpg"
             alt="Metodología del curso de control y auditoría pública"
           />
         </div>

@@ -13,7 +13,7 @@ function CgestionServicioCiudadano() {
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión de Servicio al Ciudadano</h1>
+        <h1>GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -39,7 +39,7 @@ function CgestionServicioCiudadano() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_servicio_atencion.png"
             alt="Metodología del curso"
           />
         </div>

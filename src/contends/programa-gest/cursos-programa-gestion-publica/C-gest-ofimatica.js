@@ -13,7 +13,7 @@ function CgestOfimatica(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Curso de Ofimática</h1>
+        <h1>OFIMÁTICA</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -43,7 +43,7 @@ function CgestOfimatica(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/ofimatica.jpg"
+            src="/uploads/curs_ofimatica.jpg"
             alt="Metodología del curso"
           />
         </div>

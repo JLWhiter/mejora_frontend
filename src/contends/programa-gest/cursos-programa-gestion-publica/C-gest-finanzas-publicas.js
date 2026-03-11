@@ -12,7 +12,7 @@ function CgestFinanzasPublicas(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Finanzas Públicas</h1>
+        <h1>FINANZAS PÚBLICAS</h1>
       </header>
 
 
@@ -42,7 +42,7 @@ function CgestFinanzasPublicas(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_finanzas_publicas.jpg"
             alt="Metodología del curso"
           />
         </div>

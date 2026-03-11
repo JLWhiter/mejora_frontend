@@ -13,7 +13,7 @@ function CgestRecursosHumanosServicioCivil(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión de Recursos Humanos y Servicio Civil</h1>
+        <h1>GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -42,7 +42,7 @@ function CgestRecursosHumanosServicioCivil(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_recursos_humanos.jpg"
             alt="Metodología del curso"
           />
         </div>

@@ -13,7 +13,7 @@ function CgestSaludPublica(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión Pública en Salud</h1>
+        <h1>GESTIÓN PÚBLICA EN SALUD</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -41,7 +41,7 @@ function CgestSaludPublica(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_salud_publica.jpg"
             alt="Metodología del curso"
           />
         </div>

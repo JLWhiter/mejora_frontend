@@ -13,7 +13,7 @@ function CgestInteligenciaArtificial(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Inteligencia Artificial y Ciencia de Datos</h1>
+        <h1>INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -44,7 +44,7 @@ function CgestInteligenciaArtificial(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_ia_data.webp"
             alt="Metodología del curso"
           />
         </div>

@@ -13,7 +13,7 @@ function CgestGestionMinera(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión Minera</h1>
+        <h1>GESTIÓN MINERA</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -43,7 +43,7 @@ function CgestGestionMinera(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_gestion_minera.jpg"
             alt="Metodología del curso"
           />
         </div>

@@ -1,10 +1,10 @@
 import '../curso-gest-publica.css'
 
-function CgestPublicaEstrategicaPlaneamiento(){
+function Cgestderechopenalfp(){
 
   const solicitarInformacion = () => {
     window.open(
-      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN%20PÚBLICA%20ESTRATÉGICA%20Y%20PLANEAMIENTO",
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20DERECHO%20PENAL%20EN%20LA%20FUNCIÓN%20PÚBLICA",
       "_blank",
       "noopener,noreferrer"
     );
@@ -14,7 +14,7 @@ function CgestPublicaEstrategicaPlaneamiento(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión Pública Estratégica y Planeamiento</h1>
+        <h1>DERECHO PENAL EN LA FUNCIÓN PÚBLICA</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -22,18 +22,21 @@ function CgestPublicaEstrategicaPlaneamiento(){
         <h2>Presentación</h2>
 
         <p>
-          Programa especializado orientado a fortalecer las capacidades de
-          planificación estratégica y gestión pública en entidades del
-          Estado, permitiendo una adecuada toma de decisiones orientada
-          a resultados.
+          Programa especializado orientado al análisis del Derecho Penal aplicado
+          a la función pública, enfocado en la prevención, identificación y
+          análisis de delitos cometidos por funcionarios y servidores del Estado.
+          El curso permite comprender las responsabilidades penales dentro de la
+          administración pública y fortalecer la transparencia y legalidad en la
+          gestión pública.
         </p>
 
         <h2>Objetivos</h2>
 
         <ul className="lista-objetivos">
-          <li>Fortalecer capacidades de planeamiento estratégico.</li>
-          <li>Comprender instrumentos de gestión pública.</li>
-          <li>Aplicar metodologías de planificación institucional.</li>
+          <li>Comprender los fundamentos del derecho penal aplicados a la administración pública.</li>
+          <li>Analizar los delitos contra la administración pública en el marco legal peruano.</li>
+          <li>Identificar responsabilidades penales de funcionarios y servidores públicos.</li>
+          <li>Promover una gestión pública ética, transparente y conforme a la ley.</li>
         </ul>
 
       </section>
@@ -42,8 +45,8 @@ function CgestPublicaEstrategicaPlaneamiento(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
-            alt="Metodología del curso de Gestión Pública Estratégica"
+            src="/uploads/curs_derecho_penal_publica.jpg"
+            alt="Metodología del curso de Derecho Penal en la Función Pública"
             loading="lazy"
           />
         </div>
@@ -56,18 +59,21 @@ function CgestPublicaEstrategicaPlaneamiento(){
 
             <li>
               <strong>Metodología:</strong>
-              Talleres prácticos, análisis de casos y desarrollo de
-              ejercicios aplicados al sector público.
+              Clases expositivas, análisis de jurisprudencia,
+              estudio de casos reales y discusión de situaciones
+              vinculadas a delitos en la administración pública.
             </li>
 
             <li>
               <strong>Material Académico:</strong>
-              Presentaciones PPT, guías en PDF y recursos complementarios.
+              Presentaciones PPT, compendios normativos,
+              jurisprudencia relevante y guías en formato PDF.
             </li>
 
             <li>
               <strong>Evaluación:</strong>
-              Desarrollo de actividades prácticas y evaluación final.
+              Análisis de casos prácticos, participación en clase
+              y evaluación final.
             </li>
 
             <li>
@@ -96,11 +102,11 @@ function CgestPublicaEstrategicaPlaneamiento(){
         <h2>Temario Principal</h2>
 
         <ul className="temario-lista">
-          <li>Fundamentos de la Gestión Pública Estratégica</li>
-          <li>Planeamiento Estratégico Institucional</li>
-          <li>Gestión por Resultados en el Sector Público</li>
-          <li>Instrumentos de Gestión y Presupuesto Público</li>
-          <li>Proyecto Aplicado de Planeamiento Estratégico</li>
+          <li>Fundamentos del Derecho Penal en la Administración Pública</li>
+          <li>Delitos contra la Administración Pública</li>
+          <li>Corrupción de funcionarios y responsabilidad penal</li>
+          <li>Peculado, colusión, cohecho y negociación incompatible</li>
+          <li>Prevención de delitos y ética en la función pública</li>
         </ul>
 
       </section>
@@ -122,4 +128,4 @@ function CgestPublicaEstrategicaPlaneamiento(){
   );
 }
 
-export default CgestPublicaEstrategicaPlaneamiento;
+export default Cgestderechopenalfp;

@@ -13,7 +13,7 @@ function CgestHabilidadesBlandas(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Habilidades Blandas</h1>
+        <h1>HABILIDADES BLANDAS</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -43,7 +43,7 @@ function CgestHabilidadesBlandas(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_habilidades_blandas.jpg"
             alt="Metodología del curso"
           />
         </div>

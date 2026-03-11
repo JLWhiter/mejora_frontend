@@ -13,7 +13,7 @@ function CgesProyectoBIM(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión de Proyectos BIM</h1>
+        <h1>GESTIÓN DE PROYECTOS BIM</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -41,7 +41,7 @@ function CgesProyectoBIM(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_proyecto_bim.png"
             alt="Metodología del curso"
           />
         </div>

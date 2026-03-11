@@ -13,7 +13,7 @@ function CgestJardineriaPoda(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Jardinería y Poda</h1>
+        <h1>JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -42,7 +42,7 @@ function CgestJardineriaPoda(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_jardineria_altura.jpg"
             alt="Metodología del curso"
           />
         </div>

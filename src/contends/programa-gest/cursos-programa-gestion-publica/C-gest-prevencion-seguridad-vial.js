@@ -13,7 +13,7 @@ function CgestPrevencionSeguridadVial(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Prevención y Seguridad Vial</h1>
+        <h1>PREVENCIÓN Y SEGURIDAD VIAL</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -42,7 +42,7 @@ function CgestPrevencionSeguridadVial(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/seguridad-vial.jpg"
+            src="/uploads/curs_seguridad_vial.jpg"
             alt="Metodología del curso"
           />
         </div>

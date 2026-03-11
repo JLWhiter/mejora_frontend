@@ -13,7 +13,7 @@ function CgestPaisajismo(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Paisajismo y Jardinería</h1>
+        <h1>PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -42,7 +42,7 @@ function CgestPaisajismo(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/paisajismo.jpg"
+            src="/uploads/curs_jardineria_poda.jpg"
             alt="Metodología del curso"
           />
         </div>

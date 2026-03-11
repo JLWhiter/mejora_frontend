@@ -13,7 +13,7 @@ function CgestMunicipal(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión Municipal</h1>
+        <h1>GESTIÓN MUNICIPAL</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -43,7 +43,7 @@ function CgestMunicipal(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_gestion_municipal.jpg"
             alt="Metodología del curso"
           />
         </div>

@@ -11,7 +11,7 @@ function CgestDerechoLaboral() {
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Derecho Laboral</h1>
+        <h1>DERECHO LABORAL</h1>
       </header>
 
 
@@ -51,7 +51,7 @@ function CgestDerechoLaboral() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_derecho_laboral.jpg"
             alt="Metodología del curso de derecho laboral"
           />
         </div>

@@ -1,10 +1,10 @@
 import '../curso-gest-publica.css'
 
-function CgestPublicaEstrategicaPlaneamiento(){
+function Cgestadobeotros(){
 
   const solicitarInformacion = () => {
     window.open(
-      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN%20PÚBLICA%20ESTRATÉGICA%20Y%20PLANEAMIENTO",
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20el%20curso%20de%20ADOBE%20PHOTOSHOP%20ILLUSTRATOR%20E%20INDESIGN",
       "_blank"
     );
   }
@@ -13,7 +13,7 @@ function CgestPublicaEstrategicaPlaneamiento(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión Pública Estratégica y Planeamiento</h1>
+        <h1>ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -21,18 +21,20 @@ function CgestPublicaEstrategicaPlaneamiento(){
         <h2>Presentación</h2>
 
         <p>
-          Programa especializado orientado a fortalecer las capacidades de
-          planificación estratégica y gestión pública en entidades del
-          Estado, permitiendo una adecuada toma de decisiones orientada
-          a resultados.
+          Programa especializado orientado al aprendizaje de herramientas
+          profesionales de diseño gráfico y diseño editorial mediante el uso
+          de Adobe Photoshop, Illustrator e InDesign. El curso permite desarrollar
+          habilidades para la creación, edición y producción de piezas gráficas
+          digitales e impresas utilizadas en marketing, publicidad y comunicación visual.
         </p>
 
         <h2>Objetivos</h2>
 
         <ul className="lista-objetivos">
-          <li>Fortalecer capacidades de planeamiento estratégico.</li>
-          <li>Comprender instrumentos de gestión pública.</li>
-          <li>Aplicar metodologías de planificación institucional.</li>
+          <li>Dominar las herramientas fundamentales de Adobe Photoshop para edición y retoque de imágenes.</li>
+          <li>Crear ilustraciones vectoriales profesionales utilizando Adobe Illustrator.</li>
+          <li>Diseñar piezas editoriales y material publicitario con Adobe InDesign.</li>
+          <li>Integrar las tres herramientas para desarrollar proyectos completos de diseño gráfico.</li>
         </ul>
 
       </section>
@@ -41,8 +43,8 @@ function CgestPublicaEstrategicaPlaneamiento(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
-            alt="Metodología del curso"
+            src="/uploads/curs_adobe.png"
+            alt="Curso Adobe Photoshop Illustrator InDesign"
           />
         </div>
 
@@ -54,18 +56,21 @@ function CgestPublicaEstrategicaPlaneamiento(){
 
             <li>
               <strong>Metodología:</strong>
-              Talleres prácticos, análisis de casos y desarrollo de
-              ejercicios aplicados al sector público.
+              Clases prácticas guiadas, desarrollo de proyectos de diseño,
+              ejercicios de edición gráfica y elaboración de piezas
+              publicitarias reales.
             </li>
 
             <li>
               <strong>Material Académico:</strong>
-              Presentaciones PPT, guías en PDF y recursos complementarios.
+              Archivos de práctica, guías en PDF, recursos gráficos,
+              plantillas de diseño y ejemplos profesionales.
             </li>
 
             <li>
               <strong>Evaluación:</strong>
-              Desarrollo de actividades prácticas y evaluación final.
+              Desarrollo de piezas gráficas, prácticas calificadas
+              y proyecto final de diseño.
             </li>
 
             <li>
@@ -95,11 +100,13 @@ function CgestPublicaEstrategicaPlaneamiento(){
 
         <ul className="temario-lista">
 
-          <li>Fundamentos de la Gestión Pública Estratégica</li>
-          <li>Planeamiento Estratégico Institucional</li>
-          <li>Gestión por Resultados en el Sector Público</li>
-          <li>Instrumentos de Gestión y Presupuesto Público</li>
-          <li>Proyecto Aplicado de Planeamiento Estratégico</li>
+          <li>Introducción al Diseño Gráfico y Adobe Creative Cloud</li>
+          <li>Adobe Photoshop: edición, retoque fotográfico y composición</li>
+          <li>Adobe Illustrator: ilustración vectorial y diseño de logotipos</li>
+          <li>Adobe InDesign: diseño editorial y maquetación profesional</li>
+          <li>Integración de Photoshop, Illustrator e InDesign en proyectos de diseño</li>
+          <li>Desarrollo de piezas gráficas publicitarias</li>
+          <li>Proyecto final de diseño gráfico</li>
 
         </ul>
 
@@ -122,4 +129,4 @@ function CgestPublicaEstrategicaPlaneamiento(){
   );
 }
 
-export default CgestPublicaEstrategicaPlaneamiento;
+export default Cgestadobeotros;

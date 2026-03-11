@@ -13,7 +13,7 @@ function CgestObrasPublicas(){
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión de Obras Públicas</h1>
+        <h1>GESTIÓN DE OBRAS PÚBLICAS</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -42,7 +42,7 @@ function CgestObrasPublicas(){
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_gestion_obras_publicas.jpg"
             alt="Metodología del curso"
           />
         </div>

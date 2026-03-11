@@ -13,7 +13,7 @@ function CgesRiesgoDesastre() {
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión de Riesgo de Desastres</h1>
+        <h1>GESTIÓN DE RIESGOS DE DESASTRES</h1>
       </header>
 
       <section className="curso-presentacion">
@@ -39,7 +39,7 @@ function CgesRiesgoDesastre() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_riesgo_desastre.webp"
             alt="Metodología del curso"
           />
         </div>

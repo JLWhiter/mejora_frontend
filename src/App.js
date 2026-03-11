@@ -53,7 +53,7 @@ import { FaXTwitter } from "react-icons/fa6";
 function App() {
   const solicitarinformacion = ()=>{
             window.open(
-            "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información",
+            "https://wa.me/51913376365?text=Hola%20quiero%20solicitar%20información",
             "_blank"
             );
   }
@@ -69,7 +69,6 @@ function App() {
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
           <ul><li><button className="btn-cta"  onClick={aulavirtual}>AULA VIRTUAL</button></li></ul>
-          <ul><li><Link to='footer'>REDES SOCIALES</Link></li></ul>
         </div>
 
         <div className="menu-list-1001">
@@ -100,7 +99,7 @@ function App() {
                     <li><Link to="/C-gest-inversion-publica">INVERSIÓN PÚBLICA</Link></li>
                     <li><Link to="/C-gest-obras-publicas">GESTIÓN DE OBRAS PÚBLICAS</Link></li>
                     <li><Link to="/C-gest-derecho-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
-                    <li><Link to="/C-gest-publica-salus">GESTIÓN PÚBLICA EN SALUD</Link></li>
+                    <li><Link to="/C-gest-publica-salud">GESTIÓN PÚBLICA EN SALUD</Link></li>
                     <li><Link to="/C-gest-biblioteca">GESTIÓN DE BIBLIOTECA</Link></li>
                     <li><Link to="/C-gest-municipal" >GESTIÓN MUNICIPAL</Link></li>
                     <li><Link to="/C-gest-ambiental" >GESTIÓN AMBIENTAL</Link></li>
@@ -115,7 +114,7 @@ function App() {
                     <li><Link to="/C-gest-trabajo-social" >TRABAJO SOCIAL</Link></li>
                     <li><Link to="/C-gest-ofimatica" >OFIMÁTICA</Link></li>
                     <li><Link to="/C-gest-inteligencia-artificial" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
-                    <li><Link to="/C-gest-contenido-redaccion-digital" >CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
+                    <li><Link to="/C-gest-contenido-redaccion-digital">CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
                     <li><Link to="/C-gest-sqlserver" >SQL SERVER</Link></li>
                     <li><Link to="/C-gest-adobe-otros" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
                     <li><Link to="/C-gest-msproject" >MS PROJECT</Link></li>
@@ -320,7 +319,7 @@ function App() {
         <Route path="/C-gest-paisajismo-otros" element={<Cgestpaisajimosotros />} />
         <Route path="/C-gest-prevencion-seguridad-vial" element={<Cgestprevencionseguridadvial />} />
         <Route path="/C-gest-proyecto-BIM" element={<Cgesproyectobim />} />
-        <Route path="/C-gest-publica-salus" element={<Cgestsaludpublica />} />
+        <Route path="/C-gest-publica-salud" element={<Cgestsaludpublica />} />
         <Route path="/C-gest-recursos-humanos-servicio-civil" element={<CgestRecursosHumanosServicioCivil />} />
         <Route path="/C-gest-riesgodesaste" element={<Cgestriesgodesastre/>} />
         <Route path="/C-gest-servicio-atencion-ciudadano" element={<Cgestionserviciociudadano />} />

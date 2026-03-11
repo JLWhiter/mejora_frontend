@@ -11,7 +11,7 @@ function CgestBiblioteca() {
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Gestión de Bibliotecas</h1>
+        <h1>GESTIÓN DE BIBLIOTECA</h1>
       </header>
 
 
@@ -44,7 +44,7 @@ function CgestBiblioteca() {
 
         <div className="metodologia-img">
           <img
-            src="/uploads/gestion-pu.jpg"
+            src="/uploads/curs_gestion_biblioteca.webp"
             alt="Metodología del curso"
           />
         </div>
