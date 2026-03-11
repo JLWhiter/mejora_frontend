@@ -1,169 +1,175 @@
 import '../stylescss/diplomas.css';
 
 function Diplomas() {
-  
-  return (
 
-        <section className='Curso-Diplomas'>
-            <div className='logo_inicio'>
-                <img src='/uploads/banner3.jpg' alt='logo-img' className='no-radius logo-img-titulos' />
-                <h1 className='typewriter-animation'>DIPLOMA DE ESPECIALIZACIÓN</h1>
-            </div>
+return (
 
-            <div className='contenedor-txt-img'>
-                <img src='/uploads/port.jpg' alt='logo-img' className='logo-img-diplomas'/>
-                <p className='diploma-text'>
-                    La EMPRESA ESCUELA DE GERENCIA Y GESTIÓN desarrolla programas de capacitación y 
-                    especialización orientados a ejecutivos, profesionales y funcionarios que desean 
-                    fortalecer y actualizar sus competencias en áreas administrativas, empresariales 
-                    y tecnologías de la información.
-                    <p>
-                    Nuestros programas están diseñados para potenciar el pensamiento estratégico, la 
-                    capacidad analítica y la resolución efectiva de problemas organizacionales, 
-                    considerando los contextos nacional e internacional.</p>
-                    <p>
-                    Un Diploma de Especialización constituye una propuesta académica de formación 
-                    continua dirigida a profesionales con experiencia laboral o estudios superiores
-                    previos, que buscan profundizar conocimientos y perfeccionar habilidades en un
-                    campo específico, sin alcanzar el grado de maestría.</p>
-                     <p>
-                    La certificación se otorga a quienes culminen satisfactoriamente el plan de 
-                    estudios, acreditando competencias técnicas avanzadas y especializadas.</p>
-                </p>
-            </div>
-            <div className='caracteristica-generales'>
-                <ul>
-                    <li>Duración: Entre 90 y 250 horas académicas, según el programa.</li>
-                    <li>Certificación: Se entrega al cumplir los requisitos académicos, asistencia mínima y evaluaciones establecidas.</li>
-                    <li>Enfoque práctico: Aplicación inmediata en el entorno laboral mediante casos reales y proyectos aplicados</li>
-                </ul>
-                <ul> 
-                    <h2>Enfoque Pedagógico</h2>
-                    <li> 
-                        La propuesta formativa se basa en principios de andragogía, priorizando:
-                    </li>
-                    <li>
-                        La experiencia profesional previa como eje del aprendizaje.
-                    </li>
-                    <li>
-                        El aprendizaje significativo sustentado en la práctica y la reflexión crítica.
-                    </li>
-                    <li>
-                        La transferencia inmediata del conocimiento al ámbito profesional y organizacional.
-                    </li>
-                </ul>
+<section className="Curso-Diplomas">
 
-            </div>
-            <div className='contendor-diplomado-curs' > 
-                <div className='group'>
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización de Gestión Pública</h1>
-                            <img src='/uploads/curs_1.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece liderazgo, planificación y decisiones para una gestión eficiente,
-                                transparente y orientada a resultados.</p>
-                        </div>
+{/* HERO */}
+<div className="logo_inicio">
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización Administración Financiera Gubernamental</h1>
-                            <img src='/uploads/curs_3.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece habilidades en gestión presupuestaria, control financiero y eficiencia en el sector público.</p>
-                        </div>
+<img 
+src="/uploads/banner3.jpg" 
+alt="Diplomas de especialización en gestión pública" 
+className="logo-img-titulos"
+/>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en gestión Financiera y Tesorería Gubernamental</h1>
-                            <img src='/uploads/curs_4.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>potencia habilidades en manejo de recursos, control y eficiencia financiera pública.</p>
-                        </div>
+<h1 className="typewriter-animation">
+Diplomas de Especialización
+</h1>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización Planificación y Presupuesto Público por Resultados</h1>
-                            <img src='/uploads/curs_5.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>desarrolla competencias para gestionar recursos públicos de manera eficiente y estratégica.</p>
-                        </div>
+</div>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización de Tributación</h1>
-                            <img src='/uploads/curs_6.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece conocimientos en normativa fiscal, administración tributaria y cumplimiento eficiente de obligaciones públicas.</p>
-                        </div>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización Derecho Penal en la Función Pública</h1>
-                            <img src='/uploads/curs_7.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece conocimientos legales para prevenir y sancionar delitos en la administración pública.</p>
-                        </div>
+{/* TEXTO + IMAGEN */}
+<div className="contenedor-txt-img">
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en Derecho Administrativo</h1>
-                            <img src='/uploads/curs_8.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>desarrolla competencias para gestionar y aplicar normativas públicas de manera eficiente y transparente.</p>
-                        </div>
+<img 
+src="/uploads/port.jpg" 
+alt="Programa de especialización en gestión pública"
+/>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización Gestión y Control Patrimonial de Bienes Estatales</h1>
-                            <img src='/uploads/curs_9.webp' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece habilidades para administrar, supervisar y proteger bienes públicos eficientemente.</p>
-                        </div>
+<div className="diploma-text">
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización Gerencia y Gestión Pública</h1>
-                            <img src='/uploads/curs_10.webp' alt='logo-img' className='curs-diploma-img'/>
-                            <p>potencia habilidades de liderazgo, planificación y toma de decisiones en el sector público.</p>
-                        </div>
+<p>
+La EMPRESA ESCUELA DE GERENCIA Y GESTIÓN desarrolla programas de capacitación y especialización orientados a ejecutivos, profesionales y funcionarios que desean fortalecer y actualizar sus competencias en áreas administrativas, empresariales y tecnologías de la información.
+</p>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización Asistente de Gerencia</h1>
-                            <img src='/uploads/curs_11.webp' alt='logo-img' className='curs-diploma-img'/>
-                            <p>desarrolla habilidades administrativas, organizativas y de apoyo estratégico para la gestión eficiente de empresas.</p>
-                        </div>
+<p>
+Nuestros programas están diseñados para potenciar el pensamiento estratégico, la capacidad analítica y la resolución efectiva de problemas organizacionales, considerando los contextos nacional e internacional.
+</p>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en Gestión Logística</h1>
-                            <img src='/uploads/curs_1.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece habilidades en planificación, coordinación y optimización de procesos logísticos eficientes.</p>
-                        </div>
+<p>
+Un Diploma de Especialización constituye una propuesta académica de formación continua dirigida a profesionales con experiencia laboral o estudios superiores previos, que buscan profundizar conocimientos y perfeccionar habilidades en un campo específico.
+</p>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en Gestión de Obras Públicas</h1>
-                            <img src='/uploads/curs_3.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece habilidades para planificar, ejecutar y supervisar proyectos de infraestructura con eficiencia y transparencia.</p>
-                        </div>
+<p>
+La certificación se otorga a quienes culminen satisfactoriamente el plan de estudios, acreditando competencias técnicas avanzadas y especializadas.
+</p>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en Gestión Documental y Tecnología de Archivos</h1>
-                            <img src='/uploads/curs_4.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>desarrolla habilidades para organizar, proteger y optimizar información institucional eficazmente.</p>
-                        </div>
+</div>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en de Recursos Humanos y Servicio Civil</h1>
-                            <img src='/uploads/curs_5.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece competencias en gestión del talento, desarrollo organizacional y eficiencia institucional.</p>
-                        </div>
+</div>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en Gestión de Almacenes (duración 2 meses)</h1>
-                            <img src='/uploads/curs_6.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>desarrolla habilidades en organización, control y optimización de inventarios eficientemente.</p>
-                        </div>
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en Normas Internacionales de Contabilidad</h1>
-                            <img src='/uploads/curs_7.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>fortalece competencias en IFRS, registro financiero y cumplimiento contable eficiente.</p>
-                        </div>
+{/* CARACTERISTICAS */}
+<div className="caracteristica-generales">
 
-                        <div className='diplomado-curso'>
-                            <h1>Diploma de Especialización en SIGA- SIAF y SEACE</h1>
-                            <img src='/uploads/curs_8.png' alt='logo-img' className='curs-diploma-img'/>
-                            <p>desarrolla habilidades en gestión financiera y adquisiciones públicas con eficiencia y transparencia.</p>
-                        </div>
-                </div>  
-            </div>
+<ul>
 
-        </section>
-        
-    );
+<li>Duración: Entre 90 y 250 horas académicas, según el programa.</li>
+
+<li>
+Certificación: Se entrega al cumplir los requisitos académicos, asistencia mínima y evaluaciones establecidas.
+</li>
+
+<li>
+Enfoque práctico: Aplicación inmediata en el entorno laboral mediante casos reales y proyectos aplicados.
+</li>
+
+</ul>
+
+<ul>
+
+<h2>Enfoque Pedagógico</h2>
+
+<li>
+La propuesta formativa se basa en principios de andragogía.
+</li>
+
+<li>
+La experiencia profesional previa como eje del aprendizaje.
+</li>
+
+<li>
+Aprendizaje significativo sustentado en la práctica.
+</li>
+
+<li>
+Transferencia inmediata del conocimiento al ámbito profesional.
+</li>
+
+</ul>
+
+</div>
+
+<div className="contendor-diplomado-curs">
+
+<div className="group">
+{[
+{
+titulo:"Gestión Pública",
+img:"/uploads/curs_1.png",
+desc:"Fortalece liderazgo y planificación para una gestión pública eficiente."
+},
+
+{
+titulo:"Administración Financiera Gubernamental",
+img:"/uploads/curs_3.png",
+desc:"Gestión presupuestaria y control financiero público."
+},
+
+{
+titulo:"Gestión Financiera y Tesorería",
+img:"/uploads/curs_4.png",
+desc:"Manejo eficiente de recursos financieros en el sector público."
+},
+
+{
+titulo:"Planificación y Presupuesto Público",
+img:"/uploads/curs_5.png",
+desc:"Gestión estratégica de recursos por resultados."
+},
+
+{
+titulo:"Tributación",
+img:"/uploads/curs_6.png",
+desc:"Normativa fiscal y administración tributaria."
+},
+
+{
+titulo:"Derecho Penal en la Función Pública",
+img:"/uploads/curs_7.png",
+desc:"Prevención de delitos en la administración pública."
+},
+
+{
+titulo:"Derecho Administrativo",
+img:"/uploads/curs_8.png",
+desc:"Aplicación de normativas en instituciones públicas."
+}
+
+].map((curso,index)=>(
+
+<div className="diplomado-curso" key={index}>
+
+<img 
+src={curso.img} 
+alt={curso.titulo}
+className="curs-diploma-img"
+/>
+
+<div className="card-text">
+
+<h3>{curso.titulo}</h3>
+
+<p>{curso.desc}</p>
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+</section>
+
+);
+
 }
 
 export default Diplomas;

@@ -69,6 +69,7 @@ function App() {
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
           <ul><li><button className="btn-cta"  onClick={aulavirtual}>AULA VIRTUAL</button></li></ul>
+          <ul><li><Link to='footer'>REDES SOCIALES</Link></li></ul>
         </div>
 
         <div className="menu-list-1001">
