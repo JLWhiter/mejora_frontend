@@ -1,54 +1,52 @@
-function CgestDerechoPenalFP() {
+import '../curso-gest-publica.css'
+
+function CgestPublicaEstrategicaPlaneamiento(){
 
   const solicitarInformacion = () => {
     window.open(
-      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20DERECHO%20PENAL%20EN%20LA%20FUNCIÓN%20PÚBLICA",
-      "_blank"
+      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN%20PÚBLICA%20ESTRATÉGICA%20Y%20PLANEAMIENTO",
+      "_blank",
+      "noopener,noreferrer"
     );
-  };
+  }
 
   return (
-
     <article className="curso-container">
 
       <header className="curso-header">
-        <h1>Derecho Penal en la Función Pública</h1>
+        <h1>Gestión Pública Estratégica y Planeamiento</h1>
       </header>
-
 
       <section className="curso-presentacion">
 
         <h2>Presentación</h2>
 
         <p>
-          Curso dirigido a servidores públicos, abogados y profesionales del sector
-          público para comprender la responsabilidad penal en el ejercicio de sus
-          funciones, con enfoque en prevención de delitos, normas vigentes y
-          tendencias de control y transparencia.
+          Programa especializado orientado a fortalecer las capacidades de
+          planificación estratégica y gestión pública en entidades del
+          Estado, permitiendo una adecuada toma de decisiones orientada
+          a resultados.
         </p>
-
 
         <h2>Objetivos</h2>
 
         <ul className="lista-objetivos">
-          <li>Comprender los delitos más relevantes en la función pública y sus consecuencias legales.</li>
-          <li>Identificar responsabilidades penales y administrativas de los funcionarios.</li>
-          <li>Aplicar herramientas para prevenir riesgos penales en la gestión pública.</li>
-          <li>Fomentar la ética, la transparencia y el cumplimiento normativo.</li>
+          <li>Fortalecer capacidades de planeamiento estratégico.</li>
+          <li>Comprender instrumentos de gestión pública.</li>
+          <li>Aplicar metodologías de planificación institucional.</li>
         </ul>
 
       </section>
-
 
       <section className="curso-metodologia">
 
         <div className="metodologia-img">
           <img
             src="/uploads/gestion-pu.jpg"
-            alt="Metodología del curso"
+            alt="Metodología del curso de Gestión Pública Estratégica"
+            loading="lazy"
           />
         </div>
-
 
         <div className="metodologia-info">
 
@@ -57,32 +55,34 @@ function CgestDerechoPenalFP() {
           <ul className="metodologia-lista">
 
             <li>
-              <strong>Metodología:</strong> Andragogía con enfoque práctico y participativo,
-              clases interactivas, análisis de casos reales, talleres de riesgos penales
-              y simulaciones de gestión preventiva.
+              <strong>Metodología:</strong>
+              Talleres prácticos, análisis de casos y desarrollo de
+              ejercicios aplicados al sector público.
             </li>
 
             <li>
-              <strong>Material Académico:</strong> Presentaciones PPT, PDFs con legislación
-              y jurisprudencia vigente, manuales de prevención y recursos digitales
-              para actualización normativa.
+              <strong>Material Académico:</strong>
+              Presentaciones PPT, guías en PDF y recursos complementarios.
             </li>
 
             <li>
-              <strong>Evaluación:</strong> Exámenes teóricos, talleres prácticos,
-              análisis de casos reales y participación en debates.
+              <strong>Evaluación:</strong>
+              Desarrollo de actividades prácticas y evaluación final.
             </li>
 
             <li>
-              <strong>Modalidad:</strong> Presencial, Virtual o Mixta.
+              <strong>Modalidad:</strong>
+              Presencial, virtual o semipresencial.
             </li>
 
             <li>
-              <strong>Duración:</strong> De 9 a 250 horas académicas.
+              <strong>Duración:</strong>
+              Entre 90 y 250 horas académicas.
             </li>
 
             <li>
-              <strong>Certificación:</strong> Certificado oficial por aprobación.
+              <strong>Certificación:</strong>
+              Certificado otorgado por la Escuela de Gerencia y Gestión.
             </li>
 
           </ul>
@@ -91,26 +91,19 @@ function CgestDerechoPenalFP() {
 
       </section>
 
-
       <section className="curso-temario">
 
         <h2>Temario Principal</h2>
 
         <ul className="temario-lista">
-
-          <li>Introducción al Derecho Penal en la Función Pública</li>
-          <li>Marco normativo y legislación aplicable</li>
-          <li>Delitos contra la administración pública</li>
-          <li>Responsabilidad penal y administrativa de funcionarios</li>
-          <li>Prevención de riesgos penales</li>
-          <li>Investigación y control de delitos</li>
-          <li>Análisis de casos judiciales</li>
-          <li>Ética, transparencia y buenas prácticas en la gestión pública</li>
-
+          <li>Fundamentos de la Gestión Pública Estratégica</li>
+          <li>Planeamiento Estratégico Institucional</li>
+          <li>Gestión por Resultados en el Sector Público</li>
+          <li>Instrumentos de Gestión y Presupuesto Público</li>
+          <li>Proyecto Aplicado de Planeamiento Estratégico</li>
         </ul>
 
       </section>
-
 
       <section className="curso-cta">
 
@@ -126,8 +119,7 @@ function CgestDerechoPenalFP() {
       </section>
 
     </article>
-
   );
 }
 
-export default CgestDerechoPenalFP;
+export default CgestPublicaEstrategicaPlaneamiento;
