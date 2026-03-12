@@ -124,7 +124,7 @@
 }
 
 .temario-principal li:hover{
-    background:#e8f1ef;
+    background: #00ffbb;
     transform:translateY(-3px);
 }
 

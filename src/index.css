@@ -40,6 +40,7 @@ li {
     border: none;
     font-size: 1rem;
     font-weight: 700;
+    cursor: pointer;
 }
 .logo-principal {
     display: block;
@@ -68,7 +69,7 @@ li {
 }
 .menu-cabecera-1001 a:hover,
 .menu-cabecera-1001 li:hover {
-    background-color: #e8f1ef;
+    background-color: #4c8f81;
     color: #1f5a5d;
 }
 .menu-cabecera-1002 {
