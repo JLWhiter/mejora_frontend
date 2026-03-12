@@ -1,4 +1,4 @@
-
+import '../diploma-esp.css'
 function Dipespherramientasofimaticas() {
     return(
         <div className="contenedor">

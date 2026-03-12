@@ -113,13 +113,13 @@ margin-bottom:10px;
     overflow-x:scroll;
     width: 100%;
     max-width: 99%;
-    padding:10px 0px;
+    padding:10px 0px 30px;
 }
 
 .group{
-display:flex;
-gap:60px;
-animation:spin 45s linear infinite;
+    display:flex;
+    gap:60px;
+    animation:spin 45s linear infinite;
 }
 
 @keyframes spin{
@@ -129,50 +129,60 @@ to{transform:translateX(-80%)}
 
 /* TARJETAS */
 .diplomado-curso{
-width:500px; 
-background:white;
-border-radius:12px;
-overflow:hidden;
-box-shadow:0 12px 30px rgba(0,0,0,0.18);
-transition:transform .3s ease, box-shadow .3s ease;
+    width:500px; 
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 12px 30px rgba(0,0,0,0.18);
+    transition:transform .3s ease, box-shadow .3s ease;
 }
 
 .diplomado-curso:hover{
-transform:translateY(-10px);
-box-shadow:0 18px 40px rgba(0,0,0,0.25);
+    transform:translateY(-10px);
+    box-shadow:0 18px 40px rgba(0,0,0,0.25);
 }
 
 .curs-diploma-img{
-width:100%;
-height:250px;
-object-fit:cover;
+    width:100%;
+    height:250px;
+    object-fit:cover;
 }
 
 .card-text{
-padding:22px;
+    padding:22px;
 }
 
 .card-text h3{
-font-size:22px;
-margin-bottom:12px;
-font-weight:600;
+    font-size:22px;
+    margin-bottom:12px;
+    font-weight:600;
 }
 
 .card-text p{
-font-size:16px;
-line-height:1.6;
-color:#444;
+    font-size:16px;
+    line-height:1.6;
+    color:#444;
 }
+
 /* RESPONSIVE */
 
 @media(max-width:768px){
 
 .logo_inicio{
-height:230px;
+    height:230px;
 }
 
 .logo_inicio h1{
-font-size:1.6rem;
+    font-size:1.4rem;
+}
+
+.contendor-diplomado-curs{
+    width: 100%;
+    gap: 20px;
+}
+
+.diplomado-curso{
+    width: 320px;
 }
 
 .contenedor-txt-img{
@@ -185,7 +195,7 @@ grid-template-columns:1fr;
 }
 
 .group{
-animation:spin 80s linear infinite;
+animation:spin 40s linear infinite;
 }
 
 }
