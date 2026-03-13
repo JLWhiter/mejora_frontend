@@ -55,8 +55,12 @@ import Cgestsqlserver from './contends/programa-gest/cursos-programa-gestion-pub
 import Cgesttrabajosocial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-trabajo-social';
 import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-gestion-empresarial';
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
-import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaFacebook,FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { CiMail } from "react-icons/ci";
+import { PiMapPinLight } from "react-icons/pi";
+
+
 
 function App() {
   const solicitarinformacion = ()=>{
@@ -376,12 +380,10 @@ function App() {
 
   <div className="footer-bloque footer-bloque-centro">
     <h2>Contáctanos</h2>
-
     <p>
-      948 251 685 / 913 376 365 <br/>
-      capacita@escuelag.com <br/>
-      esscuelag@gmail.com <br/>
-      Av. Arenales 2081 4to. Piso of. 9 Lince
+      <li><FaPhoneAlt size={12}/> 948 251 685 / 913 376 365</li>
+      <li><CiMail /> capacita@escuelag.com / esscuelag@gmail.com </li>
+      <li><PiMapPinLight /> Av. Arenales 2081 4to. Piso of. 9 Lince</li>
     </p>
   </div>
 
