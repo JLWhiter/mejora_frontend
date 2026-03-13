@@ -422,9 +422,7 @@ function App() {
   </div>
 
   <div className='contenedor-wsp-flotante'>
-    <div className='icon-wsp'>
-      <FaWhatsapp size={40} color='black' onClick={solicitarinformacion}/>
-    </div>
+      <FaWhatsapp size={40} color='black' onClick={solicitarinformacion} className='icon-wsp'/>
   </div>
 
 </footer>
