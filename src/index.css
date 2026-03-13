@@ -10,12 +10,11 @@ html, body {
     flex-direction: column;
     background: linear-gradient( 
         180deg,
-        #ffffff70,
-        #a5aaa9,
-        #919997,
-        #d8d8d8,
-        #a5aaa9,
-        #ffffff
+        #ffffff,
+        #d6d5d5,
+        #b5b6b6,
+        #a1a1a1,
+        #ffffff70
     )
 }
 .app-container {
@@ -338,7 +337,6 @@ display: none;
     .menu-cabecera-1003-columna{
         display: none   ;
     }
-
     .menu-cabecera-1001 {
         display: none;
     }
@@ -384,16 +382,16 @@ display: none;
         background-position-x: -1;
         background-color: rgba(255, 255, 255, 0.95);
         box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        opacity: 0;
+        opacity: 1;
         visibility: hidden;
-        z-index: 10;
+        z-index: 99;
     }
 
     .menu-list-1001-celular > li:hover > ul {
         display: block;
         opacity: 1;
         visibility: visible;
-        transform: translateY(0);
+        
         transform: translateX(0.8rem);
         transition: all 0.8s ease;
     }
@@ -419,7 +417,7 @@ display: none;
         top: -5rem;
         font-size: 30px;
         cursor: pointer;
-        z-index: 3;
+        z-index: 999;
     }
     .icono-menu {
         display: block;
