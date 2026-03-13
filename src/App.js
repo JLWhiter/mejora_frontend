@@ -55,7 +55,7 @@ import Cgestsqlserver from './contends/programa-gest/cursos-programa-gestion-pub
 import Cgesttrabajosocial from './contends/programa-gest/cursos-programa-gestion-publica/C-gest-trabajo-social';
 import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-gestion-empresarial';
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
-import { FaInstagram, FaTiktok, FaFacebook,FaPhoneAlt } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaFacebook,FaPhoneAlt,FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { PiMapPinLight } from "react-icons/pi";
@@ -199,7 +199,7 @@ function App() {
           </ul>
         </div>
       </div>
-
+      
       <div className="menu-list-1004">
           <ul className="menu-list-1004-celular">
             <li ><h1 className="icono-menu">≡</h1>
@@ -253,7 +253,7 @@ function App() {
                 DIPLOMAS Y ESPECIALIZADO
               </Link>
               <ul>
-                <li><Link to="/programa-gest-emp-1">GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</Link>
+                <li><h2 >GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</h2>
                   <ul>
                       <li><Link to="/dip-gest-publica-moderna">Diploma de Especialización en Gestión Pública Moderna</Link></li>
                       <li><Link to="/dip-gest-estrategico">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
@@ -262,7 +262,7 @@ function App() {
                       <li><Link to="/dip-esp-sistemas-administrativa-estado">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
                   </ul>
                 </li>
-                <li><Link to="/programa-gest-emp-2">CONTRATACIONES, CONTROL Y NORMATIVA</Link>
+                <li><h2 >CONTRATACIONES, CONTROL Y NORMATIVA</h2>
                   <ul>
                       <li><Link to="/dip-esp-contratacion-estado">Diploma de Especialización en Contrataciones del Estado</Link></li>
                       <li><Link to="/dip-esp-sistema-abastecimiento">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
@@ -271,20 +271,20 @@ function App() {
                       <li><Link to="/dip-esp-etica-integridad">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
                   </ul>
                 </li>
-                <li><Link to="/programa-gest-emp-3">GESTIÓN DEL TALENTO HUMANO</Link>
+                <li><h2 >GESTIÓN DEL TALENTO HUMANO</h2>
                   <ul>
                       <li><Link to="/dip-esp-gest-recursos-humanos">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
                       <li><Link to="/dip-esp-liderazgo-gestion-equipos">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
                   </ul>
                 </li>
-                <li><Link to="/programa-gest-emp-4">TRANSFORMACIÓN DIGITAL Y TIC</Link>
+                <li><h2 >TRANSFORMACIÓN DIGITAL Y TIC</h2>
                   <ul>
                         <li><Link to="/dip-esp-digital-transformacion">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
                         <li><Link to="/dip-esp-gest-documental">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
                         <li><Link to="/dip-esp-herramientas-ofimatica">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
                     </ul>
                 </li>
-                <li><Link to="/programa-gest-emp-5">SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</Link>
+                <li><h2 >SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</h2>
                   <ul>
                       <li><Link to="/dip-esp-gestion-obras-publicas">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
                       <li><Link to="/dip-esp-gestion-publica-salud">Diploma de Especialización en Gestión Pública en Salud</Link></li>
@@ -409,7 +409,7 @@ function App() {
       <Link to="https://www.tiktok.com/@escuelagerenciaygestion">
         <FaTiktok size={20} className="fondo icon-bob"/>
       </Link>
-
+      
     </div>
 
   </div>
@@ -419,6 +419,12 @@ function App() {
 
   <div className="footer-copyright" id="footer">
     <span>© Escuela De Gerencia y Gestión. Todos los derechos reservados.</span>
+  </div>
+
+  <div className='contenedor-wsp-flotante'>
+    <div className='icon-wsp'>
+      <FaWhatsapp size={40} color='black' onClick={solicitarinformacion}/>
+    </div>
   </div>
 
 </footer>
