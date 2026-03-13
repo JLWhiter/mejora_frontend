@@ -161,13 +161,13 @@ body {
   .servicios-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 22px;
+    gap: 45px;
   }
   
   .curso-card {
     background: rgba(255,255,255,0.82);
     border-radius: 22px;
-    padding: 14px 14px 18px;
+    padding: 18px 4px 15px;
     box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;

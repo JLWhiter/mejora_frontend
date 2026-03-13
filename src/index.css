@@ -289,10 +289,11 @@ li {
     text-align:center;
 }
 .autor{
+    display: flow-root;
     position: absolute;
     font-size:.5rem;
-    opacity:.7;
-    margin-top: 20%;
+    opacity:.4;
+    margin-top: 250px;
 }
 
 /*ANIMACION DE ICONOS */
@@ -313,6 +314,7 @@ display: none;
 .menu-overlay {
   display: none;
 }
+
 @media (max-width: 700px) {
     .logo-principal {
         width: 140px;
@@ -540,6 +542,6 @@ display: none;
         justify-content:center;
     }
     .autor{
-        margin-top: 180%;
+        margin-top: 48rem;
     }
 }

@@ -2,8 +2,8 @@ function CgestPublicaEstrategica(){
 
   const solicitarInformacion = () => {
     window.open(
-    "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20GESTIÓN%20PÚBLICA%20ESTRATÉGICA%20Y%20PLANEAMIENTO",
-    "_blank"
+     "https://wa.me/51913376365?text=Hola%20quiero%20solicitar%20información",
+      "_blank"
     );
   }
 

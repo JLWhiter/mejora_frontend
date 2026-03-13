@@ -4,9 +4,8 @@ function Cgestderechopenalfp(){
 
   const solicitarInformacion = () => {
     window.open(
-      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20DERECHO%20PENAL%20EN%20LA%20FUNCIÓN%20PÚBLICA",
-      "_blank",
-      "noopener,noreferrer"
+     "https://wa.me/51913376365?text=Hola%20quiero%20solicitar%20información",
+      "_blank"
     );
   }
 

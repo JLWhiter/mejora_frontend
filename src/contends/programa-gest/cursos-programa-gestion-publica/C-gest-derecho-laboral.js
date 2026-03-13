@@ -2,7 +2,7 @@ function CgestDerechoLaboral() {
 
   const solicitarInformacion = () => {
     window.open(
-      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20el%20CURSO%20DE%20DERECHO%20LABORAL",
+     "https://wa.me/51913376365?text=Hola%20quiero%20solicitar%20información",
       "_blank"
     );
   };

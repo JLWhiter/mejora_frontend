@@ -4,7 +4,7 @@ function CgestionServicioCiudadano() {
 
   const solicitarInformacion = () => {
     window.open(
-      "https://wa.me/51945504555?text=Hola%20quiero%20solicitar%20información%20sobre%20el%20curso%20de%20Gestión%20de%20Servicio%20al%20Ciudadano",
+     "https://wa.me/51913376365?text=Hola%20quiero%20solicitar%20información",
       "_blank"
     );
   }
