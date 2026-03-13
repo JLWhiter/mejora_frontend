@@ -60,45 +60,46 @@ to{width:80%}
 /* TEXTO + IMAGEN */
 
 .contenedor-txt-img{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-
-max-width:1200px;
-margin:60px auto;
-padding:2rem;
-
-background:#fff;
-border-radius:10px;
-
-box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    max-width:1200px;
+    margin:60px auto;
+    padding:2rem;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
 
 .contenedor-txt-img img{
-width:100%;
-border-radius:10px;
-object-fit:cover;
+    width:100%;
+    border-radius:10px;
+    object-fit:cover;
 }
 
 .diploma-text p{
-font-size:16px;
-line-height:1.7;
-margin-bottom:15px;
+    font-size:16px;
+    line-height:1.7;
+    margin-bottom:15px;
 }
 
 /* CARACTERISTICAS */
 
 .caracteristica-generales{
-max-width:1100px;
-margin:50px auto;
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:30px;
+    max-width:1100px;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.404);
 }
 
 .caracteristica-generales ul{
-list-style:disc;
-padding-left:20px;
+    list-style:disc;
+    padding-left:20px;
 }
 
 .caracteristica-generales h2{

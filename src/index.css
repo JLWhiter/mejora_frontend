@@ -4,14 +4,19 @@ html, body {
     margin: 0;
 }
 
-body {
-    font-family: sans-serif;
-    background-color: white;
-}
 #root {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: linear-gradient( 
+        180deg,
+        #ffffff70,
+        #a5aaa9,
+        #919997,
+        #d8d8d8,
+        #a5aaa9,
+        #ffffff
+    )
 }
 .app-container {
     min-height: 100vh;
@@ -87,8 +92,8 @@ li {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: #ffffff;
-    z-index: 2;
+    background-color: #a5aaa969;
+    z-index: 1;
     border-bottom: 1px solid #e9e4dc;
 }
 .menu-cabecera-1002 > * {
@@ -128,7 +133,7 @@ li {
     column-gap: 30px;
     min-width: 420px;
     max-width: 600px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     border-radius: 6px;
     padding: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
@@ -136,7 +141,7 @@ li {
     visibility: hidden;
     transform: translateY(10px);
     transition: all 0.3s ease;
-    z-index: 999;
+    z-index: 4;
 }
 .menu-cabecera-1003-columna > li:hover > ul {
     opacity: 1;
@@ -203,7 +208,7 @@ li {
         opacity .25s ease,
         transform .25s ease,
         visibility 2s linear 2s; 
-    z-index: 5;
+    z-index: 2;
 }
 .menu-cabecera-1003 > li:hover > ul {
     opacity: 1;
@@ -340,6 +345,7 @@ display: none;
     .icono-menu-list{
         font-size: 30px;
         cursor: pointer;
+        z-index: 5;
     }
 
     .menu-list-1001-celular {
@@ -349,6 +355,7 @@ display: none;
         width: 88%;
         margin-top: -4rem;
         height: 4rem;
+        z-index: 15;
     }
 
     .menu-list-1001-celular > li {
