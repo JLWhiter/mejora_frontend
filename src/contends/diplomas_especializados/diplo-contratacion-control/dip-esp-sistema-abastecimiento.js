@@ -30,7 +30,7 @@ function Dipespsistemaabastecimineto() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/sistema-abastecimiento.jpg' 
+                    src='/uploads/curs_sistema_nacional_abastecimiento.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />

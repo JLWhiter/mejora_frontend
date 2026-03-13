@@ -27,7 +27,7 @@ function Dipespherramientasofimaticas() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/ofimatica-profesional.jpg' 
+                    src='/uploads/curs_ofimatica.jpg' 
                     alt='ofimatica-profesional' 
                     className='logo-metodologia'
                 />

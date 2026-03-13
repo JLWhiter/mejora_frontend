@@ -28,7 +28,7 @@ function Dipespliderazgogestionequipos() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/habilidades-blandas.jpg' 
+                    src='/uploads/curs_trabajo_social.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />

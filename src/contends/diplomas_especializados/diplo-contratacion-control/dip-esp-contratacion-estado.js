@@ -31,7 +31,7 @@ function Dipespcontratacionestado() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/contrataciones-estado.jpg' 
+                    src='/uploads/curs_trabajo_social.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />

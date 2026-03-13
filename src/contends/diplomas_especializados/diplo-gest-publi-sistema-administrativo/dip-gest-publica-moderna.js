@@ -30,7 +30,7 @@ function Dipgestpublicamoderna(){
             </div>
 
             <div className="metedologia">
-                <img src='/uploads/gestion-publica.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
+                <img src='/uploads/curs_proyecto_bim.png' alt='logo-de-metodologia' className='logo-metodologia'/>
                 
                 <ul> 
                     <li>

@@ -29,7 +29,7 @@ function Dipgestestrategico(){
             </div>
 
             <div className="metedologia">
-                <img src='/uploads/planeamiento-estrategico.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
+                <img src='/uploads/curs_contenido.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
                 
                 <ul> 
                     <li>

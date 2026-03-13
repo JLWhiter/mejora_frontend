@@ -23,7 +23,7 @@ function DipespGestionEmpresarial() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gestion-empresarial.jpg' 
+                    src='/uploads/curs_gestion_municipal.jpg' 
                     alt='gestion-empresarial' 
                     className='logo-metodologia'
                 />

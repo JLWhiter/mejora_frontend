@@ -23,7 +23,7 @@ function DipespGestionAmbiental() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gestion-ambiental.jpg' 
+                    src='/uploads/curs_gestion_ambiental.png' 
                     alt='gestion-ambiental' 
                     className='logo-metodologia'
                 />

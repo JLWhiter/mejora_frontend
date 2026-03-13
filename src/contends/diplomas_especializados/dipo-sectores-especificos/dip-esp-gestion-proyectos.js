@@ -23,7 +23,7 @@ function DipespGestionProyectos() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gestion-proyectos.jpg' 
+                    src='/uploads/curs_proyecto_bim.png' 
                     alt='gestion-proyectos' 
                     className='logo-metodologia'
                 />

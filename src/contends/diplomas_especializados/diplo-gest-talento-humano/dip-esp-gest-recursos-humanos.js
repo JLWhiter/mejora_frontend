@@ -29,7 +29,7 @@ function Dipespgestrecursoshumanos() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gestion-rrhh-publico.jpg' 
+                    src='/uploads/curs_recursos_humanos.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />

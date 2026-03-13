@@ -25,7 +25,7 @@ function Dipespderechoprocedimiento() {
             </div>
 
             <div className="metedologia">
-                <img src='/uploads/derecho-administrativo.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
+                <img src='/uploads/curs_derecho_penal_publica.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
                 <ul> 
                     <li>
                         <h1> Informes </h1>

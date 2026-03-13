@@ -24,7 +24,7 @@ function DipespGestionPublicaSalud() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gestion-publica-salud.jpg' 
+                    src='/uploads/curs_salud_publica.jpg' 
                     alt='gestion-publica-salud' 
                     className='logo-metodologia'
                 />

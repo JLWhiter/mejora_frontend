@@ -419,8 +419,6 @@ function App() {
     <span>© Escuela De Gerencia y Gestión. Todos los derechos reservados.</span>
   </div>
 
-
-
 </footer>
     </BrowserRouter>
   );

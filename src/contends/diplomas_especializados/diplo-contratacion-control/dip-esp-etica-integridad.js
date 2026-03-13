@@ -26,7 +26,7 @@ function Dipespeticaintegridad() {
             </div>
 
             <div className="metedologia">
-                <img src='/uploads/etica-integridad.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
+                <img src='/uploads/curs_habilidades_blandas.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
                 <ul> 
                     <li>
                         <h1> Informes </h1>

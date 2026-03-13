@@ -30,7 +30,7 @@ function Dipespcontrolgubernamental() {
             </div>
 
             <div className="metedologia">
-                <img src='/uploads/control-gubernamental.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
+                <img src='/uploads/curs_control_auditoria.jpg' alt='logo-de-metodologia' className='logo-metodologia'/>
                 <ul> 
                     <li>
                         <h1> Informes </h1>

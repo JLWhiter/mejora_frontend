@@ -26,7 +26,7 @@ function Dipespdigitaltransformacion(){
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gobierno-digital.jpg' 
+                    src='/uploads/curs_ia_data.webp' 
                     alt='gobierno-digital' 
                     className='logo-metodologia'
                 />

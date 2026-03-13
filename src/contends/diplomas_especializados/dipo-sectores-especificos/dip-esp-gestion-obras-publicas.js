@@ -24,7 +24,7 @@ function DipespGestionObrasPublicas() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gestion-obras-publicas.jpg' 
+                    src='/uploads/curs_gestion_obras_publicas.jpg' 
                     alt='gestion-obras-publicas' 
                     className='logo-metodologia'
                 />

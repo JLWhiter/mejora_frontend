@@ -30,7 +30,7 @@ return(
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/presupuesto-publico.jpg' 
+                    src='/uploads/curs_finanzas_publicas.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />

@@ -32,7 +32,7 @@ function Dipespinviertepe(){
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/invierte-pe.jpg' 
+                    src='/uploads/curs_inversion_publica.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />

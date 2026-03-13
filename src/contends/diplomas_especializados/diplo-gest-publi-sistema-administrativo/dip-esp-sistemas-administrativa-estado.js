@@ -31,7 +31,7 @@ function Dipespsistemasadministrativaestado(){
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/sistemas-administrativos.jpg' 
+                    src='/uploads/curs_gestion_municipal.jpg' 
                     alt='logo-de-metodologia' 
                     className='logo-metodologia'
                 />

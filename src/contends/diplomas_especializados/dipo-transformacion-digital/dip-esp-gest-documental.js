@@ -26,7 +26,7 @@ function Dipoespgestdocumental() {
 
             <div className="metedologia">
                 <img 
-                    src='/uploads/gestion-documental.jpg' 
+                    src='/uploads/curs_gestion_biblioteca.webp' 
                     alt='gestion-documental' 
                     className='logo-metodologia'
                 />
