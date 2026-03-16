@@ -77,7 +77,6 @@ li {
     color: #1f5a5d;
 }
 .menu-cabecera-1002 {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
     position: relative;
     display: flex;
     width: 100%;
@@ -85,14 +84,8 @@ li {
     margin-top: 24px;
     top: -20px;
     font-size: 14px;
-    z-index: 1000;
-}
-.menu-cabecera-1002::before {
-    content: "";
-    position: absolute;
-    inset: 0;
+    z-index: 3;
     background-color: #a5aaa969;
-    z-index: 1;
     border-bottom: 1px solid #e9e4dc;
 }
 .menu-cabecera-1002 > * {
@@ -302,7 +295,7 @@ li {
     display: flow-root;
     position: absolute;
     font-size:.5rem;
-    opacity:.2;
+    opacity:.5;
     margin-top: 250px;
 }
 /* wsp flotante */
@@ -315,7 +308,6 @@ li {
     align-items: center;
     cursor: pointer;
 }
-
 .icon-wsp{
     width: 45px;
     height: 45px;
@@ -345,11 +337,11 @@ li {
 .header {
 display: none;
 }
-.menu-list-1004{
-    display: none;
-}
 .menu-overlay {
   display: none;
+}
+.mobile-menu{
+display:none;
 }
 
 @media (max-width: 700px) {
@@ -358,13 +350,7 @@ display: none;
         top: -10px;
         margin-top: 20px;
     }
-    .menu-cabecera-1003{
-        display: none;
-    }
-    .menu-cabecera-1003-columna{
-        display: none   ;
-    }
-    .menu-cabecera-1001 {
+    .menu-cabecera-1001,.menu-cabecera-1001,.menu-list-1004,.menu-cabecera-1003-columna,.menu-cabecera-1003 {
         display: none;
     }
     .icono-menu-list{
@@ -373,202 +359,8 @@ display: none;
         z-index: 5;
     }
 
-    .menu-list-1001-celular {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 88%;
-        margin-top: -4rem;
-        height: 4rem;
-        z-index: 15;
-    }
-
-    .menu-list-1001-celular > li {
-        position: relative;
-        list-style: none;
-    }
-
-    .menu-list-1001-celular h1 {
-        padding: 10px 15px;
-        transition: background-color .3s ease;
-    }
-
-    .menu-list-1001-celular h1:hover {
-        background-color: rgb(119, 173, 162);
-        border-radius: 4px;
-    }
-
-    .menu-list-1001-celular > li > ul {
-        display: none;
-        position: absolute;
-        top: 88%;
-        right: 0rem;
-        width: 18rem;
-        height: 50rem;
-        padding: 2rem;
-        background-position-x: -1;
-        background-color: rgba(255, 255, 255, 0.95);
-        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        opacity: 1;
-        visibility: hidden;
-        z-index: 99;
-    }
-
-    .menu-list-1001-celular > li:hover > ul {
-        display: block;
-        opacity: 1;
-        visibility: visible;
-        
-        transform: translateX(0.8rem);
-        transition: all 0.8s ease;
-    }
-
-    .menu-list-1001-celular ul li {
-        list-style: none;
-        padding: 2rem;
-        font-weight: 600;
-        transition: background-color .3s ease;
-    }
-
-    .menu-list-1001-celular ul li:hover{
-        background-color: rgba(118, 190, 190, 0.4);
-        border-radius: 4px;
-    }
-
-    .menu-list-1004{
-        display: block;
-    }
-    .icono-menu{
-        position: absolute;
-        right: .4rem;
-        top: -5rem;
-        font-size: 30px;
-        cursor: pointer;
-        z-index: 999;
-    }
-    .icono-menu {
-        display: block;
-        padding: 10px 15px;
-        transition: background-color .3s ease, color .3s ease;
-    }
-    .icono-menu:hover {
-        background-color: rgb(250, 250, 250);
-        color: #000000;
-        border-radius: 4px;
-        z-index: 4 ;
-        visibility: visible;
-    }
-    .menu-list-1004-celular {
-        display:list-item;
-        justify-content: flex-end;
-        align-items: center;
-        width: 88%;
-        margin-top: -2rem;
-        height: 4rem;
-    }
-
-    .menu-list-1004-celular > li {
-        position: relative;
-    }
-
-    .menu-list-1004-celular h1 {
-        padding: 10px 15px;
-        transition: background-color .8s ease;
-    }
-
-    .menu-list-1004-celular h1:hover {
-        background-color: rgb(119, 173, 162);
-        border-radius: 4px;
-    }
-
-    .menu-list-1004-celular > li > ul {
-        display: none;
-        position: absolute;
-        right: 0rem;
-        left: -1.41rem;
-        width: 100%;
-        height: 50rem;
-        padding: .5rem;
-        background-color: rgb(255, 255, 255);
-        opacity: 0;
-        visibility: hidden;
-        z-index: 10;
-    }
-
-    .menu-list-1004-celular > li:hover > ul {
-        display: block;
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-        transform: translateX(0.8rem);
-        transition: all 0.8s ease;
-        font-size: 1rem;
-    }
-
-    .menu-list-1004-celular ul li {
-        list-style: none;
-        font-size: 0.5  rem;
-        margin-left: -2em;
-        padding: 1.5rem;
-        font-weight: 600;
-        transition: background-color .3s ease;
-    }
-    .menu-list-1004-celular ul li:hover{
-        border-radius: 4px;
-        list-style: none;
-    }
-    .menu-cabecera-1003-2 > li > ul {
-        display: none;
-        list-style: none;
-        top: 2.5rem;       
-        left: 0;
-        min-width: 2rem;
-        background-color: rgba(255, 255, 255);
-        border-radius: 6px;
-        padding: 10px 0;
-        margin: 0;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(10px);
-        transition: all 0.3s ease;
-        z-index: 999;
-    }
-    .menu-cabecera-1003-2 > li:hover > ul {
-        display:block;
-        position: relative;
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(-1.5em);
-    }
-    .menu-cabecera-1003-2 ul li {
-        list-style: none;
-    }
-    .menu-cabecera-1003-2 ul li a {
-        padding: 10px 20px;
-        white-space: nowrap;
-    }
-    .menu-cabecera-1003-2 ul li ul a {
-        display: block;
-        transform: translate(0px,0px);
-        margin: 0;
-        font-size: 0.8rem;
-        margin-left: 0rem;
-        max-width: 100%;
-        white-space: normal;
-        word-break: break-word;
-    }
-    .menu-cabecera-1003-2 ul li ul {
-        display: none;
-        background: #fff;
-    }
-    .menu-cabecera-1003-2 ul li:hover > ul {
-        display: block;
-    }
-    .menu-cabecera-1003-2 ul > a {
-    width: 20px;
-    }
-    .contenedor-menu-cabecera-1003-2-1 li{
-        columns: 2;
+    .mobile-menu{
+    display:block;
     }
 
     /*FOOTER*/
@@ -580,6 +372,6 @@ display: none;
         justify-content:center;
     }
     .autor{
-        margin-top: 48rem;
+        margin-top: 45rem;
     }
 }

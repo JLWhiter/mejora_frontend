@@ -1,0 +1,48 @@
+.mobile-menu{
+display:none;
+}
+
+.hamburger{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: -45px;
+    font-size:28px;
+    background:white;
+    border:none;
+    cursor:pointer;
+    transition:  0.8s ease;
+}
+.hamburger.open{
+transform: rotate(90deg);
+}
+.mobile-panel{
+    align-items: start;
+    top:0;
+    width:100%;
+    transition: 1s all;
+    padding:10px 0px;
+}
+
+.submenu{
+    padding-left:15px;
+}
+.dos-columnas{
+    display: grid;
+    overflow-y:auto;
+    width: 80%;
+    height: 250px;
+}
+.menu-title{
+cursor:pointer;
+margin-top:10px;
+}
+
+@media(max-width:768px){
+
+.mobile-menu{
+display:block;
+align-items: center;
+}
+
+}

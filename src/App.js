@@ -59,8 +59,7 @@ import { FaInstagram, FaTiktok, FaFacebook,FaPhoneAlt,FaWhatsapp } from "react-i
 import { FaXTwitter } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { PiMapPinLight } from "react-icons/pi";
-
-
+import MobileMenu from "./components/MobileMenu";
 
 function App() {
   const solicitarinformacion = ()=>{
@@ -78,23 +77,11 @@ function App() {
           <Link to='/Principal'>
             <img src="/uploads/Logop.png" alt="logo" className="logo-principal" />
         </Link>
+        <MobileMenu />
         <div className="menu-cabecera-1001">
           <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
           <ul><li><button className="btn-cta"  onClick={aulavirtual}>AULA VIRTUAL</button></li></ul>
         </div>
-
-        <div className="menu-list-1001">
-          <ul className="menu-list-1001-celular">
-            <li ><h1 className="icono-menu-list">≡</h1>
-            <ul>
-              <li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li>
-              <li><Link href="#">AULA VIRTUAL</Link></li>
-              <li><Link to="footer">REDES SOCIALES</Link></li></ul>
-            </li>
-          </ul>
-        </div>
-
-
         <div className="menu-cabecera-1002">
           <ul className="menu-cabecera-1003"> 
             <li> <Link to="/la_escuela">LA ESCUELA</Link>
@@ -200,108 +187,6 @@ function App() {
         </div>
       </div>
       
-      <div className="menu-list-1004">
-          <ul className="menu-list-1004-celular">
-            <li ><h1 className="icono-menu">≡</h1>
-            <ul>
-              <ul><li><Link to="/la_escuela">LA ESCUELA</Link></li></ul>
-              <ul className='menu-cabecera-1003-2'> <li><Link to="/programa-gestion-publica">
-                  CURSO GESTIÓN PUBLICA 
-                </Link> 
-                <ul className='contenedor-menu-cabecera-1003-2-1'> 
-                    <li><Link to="/C-gest-estrategia-planeamiento">GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
-                    <li><Link to="/C-gest-finanzas-publicas">FINANZAS PÚBLICAS</Link></li>
-                    <li><Link to="/C-gest-sitema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
-                    <li><Link to="/C-gest-inversion-publica">INVERSIÓN PÚBLICA</Link></li>
-                    <li><Link to="/C-gest-obras-publicas">GESTIÓN DE OBRAS PÚBLICAS</Link></li>
-                    <li><Link to="/C-gest-derecho-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
-                    <li><Link to="/C-gest-publica-salus">GESTIÓN PÚBLICA EN SALUD</Link></li>
-                    <li><Link to="/C-gest-biblioteca">GESTIÓN DE BIBLIOTECA</Link></li>
-                    <li><Link to="/C-gest-municipal" >GESTIÓN MUNICIPAL</Link></li>
-                    <li><Link to="/C-gest-ambiental" >GESTIÓN AMBIENTAL</Link></li>
-                    <li><Link to="/C-gest-alimentacion-nutricion" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
-                    <li><Link to="/C-gest-jardineria-poda-trabajosaltura" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
-                    <li><Link to="/C-gest-recursos-humanos-servicio-civil" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
-                    <li><Link to="/C-gest-juridica-administrativa" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
-                    <li><Link to="/C-gest-control-auditoria-etica-publica" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
-                    <li><Link to="/C-gest-derecho-laboral" >DERECHO LABORAL</Link></li>
-                    <li><Link to="/C-gest-habilidades-blandas" >HABILIDADES BLANDAS</Link></li>
-                    <li><Link to="/C-gest-minera" >GESTIÓN MINERA</Link></li>
-                    <li><Link to="/C-gest-trabajo-social" >TRABAJO SOCIAL</Link></li>
-                    <li><Link to="/C-gest-ofimatica" >OFIMÁTICA</Link></li>
-                    <li><Link to="/C-gest-inteligencia-artificial" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
-                    <li><Link to="/C-gest-contenido-redaccion-digital" >CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
-                    <li><Link to="/C-gest-sqlserver" >SQL SERVER</Link></li>
-                    <li><Link to="/C-gest-adobe-otros" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
-                    <li><Link to="/C-gest-msproject" >MS PROJECT</Link></li>
-                    <li><Link to="/C-gest-proyecto-BIM" >GESTIÓN DE PROYECTOS BIM</Link></li>
-                    <li><Link to="/C-gest-prevencion-seguridad-vial" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
-                    <li><Link to="/C-gest-paisajismo-otros" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
-                    <li><Link to="/C-gest-riesgodesaste" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
-                    <li><Link to="/C-gest-servicio-atencion-ciudadano" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
-                </ul>  
-                </li>
-                </ul>
-              <ul><li> 
-                <Link to="/programa-gestion-empresarial">
-                  CURSO GESTIÓN EMPRESARIAL
-                </Link>
-              </li></ul>
-            <ul className='menu-cabecera-1003-2'>
-             <li>
-              <Link to="/diplomas ">
-                DIPLOMAS Y ESPECIALIZADO
-              </Link>
-              <ul>
-                <li><h2 >GESTIÓN PÚBLICA Y SISTEMAS ADMINISTRATIVOS</h2>
-                  <ul>
-                      <li><Link to="/dip-gest-publica-moderna">Diploma de Especialización en Gestión Pública Moderna</Link></li>
-                      <li><Link to="/dip-gest-estrategico">Diploma de Especialización en Planeamiento Estratégico y Gestión por Resultados</Link></li>
-                      <li><Link to="/dip-esp-presupuesto-publico">Diploma de Especialización en Presupuesto por Resultados</Link></li>
-                      <li><Link to="/dip-esp-invierte-pe">Diploma de Especialización en Invierte.pe y Gestión de Inversiones Públicas</Link></li>
-                      <li><Link to="/dip-esp-sistemas-administrativa-estado">Diploma de Especialización en Sistemas Administrativos del Estado</Link></li>
-                  </ul>
-                </li>
-                <li><h2 >CONTRATACIONES, CONTROL Y NORMATIVA</h2>
-                  <ul>
-                      <li><Link to="/dip-esp-contratacion-estado">Diploma de Especialización en Contrataciones del Estado</Link></li>
-                      <li><Link to="/dip-esp-sistema-abastecimiento">Diploma de Especialización en Sistema Nacional de Abastecimiento</Link></li>
-                      <li><Link to="/dip-esp-auditoria-gubernamental">Diploma de Especialización en Auditoría Gubernamental</Link></li>
-                      <li><Link to="/dip-esp-derecho-procedimiento">Diploma de Especialización en Derecho Administrativo y Procedimiento Administrativo</Link></li>
-                      <li><Link to="/dip-esp-etica-integridad">Diploma de Especialización en Ética, Integridad y Responsabilidad del Funcionario Público</Link></li>
-                  </ul>
-                </li>
-                <li><h2 >GESTIÓN DEL TALENTO HUMANO</h2>
-                  <ul>
-                      <li><Link to="/dip-esp-gest-recursos-humanos">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
-                      <li><Link to="/dip-esp-liderazgo-gestion-equipos">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
-                  </ul>
-                </li>
-                <li><h2 >TRANSFORMACIÓN DIGITAL Y TIC</h2>
-                  <ul>
-                        <li><Link to="/dip-esp-digital-transformacion">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
-                        <li><Link to="/dip-esp-gest-documental">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-                        <li><Link to="/dip-esp-herramientas-ofimatica">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
-                    </ul>
-                </li>
-                <li><h2 >SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL</h2>
-                  <ul>
-                      <li><Link to="/dip-esp-gestion-obras-publicas">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
-                      <li><Link to="/dip-esp-gestion-publica-salud">Diploma de Especialización en Gestión Pública en Salud</Link></li>
-                      <li><Link to="/dip-esp-gestion-ambiental">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
-                      <li><Link to="/dip-esp-gestion-proyectos">Diploma de Especialización en Gestión de Proyectos</Link></li>
-                      <li><Link to="/dip-esp-gestion-empresarial">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            </ul>
-            <ul><li><Link to="/curso-medida">CURSOS INHOUSE</Link></li></ul>
-          </ul>
-          </li>
-          </ul>
-        </div>
-
     
       <Routes>
         <Route path="/principal" element={<Principal/>} />
