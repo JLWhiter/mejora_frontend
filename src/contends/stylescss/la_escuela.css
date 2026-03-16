@@ -184,7 +184,7 @@
   /*ANIMACION EN EL ACORDEON*/
   .servicio-card:hover{
     transform: translateY(-5px);
-    transition: .5s ease;
+    transition: .5s;
   }
   
   /* RESPONSIVE */
