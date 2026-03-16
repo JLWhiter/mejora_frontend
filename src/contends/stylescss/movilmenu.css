@@ -37,7 +37,11 @@ transform: rotate(90deg);
 cursor:pointer;
 margin-top:10px;
 }
-
+@media (max-width: 1110px) {
+    .mobile-menu{
+    display:block;
+    }
+}
 @media(max-width:768px){
 
 .mobile-menu{
