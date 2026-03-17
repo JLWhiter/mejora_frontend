@@ -217,7 +217,6 @@ onClick={()=>setDiplomas(!diplomas)}
 <li>
     <div onClick={()=>setCategoria5(!categoria5)}
     >
-        {categoria5 ? "true" : "false"}
         SECTORES ESPECÍFICOS Y GESTIÓN EMPRESARIAL
     </div>
 
