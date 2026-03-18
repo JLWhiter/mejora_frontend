@@ -44,8 +44,8 @@ onClick={() => setMenu(!menu)}
 <div className="mobile-panel">
 
 <ul>
-    <li>
-    <button className="btn-cta menu-title" onClick={solicitarinformacion}>
+    <li className='color-negro'>
+    <button className="btn-cta menu-title " onClick={solicitarinformacion} >
     SOLICITAR INFORMACIÓN
     </button>
     </li>
@@ -56,7 +56,7 @@ onClick={() => setMenu(!menu)}
     </button>
 </li>
 <li>
-<Link to="/la_escuela">LA ESCUELA</Link>
+<Link to="/la_escuela" className='color-negro'x>LA ESCUELA</Link>
 </li>
 
 
@@ -65,10 +65,10 @@ onClick={() => setMenu(!menu)}
 <li>
 
 <div
-    className="menu-title"
+    className="menu-title color-negro"
     onClick={()=>setCursos(!cursos)}
     >
-    <Link to="/programa-gestion-publica">
+    <Link to="/programa-gestion-publica" className="color-negro">
         URSO GESTIÓN PUBLICA
     </Link>
     
@@ -77,36 +77,36 @@ onClick={() => setMenu(!menu)}
 {cursos && (
 
     <ul className="submenu dos-columnas">
-                <li onClick={cerrarMenu}><Link to="/C-gest-estrategia-planeamiento">GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-finanzas-publicas">FINANZAS PÚBLICAS</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-sitema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-inversion-publica">INVERSIÓN PÚBLICA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-obras-publicas">GESTIÓN DE OBRAS PÚBLICAS</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-derecho-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-publica-salus">GESTIÓN PÚBLICA EN SALUD</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-biblioteca">GESTIÓN DE BIBLIOTECA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-municipal" >GESTIÓN MUNICIPAL</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-ambiental" >GESTIÓN AMBIENTAL</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-alimentacion-nutricion" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-jardineria-poda-trabajosaltura" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-recursos-humanos-servicio-civil" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-juridica-administrativa" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-control-auditoria-etica-publica" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-derecho-laboral" >DERECHO LABORAL</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-habilidades-blandas" >HABILIDADES BLANDAS</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-minera" >GESTIÓN MINERA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-trabajo-social" >TRABAJO SOCIAL</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-ofimatica" >OFIMÁTICA</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-inteligencia-artificial" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-contenido-redaccion-digital" >CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-sqlserver" >SQL SERVER</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-adobe-otros" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-msproject" >MS PROJECT</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-proyecto-BIM" >GESTIÓN DE PROYECTOS BIM</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-prevencion-seguridad-vial" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-paisajismo-otros" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-riesgodesaste" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
-                <li onClick={cerrarMenu}><Link to="/C-gest-servicio-atencion-ciudadano" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-estrategia-planeamiento" className='color-negro'>GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-finanzas-publicas" className='color-negro'>FINANZAS PÚBLICAS</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-sitema-nacional-abastecimiento className='color-negro'">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-inversion-publica" className='color-negro'>INVERSIÓN PÚBLICA</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-obras-publicas" className='color-negro'>GESTIÓN DE OBRAS PÚBLICAS</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-derecho-penal-publica" className='color-negro'>DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-publica-salus" className='color-negro'>GESTIÓN PÚBLICA EN SALUD</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-biblioteca" className='color-negro'>GESTIÓN DE BIBLIOTECA</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-municipal" className='color-negro'>GESTIÓN MUNICIPAL</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-ambiental" className='color-negro'>GESTIÓN AMBIENTAL</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-alimentacion-nutricion" className='color-negro'>ALIMENTACIÓN Y NUTRICIÓN</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-jardineria-poda-trabajosaltura" className='color-negro'>JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-recursos-humanos-servicio-civil" className='color-negro'>GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-juridica-administrativa" className='color-negro'>GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-control-auditoria-etica-publica" className='color-negro'>CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-derecho-laboral" className='color-negro'>DERECHO LABORAL</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-habilidades-blandas" className='color-negro'>HABILIDADES BLANDAS</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-minera" className='color-negro'>GESTIÓN MINERA</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-trabajo-social" className='color-negro'>TRABAJO SOCIAL</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-ofimatica" className='color-negro'>OFIMÁTICA</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-inteligencia-artificial" className='color-negro'>INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-contenido-redaccion-digital" className='color-negro'>CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-sqlserver" className='color-negro'>SQL SERVER</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-adobe-otros" className='color-negro'>ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-msproject" className='color-negro'>MS PROJECT</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-proyecto-BIM" className='color-negro'>GESTIÓN DE PROYECTOS BIM</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-prevencion-seguridad-vial" className='color-negro'>PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-paisajismo-otros" className='color-negro'>PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-riesgodesaste" className='color-negro'>GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
+                <li onClick={cerrarMenu}><Link to="/C-gest-servicio-atencion-ciudadano" className='color-negro'>GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
     </ul>
         )}
 
@@ -114,7 +114,7 @@ onClick={() => setMenu(!menu)}
 
 
 <li>
-<Link to="/programa-gestion-empresarial">
+<Link to="/programa-gestion-empresarial" className='color-negro'> 
 CURSO GESTIÓN EMPRESARIAL
 </Link>
 </li>
@@ -128,7 +128,7 @@ CURSO GESTIÓN EMPRESARIAL
 className="menu-title"
 onClick={()=>setDiplomas(!diplomas)}
 >
-    <Link to='/diplomas'>
+    <Link to='/diplomas' className='color-negro'>
         DIPLOMAS Y ESPECIALIZADO
     </Link>
 </div>
@@ -148,11 +148,11 @@ onClick={()=>setDiplomas(!diplomas)}
 
         <ul>
 
-        <li onClick={cerrarMenu}><Link to="/dip-gest-publica-moderna">Gestión Pública Moderna</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-gest-estrategico">Planeamiento Estratégico</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-presupuesto-publico">Presupuesto Público</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-invierte-pe">Invierte.pe</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-sistemas-administrativa-estado">Sistemas Administrativos</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-gest-publica-moderna" className='color-negro'>Gestión Pública Moderna</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-gest-estrategico" className='color-negro'>Planeamiento Estratégico</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-presupuesto-publico" className='color-negro'>Presupuesto Público</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-invierte-pe" className='color-negro'>Invierte.pe</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-sistemas-administrativa-estado" className='color-negro'>Sistemas Administrativos</Link></li>
 
         </ul>
 
@@ -171,11 +171,11 @@ onClick={()=>setDiplomas(!diplomas)}
 
     {categoria2 && (
         <ul>
-            <li onClick={cerrarMenu}><Link to="/dip-esp-contratacion-estado">Contrataciones del Estado</Link></li>
-            <li onClick={cerrarMenu}><Link to="/dip-esp-sistema-abastecimiento">Sistema de Abastecimiento</Link></li>
-            <li onClick={cerrarMenu}><Link to="/dip-esp-auditoria-gubernamental">Auditoría</Link></li>
-            <li onClick={cerrarMenu}><Link to="/dip-esp-derecho-procedimiento">Derecho Administrativo</Link></li>
-            <li onClick={cerrarMenu}><Link to="/dip-esp-etica-integridad">Ética Pública</Link></li>
+            <li onClick={cerrarMenu}><Link to="/dip-esp-contratacion-estado" className='color-negro'>Contrataciones del Estado</Link></li>
+            <li onClick={cerrarMenu}><Link to="/dip-esp-sistema-abastecimiento" className='color-negro'>Sistema de Abastecimiento</Link></li>
+            <li onClick={cerrarMenu}><Link to="/dip-esp-auditoria-gubernamental" className='color-negro'>Auditoría</Link></li>
+            <li onClick={cerrarMenu}><Link to="/dip-esp-derecho-procedimiento" className='color-negro'>Derecho Administrativo</Link></li>
+            <li onClick={cerrarMenu}><Link to="/dip-esp-etica-integridad" className='color-negro'>Ética Pública</Link></li>
         </ul>
     )}
 </li>
@@ -190,8 +190,8 @@ onClick={()=>setDiplomas(!diplomas)}
 
     {categoria3 && (
         <ul>
-            <li onClick={cerrarMenu}><Link to="/dip-esp-gest-recursos-humanos">Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
-            <li onClick={cerrarMenu}><Link to="/dip-esp-liderazgo-gestion-equipos">Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
+            <li onClick={cerrarMenu}><Link to="/dip-esp-gest-recursos-humanos" className='color-negro'>Diploma de Especialización en Gestión de Recursos Humanos en el Sector Público</Link></li>
+            <li onClick={cerrarMenu}><Link to="/dip-esp-liderazgo-gestion-equipos" className='color-negro'>Diploma de Especialización en Liderazgo y Gestión de Equipos</Link></li>
         </ul>
     )}
 </li>
@@ -206,9 +206,9 @@ onClick={()=>setDiplomas(!diplomas)}
 
     {categoria4 && (
     <ul>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-digital-transformacion">Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-gest-documental">Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-herramientas-ofimatica">Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-digital-transformacion" className='color-negro'>Diploma de Especialización en Gobierno Digital y Transformación Digital</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-gest-documental" className='color-negro'>Diploma de Especialización en Gestión Documental y Archivos Digitales</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-herramientas-ofimatica" className='color-negro'>Diploma de Especialización en Herramientas Digitales y Ofimática Profesional</Link></li>
     </ul>
     )}
 </li>
@@ -222,11 +222,11 @@ onClick={()=>setDiplomas(!diplomas)}
 
     {categoria5 && (
     <ul>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-obras-publicas">Diploma de Especialización en Gestión de Obras Públicas</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-publica-salud">Diploma de Especialización en Gestión Pública en Salud</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-ambiental">Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-proyectos">Diploma de Especialización en Gestión de Proyectos</Link></li>
-        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-empresarial">Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-obras-publicas" className='color-negro'>Diploma de Especialización en Gestión de Obras Públicas</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-publica-salud" className='color-negro'>Diploma de Especialización en Gestión Pública en Salud</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-ambiental" className='color-negro'>Diploma de Especialización en Gestión Ambiental y Desarrollo Sostenible</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-proyectos" className='color-negro'>Diploma de Especialización en Gestión de Proyectos</Link></li>
+        <li onClick={cerrarMenu}><Link to="/dip-esp-gestion-empresarial" className='color-negro'>Diploma de Especialización en Gestión Empresarial y Dirección Estratégica</Link></li>
     </ul>
     )}
 </li>
@@ -237,7 +237,7 @@ onClick={()=>setDiplomas(!diplomas)}
 </li>
 
 <li>
-    <Link to="/curso-medida">
+    <Link to="/curso-medida" className='color-negro'>
     CURSOS INHOUSE
     </Link>
 </li>

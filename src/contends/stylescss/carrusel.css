@@ -3,9 +3,11 @@
 }
 
 /* CONTENEDOR */
+
 .carousel-root {
   position: relative;
-  width: 100%;
+  width: 99.2vw;
+  margin-left: calc(50% - 50vw);
   overflow: hidden;
   background: #f5f3ef;
 }
@@ -55,6 +57,7 @@
 .carousel-body {
   margin: 20px 0;
   color: #444;
+  text-align: justify;
 }
 
 /* BOTÓN */
@@ -131,7 +134,6 @@
   right: 20px;
 }
 
-/* 🔥 RESPONSIVE */
 @media (max-width: 900px) {
   .carousel-slide {
     grid-template-columns: 1fr;
