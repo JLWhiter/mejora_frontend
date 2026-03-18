@@ -3,35 +3,13 @@ import { IoMdClock, IoIosPeople } from "react-icons/io";
 import { MdComputer, MdOutlineWork } from "react-icons/md";
 import { GrCertificate } from "react-icons/gr";
 import { BsStar } from "react-icons/bs";
+import HeroCarousel from '../components/Herocarousel.jsx'
 
 function Principal() {
   return (
     <div className="Principal">
-
+      <HeroCarousel/>
       <section className="hero">
-        <div className="hero__content">
-          <p className="hero__eyebrow">DIPLOMA DE ESPECIALIZACIÓN</p>
-
-          <h1 className="hero__title">
-            Conviértete en el <br />
-            Líder que tu organización <br />
-            necesita
-          </h1>
-
-          <p className="hero__text">
-            Programas especializados en Gerencia y Gestión
-            <br />
-            Transforma tu carrera profesional
-          </p>
-
-          <button className="hero__button">¿Por qué elegirnos?</button>
-        </div>
-
-        <div className="hero__media">
-  <div className="hero__image">
-    <img src="/uploads/port.jpg" alt="Portada" className="hero__img-real" />
-  </div>
-</div>
       </section>
 
       <section className="beneficios">

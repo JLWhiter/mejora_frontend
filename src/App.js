@@ -56,6 +56,7 @@ import Cgesttrabajosocial from './contends/programa-gest/cursos-programa-gestion
 import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-gestion-empresarial';
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
 import { FaInstagram, FaTiktok, FaFacebook,FaPhoneAlt,FaWhatsapp } from "react-icons/fa";
+import { PiBookOpenText } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { PiMapPinLight } from "react-icons/pi";
@@ -92,36 +93,36 @@ function App() {
                   CURSO GESTIÓN PUBLICA <span className="arrow-down">▼</span>
                 </Link> 
                 <ul> 
-                    <li><Link to="/C-gest-estrategia-planeamiento">GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
-                    <li><Link to="/C-gest-finanzas-publicas">FINANZAS PÚBLICAS</Link></li>
-                    <li><Link to="/C-gest-sitema-nacional-abastecimiento">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
-                    <li><Link to="/C-gest-inversion-publica">INVERSIÓN PÚBLICA</Link></li>
-                    <li><Link to="/C-gest-obras-publicas">GESTIÓN DE OBRAS PÚBLICAS</Link></li>
-                    <li><Link to="/C-gest-derecho-penal-publica">DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
-                    <li><Link to="/C-gest-publica-salud">GESTIÓN PÚBLICA EN SALUD</Link></li>
-                    <li><Link to="/C-gest-biblioteca">GESTIÓN DE BIBLIOTECA</Link></li>
-                    <li><Link to="/C-gest-municipal" >GESTIÓN MUNICIPAL</Link></li>
-                    <li><Link to="/C-gest-ambiental" >GESTIÓN AMBIENTAL</Link></li>
-                    <li><Link to="/C-gest-alimentacion-nutricion" >ALIMENTACIÓN Y NUTRICIÓN</Link></li>
-                    <li><Link to="/C-gest-jardineria-poda-trabajosaltura" >JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
-                    <li><Link to="/C-gest-recursos-humanos-servicio-civil" >GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
-                    <li><Link to="/C-gest-juridica-administrativa" >GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
-                    <li><Link to="/C-gest-control-auditoria-etica-publica" >CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
-                    <li><Link to="/C-gest-derecho-laboral" >DERECHO LABORAL</Link></li>
-                    <li><Link to="/C-gest-habilidades-blandas" >HABILIDADES BLANDAS</Link></li>
-                    <li><Link to="/C-gest-minera" >GESTIÓN MINERA</Link></li>
-                    <li><Link to="/C-gest-trabajo-social" >TRABAJO SOCIAL</Link></li>
-                    <li><Link to="/C-gest-ofimatica" >OFIMÁTICA</Link></li>
-                    <li><Link to="/C-gest-inteligencia-artificial" >INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
-                    <li><Link to="/C-gest-contenido-redaccion-digital">CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
-                    <li><Link to="/C-gest-sqlserver" >SQL SERVER</Link></li>
-                    <li><Link to="/C-gest-adobe-otros" >ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
-                    <li><Link to="/C-gest-msproject" >MS PROJECT</Link></li>
-                    <li><Link to="/C-gest-proyecto-BIM" >GESTIÓN DE PROYECTOS BIM</Link></li>
-                    <li><Link to="/C-gest-prevencion-seguridad-vial" >PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
-                    <li><Link to="/C-gest-paisajismo-otros" >PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
-                    <li><Link to="/C-gest-riesgodesaste" >GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
-                    <li><Link to="/C-gest-servicio-atencion-ciudadano" >GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
+                    <li><Link to="/C-gest-estrategia-planeamiento" className='color-negro'>GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
+                    <li><Link to="/C-gest-finanzas-publicas" className='color-negro'>FINANZAS PÚBLICAS</Link></li>
+                    <li><Link to="/C-gest-sitema-nacional-abastecimiento" className='color-negro'>SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
+                    <li><Link to="/C-gest-inversion-publica" className='color-negro'>INVERSIÓN PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-obras-publicas" className='color-negro'>GESTIÓN DE OBRAS PÚBLICAS</Link></li>
+                    <li><Link to="/C-gest-derecho-penal-publica" className='color-negro'>DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-publica-salud" className='color-negro'>GESTIÓN PÚBLICA EN SALUD</Link></li>
+                    <li><Link to="/C-gest-biblioteca" className='color-negro'>GESTIÓN DE BIBLIOTECA</Link></li>
+                    <li><Link to="/C-gest-municipal" className='color-negro'>GESTIÓN MUNICIPAL</Link></li>
+                    <li><Link to="/C-gest-ambiental" className='color-negro'>GESTIÓN AMBIENTAL</Link></li>
+                    <li><Link to="/C-gest-alimentacion-nutricion" className='color-negro'>ALIMENTACIÓN Y NUTRICIÓN</Link></li>
+                    <li><Link to="/C-gest-jardineria-poda-trabajosaltura" className='color-negro'>JARDINERÍA, PODA DE ÁRBOLES Y TRABAJO EN ALTURA</Link></li>
+                    <li><Link to="/C-gest-recursos-humanos-servicio-civil" className='color-negro'>GESTIÓN DE RECURSOS HUMANOS Y SERVICIO CIVIL</Link></li>
+                    <li><Link to="/C-gest-juridica-administrativa" className='color-negro'>GESTIÓN JURÍDICA Y ADMINISTRATIVA</Link></li>
+                    <li><Link to="/C-gest-control-auditoria-etica-publica" className='color-negro'>CONTROL, AUDITORÍA Y ÉTICA PÚBLICA</Link></li>
+                    <li><Link to="/C-gest-derecho-laboral" className='color-negro'>DERECHO LABORAL</Link></li>
+                    <li><Link to="/C-gest-habilidades-blandas" className='color-negro'>HABILIDADES BLANDAS</Link></li>
+                    <li><Link to="/C-gest-minera" className='color-negro'>GESTIÓN MINERA</Link></li>
+                    <li><Link to="/C-gest-trabajo-social" className='color-negro'>TRABAJO SOCIAL</Link></li>
+                    <li><Link to="/C-gest-ofimatica" className='color-negro'>OFIMÁTICA</Link></li>
+                    <li><Link to="/C-gest-inteligencia-artificial" className='color-negro'>INTELIGENCIA ARTIFICIAL Y CIENCIA DE DATOS</Link></li>
+                    <li><Link to="/C-gest-contenido-redaccion-digital" className='color-negro'>CONTENIDO Y REDACCIÓN DIGITAL</Link></li>
+                    <li><Link to="/C-gest-sqlserver" className='color-negro'>SQL SERVER</Link></li>
+                    <li><Link to="/C-gest-adobe-otros" className='color-negro'>ADOBE PHOTOSHOP, ILLUSTRATOR E INDESIGN</Link></li>
+                    <li><Link to="/C-gest-msproject" className='color-negro'>MS PROJECT</Link></li>
+                    <li><Link to="/C-gest-proyecto-BIM" className='color-negro'>GESTIÓN DE PROYECTOS BIM</Link></li>
+                    <li><Link to="/C-gest-prevencion-seguridad-vial" className='color-negro'>PREVENCIÓN Y SEGURIDAD VIAL</Link></li>
+                    <li><Link to="/C-gest-paisajismo-otros" className='color-negro'>PAISAJISMO, JARDINERÍA Y PODA DE ÁRBOLES</Link></li>
+                    <li><Link to="/C-gest-riesgodesaste" className='color-negro'>GESTIÓN DE RIESGOS DE DESASTRES</Link></li>
+                    <li><Link to="/C-gest-servicio-atencion-ciudadano" className='color-negro'>GESTIÓN DE SERVICIOS Y ATENCIÓN AL CIUDADANO</Link></li>
                 </ul> 
               </li> 
           </ul> 
@@ -246,72 +247,73 @@ function App() {
         <Route path='/dip-esp-gestion-proyectos' element={<DipespGestionProyectos/>}/>
         <Route path='/dip-esp-gestion-publica-salud' element={<DipespGestionPublicaSalud/>}/>
         <Route path='/curso-medida' element={<CursoMedida/>}/> 
-      </Routes>
-<footer className="contenedor-footer">
+        </Routes>
+  <footer className="contenedor-footer">
 
-  <div className="footer-bloque footer-bloque-izq">
-    <a href="/">
-      <img src="/uploads/Logop3.webp" alt="Logo Escuela" className="logo-final" />
-    </a>
-
-    <p>
-      Escuela de Gerencia y Gestión es un centro especializado
-      en altos estudios que ofrece enseñanza, capacitación y
-      formación profesional en alta dirección, enfocada en la
-      gestión pública y la actividad empresarial.
-    </p>
-  </div>
-
-
-  <div className="footer-bloque footer-bloque-centro">
-    <h2>Contáctanos</h2>
-    <p>
-      <li><FaPhoneAlt size={12}/> 948 251 685 / 913 376 365</li>
-      <li><CiMail /> capacita@escuelag.com / esscuelag@gmail.com </li>
-      <li><PiMapPinLight /> Av. Arenales 2081 4to. Piso of. 9 Lince</li>
-    </p>
-  </div>
-
-
-  <div className="footer-bloque footer-bloque-der">
-
-    <h2>Encuéntranos</h2>
-
-    <div className="iconos-busqueda">
-
-      <Link to="https://www.instagram.com/egerencia">
-        <FaInstagram size={20} className="fondo icon-bob"/>
-      </Link>
-
-      <Link to="#">
-        <FaXTwitter size={20} className="fondo icon-bob"/>
-      </Link>
-
-      <Link to="https://www.facebook.com/share/1Ztggm115f/">
-        <FaFacebook size={20} className="fondo icon-bob"/>
-      </Link>
-
-      <Link to="https://www.tiktok.com/@escuelagerenciaygestion">
-        <FaTiktok size={20} className="fondo icon-bob"/>
-      </Link>
-      
+    <div className="footer-bloque footer-bloque-izq">
+      <a href="/">
+        <img src="/uploads/Logop3.webp" alt="Logo Escuela" className="logo-final" />
+      </a>
     </div>
 
-  </div>
-  <div className="autor">
-    <h3>by jose1801</h3>
-  </div>
+    <div className='footer-bloque contexto'>
+      <p>
+        Escuela de Gerencia y Gestión es un centro especializado
+        en altos estudios que ofrece enseñanza, capacitación y
+        formación profesional en alta dirección, enfocada en la
+        gestión pública y la actividad empresarial.
+      </p>
+    </div>
 
-  <div className="footer-copyright" id="footer">
-    <span>© Escuela De Gerencia y Gestión. Todos los derechos reservados.</span>
-  </div>
+    <div className="footer-bloque footer-bloque-centro">
+      <h2>Contáctanos</h2>
+        <li><FaPhoneAlt size={12}/> 948 251 685 / 913 376 365</li>
+        <li><CiMail /> capacita@escuelag.com / esscuelag@gmail.com</li>
+        <li><PiMapPinLight /> Av. Arenales 2081 4to. Piso of. 9 Lince</li>
+    </div>
 
-  <div className='contenedor-wsp-flotante'>
-      <FaWhatsapp size={40} color='black' onClick={solicitarinformacion} className='icon-wsp'/>
-  </div>
+    <div className="footer-bloque footer-bloque-der">
+      <h2>Encuéntranos</h2>
 
-</footer>
-    </BrowserRouter>
+      <div className="iconos-busqueda">
+        <Link to="https://www.instagram.com/egerencia">
+          <FaInstagram size={20} className="fondo icon-bob"/>
+        </Link>
+
+        <Link to="#">
+          <FaXTwitter size={20} className="fondo icon-bob"/>
+        </Link>
+
+        <Link to="https://www.facebook.com/share/1Ztggm115f/">
+          <FaFacebook size={20} className="fondo icon-bob"/>
+        </Link>
+
+        <Link to="https://www.tiktok.com/@escuelagerenciaygestion">
+          <FaTiktok size={20} className="fondo icon-bob"/>
+        </Link>
+      </div>
+    </div>
+
+    <div className="footer-bloque libro-reclamaciones">
+      <span>Libro de Reclamaciones</span>
+      <PiBookOpenText size={30} className='icon-reclamaciones fondo'/>
+    </div>
+
+    <div className="autor">
+      <h3>by jose1801</h3>
+    </div>
+
+    <div className="footer-copyright" id="footer">
+      <p>© Escuela De Gerencia y Gestión.</p>
+      <p>RUC: 20510129921</p>
+      <p>Todos los derechos reservados.</p>
+    </div>
+
+    <div className='contenedor-wsp-flotante'>
+      <FaWhatsapp size={30} color='black' onClick={solicitarinformacion} className='icon-wsp '/>
+    </div>
+  </footer>
+  </BrowserRouter>
   );
 }
 
