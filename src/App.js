@@ -277,21 +277,21 @@ function App() {
       <h2>Encuéntranos</h2>
 
       <div className="iconos-busqueda">
-        <Link to="https://www.instagram.com/egerencia">
+        <a href="https://www.instagram.com/egerencia" target="_blank">
           <FaInstagram size={20} className="fondo icon-bob"/>
-        </Link>
+        </a>
 
-        <Link to="#">
+        <a href="#" target="_blank">
           <FaXTwitter size={20} className="fondo icon-bob"/>
-        </Link>
+        </a>
 
-        <Link to="https://www.facebook.com/share/1Ztggm115f/">
+        <a href="https://www.facebook.com/share/1Ztggm115f/" target="_blank">
           <FaFacebook size={20} className="fondo icon-bob"/>
-        </Link>
+        </a>
 
-        <Link to="https://www.tiktok.com/@escuelagerenciaygestion">
+        <a href="https://www.tiktok.com/@escuelagerenciaygestion" target="_blank">
           <FaTiktok size={20} className="fondo icon-bob"/>
-        </Link>
+        </a>
       </div>
     </div>
 
