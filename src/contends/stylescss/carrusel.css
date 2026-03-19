@@ -6,10 +6,11 @@
 
 .carousel-root {
   position: relative;
-  width: 99.2vw;
+  width: 99.5vw;
   margin-left: calc(50% - 50vw);
+  max-height: 100%;
   overflow: hidden;
-  background: #f5f3ef;
+  background-color: none;
 }
 
 /* TRACK */
@@ -30,9 +31,11 @@
 
 /* SLIDE */
 .carousel-slide {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 500px;
+  display: flex;
+  grid-template-columns: 1fr ;
+  min-height: 100%;
+  margin-top: -50px;
+  z-index: 2;
 }
 
 /* TEXTO */
@@ -41,23 +44,28 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 2;
 }
 
 .carousel-tag {
   font-size: 12px;
   color: var(--accent);
   margin-bottom: 10px;
+  z-index: 2;
 }
 
 .carousel-title {
   font-size: 32px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .carousel-body {
   margin: 20px 0;
-  color: #444;
+  color: #e7e3e3;
   text-align: justify;
+  max-width: 500px;
+  z-index: 2;
 }
 
 /* BOTÓN */
@@ -74,7 +82,27 @@
 .carousel-image-col img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  opacity: .3;
+  top:50px;
+  left: 0;
+  z-index: 0;
+}
+.carousel-image-col{
+  position: absolute;
+  background: linear-gradient(
+    65deg,
+    #00010f,
+    #262d8ab9,
+    #00010f
+  );
+  margin-top: 50px;
+  width: 100%;
+}
+/*CONTENEDOR FORMULARIO*/
+.contenedor-formulario{
+  display: flex;
+  position: absolute;
+  z-index: 2;
 }
 
 /* CONTROLES */
@@ -84,6 +112,7 @@
   left: 20px;
   display: flex;
   gap: 10px;
+  z-index: 2;
 }
 
 .carousel-controls button {
@@ -91,17 +120,20 @@
   border: none;
   padding: 8px 12px;
   cursor: pointer;
+  z-index: 2;
 }
 .carousel-list {
   margin-top: 15px;
   padding-left: 0;
   list-style: none;
+  z-index: 2;
 }
 
 .carousel-list li {
   margin-bottom: 6px;
   font-size: 14px;
   color: #333;
+  z-index: 2;
 }
 /* DOTS */
 .carousel-dots button {
@@ -110,12 +142,14 @@
   background: #ccc;
   border: none;
   border-radius: 50%;
+  z-index: 2;
 }
 
 .carousel-dots .active {
   background: var(--accent);
   width: 20px;
   border-radius: 10px;
+  z-index: 2;
 }
 
 /* PROGRESS */
@@ -125,6 +159,7 @@
   left: 0;
   height: 3px;
   background: var(--accent);
+  z-index: 2;
 }
 
 /* COUNTER */
@@ -132,6 +167,7 @@
   position: absolute;
   top: 10px;
   right: 20px;
+  z-index: 2;
 }
 
 @media (max-width: 900px) {

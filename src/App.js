@@ -80,8 +80,9 @@ function App() {
         </Link>
         <MobileMenu />
         <div className="menu-cabecera-1001">
-          <ul><li><button className="btn-cta" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
-          <ul><li><button className="btn-cta"  onClick={aulavirtual}>AULA VIRTUAL</button></li></ul>
+          <ul><li><button className="btn-cta-principal" onClick={solicitarinformacion}>SOLICITAR INFORMACIÓN</button></li></ul>
+          <ul><li><button className="btn-cta-principal"  onClick={aulavirtual}>AULA VIRTUAL</button></li></ul>
+          <ul><li><button className="btn-cta-principal"  >BLOG</button></li></ul>          
         </div>
         <div className="menu-cabecera-1002">
           <ul className="menu-cabecera-1003"> 
@@ -185,6 +186,7 @@ function App() {
           <ul className="menu-cabecera-1003">
             <li><Link to="/curso-medida">CURSOS INHOUSE</Link></li>
           </ul>
+          <ul className="menu-cabecera-1003"><li><Link>CATALOGO DE CURSOS</Link></li></ul>
         </div>
       </div>
       
@@ -303,13 +305,9 @@ function App() {
     <div className="autor">
       <h3>by jose1801</h3>
     </div>
-
-    <div className="footer-copyright" id="footer">
-      <p>© Escuela De Gerencia y Gestión.</p>
-      <p>RUC: 20510129921</p>
-      <p>Todos los derechos reservados.</p>
+    <div className="footer-copyright  copyright" id="">
+      <p>© Escuela De Gerencia y Gestión RUC: 20510129921 Todos los derechos reservados </p>
     </div>
-
     <div className='contenedor-wsp-flotante'>
       <FaWhatsapp size={30} color='black' onClick={solicitarinformacion} className='icon-wsp '/>
     </div>

@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     margin: 0;
 }
-
 #root {
     min-height: 100vh;
     display: flex;
@@ -38,14 +37,6 @@ li {
     list-style: none;
     font-family: 'Franklin Gothic Medium';
 }
-.btn-cta {
-    font-family: 'Franklin Gothic Medium';
-    background: none;
-    border: none;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-}
 .logo-principal {
     display: block;
     position: relative;
@@ -53,28 +44,39 @@ li {
     top: 5px;
     right: -1%;
 }
-.menu-list-1001-celular{
-    display: none;
+#encabezado{
+    background:linear-gradient(
+    90deg,    
+    #fff,
+    #008080
+    );
+}
+.btn-cta-principal{
+    margin-top: -15px;
+    font-family: 'Franklin Gothic Medium';
+    padding: 8px;
+    border: 5px solid #274453;
+    border-radius: 10px;
+    background-color: #274453;
+    color:white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-cta-principal:hover{
+    background-color: #000000;
+    border: 5px solid #000000;
+    transform:  translateY(-2px);
+    transition: 0.5s ease;
 }
 .menu-cabecera-1001 {
     position: absolute;
     top: 20px;
-    right: 0;
+    right: 10%;
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 17px;
-}
-.menu-cabecera-1001 li,
-.menu-cabecera-1001 a {
-    padding: 10px 15px;
-    border-radius: 4px;
-    transition: background-color .3s ease, color .3s ease;
-}
-.menu-cabecera-1001 a:hover,
-.menu-cabecera-1001 li:hover {
-    background-color: #1f584a;
-    color: #1f5a5d;
 }
 .menu-cabecera-1002 {
     top: 0;
@@ -84,7 +86,7 @@ li {
     display: flex;
     justify-content: flex-end;  
     align-items: center;
-    background-color: #23554bc7;
+    background-color: rgba(255, 0, 0, 0.781);
     z-index: 5;
 }
 .menu-cabecera-1002 > * {
@@ -95,6 +97,9 @@ li {
 /*MENU DE LAS OPCIONES MULTIPLES*/
 .menu-cabecera-1003-columna {
     display: flex;
+    right: 40px;
+    top: -15px;
+    margin-top: 0px;
     height: 1rem;
     margin: 0;
     padding: 0;
@@ -111,8 +116,7 @@ li {
     transition: background-color .3s ease, color .3s ease;
 }
 .menu-cabecera-1003-columna a:hover {
-    background-color: rgb(119, 173, 162);
-    color: #000;
+    background-color: rgb(90, 28, 28);
     border-radius: 4px;
 }
 .menu-cabecera-1003-columna > li > ul {
@@ -152,6 +156,8 @@ li {
 /* MENÚ PRINCIPAL */
 .menu-cabecera-1003 {
     display: flex;
+    top: -15px;
+    right: 40px;
     height: 1rem;
     gap: 0px;
     margin: 0;
@@ -170,8 +176,7 @@ li {
     font-weight: 500;
 }
 .menu-cabecera-1003 a:hover {
-    background-color: rgb(119, 173, 162);
-    color: #000;
+    background-color: rgb(90, 28, 28);
     border-radius: 4px;
 }
 .arrow-down {
@@ -306,10 +311,18 @@ li {
 
 /* COPYRIGHT */
 .footer-copyright {
-  grid-column: 1 / -1; 
-  text-align: center;
-  margin-top: 20px;
-  font-size: 0.9rem;
+    width: 98vw;
+    grid-column: 1 / -1; 
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    background-color: #275344;
+}
+.copyright{
+    position: relative;
+    margin-top: 8px;
+    margin: -14px auto;
+    right: 10px;
 }
 /*libro reclamaciones*/
 .libro-reclamaciones{
@@ -328,7 +341,7 @@ li {
 }
 .autor {
   position: absolute;
-  margin-top: 30em;
+  margin-top: 18em;
   font-size: 0.7rem;
   opacity: 0.4;
 }
@@ -342,6 +355,7 @@ li {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    z-index: 5;
 }
 .icon-wsp{
     width: 45px;
@@ -355,6 +369,7 @@ li {
     align-items: center;
     font-size: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 5;
 }
 .icon-wsp:hover{
     transform: scale(1.2);

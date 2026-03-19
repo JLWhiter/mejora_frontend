@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import FormularioCursos from './FormularioCursos'
 import "../stylescss/carrusel.css";
 
 const slides = [
@@ -27,12 +28,6 @@ const slides = [
     tag: "Programas Especializados",
     title: "Formación práctica de alto impacto",
     body: "Nuestros Programas Especializados en Gestión Pública y Gestión Empresarial constituyen los pilares de nuestra oferta académica, diseñados para fortalecer conocimientos, desarrollar habilidades prácticas y responder a las demandas actuales de las organizaciones. A través de estas iniciativas brindamos educación ejecutiva, capacitación y fortalecimiento actualizada y de alto impacto mediante:",
-    caracteristicas: [
-        "Clases en vivo",
-        "Casos reales",
-        "Docentes expertos",
-        "Certificación oficial"
-    ],
     image: "/uploads/curs_proyecto_bim.png",
     imageAlt: "Capacitación profesional",
     accent: "#1b4965",
@@ -108,7 +103,6 @@ export default function HeroCarousel() {
       <div className="carousel-counter">
         <span>{current + 1}</span> / {slides.length}
       </div>
-
       <div
         className={`carousel-track ${
           animating ? `animating-${direction}` : ""
@@ -118,14 +112,7 @@ export default function HeroCarousel() {
           <div className="carousel-content-col">
             <div className="carousel-tag">{slide.tag}</div>
             <h2 className="carousel-title">{slide.title}</h2>
-            <p className="carousel-body">{slide.body}</p>
-            {slide.caracteristicas && (
-            <ul className="carousel-list">
-                {slide.caracteristicas.map((item, i) => (
-                <li key={i}>✔ {item}</li>
-                ))}
-            </ul>
-            )}  
+            <p className="carousel-body">{slide.body}</p>  
             <a href="#" className="carousel-cta">
               ¿Por qué elegirnos? →
             </a>
@@ -136,7 +123,9 @@ export default function HeroCarousel() {
           </div>
         </div>
       </div>
-
+       <div className='contenedor-formulario'>
+        <FormularioCursos/>
+      </div>
       <div className="carousel-controls">
         <button onClick={prev}>‹</button>
 
@@ -149,9 +138,9 @@ export default function HeroCarousel() {
             />
           ))}
         </div>
-
         <button onClick={next}>›</button>
       </div>
+     
     </div>
   );
 }
