@@ -77,16 +77,15 @@ li {
     color: #1f5a5d;
 }
 .menu-cabecera-1002 {
-    position: relative;
-    display: flex;
+    top: 0;
+    right: 0;
     width: 100%;
     height: 5rem;
-    margin-top: 24px;
-    top: -20px;
-    font-size: 14px;
-    z-index: 3;
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
     background-color: #23554bc7;
-
+    z-index: 5;
 }
 .menu-cabecera-1002 > * {
     position: relative;
@@ -96,9 +95,7 @@ li {
 /*MENU DE LAS OPCIONES MULTIPLES*/
 .menu-cabecera-1003-columna {
     display: flex;
-    left: 340px;
     height: 1rem;
-    top: 20px;
     margin: 0;
     padding: 0;
 }
@@ -155,9 +152,7 @@ li {
 /* MENÚ PRINCIPAL */
 .menu-cabecera-1003 {
     display: flex;
-    left: 340px;
     height: 1rem;
-    top: 20px;
     gap: 0px;
     margin: 0;
     padding: 0;
@@ -318,10 +313,11 @@ li {
 }
 /*libro reclamaciones*/
 .libro-reclamaciones{
-    margin-top: 25px;
+    margin-top: 0px;
+    font-size: 12px;
 }
 .icon-reclamaciones{
-    margin-top: 10px;
+    margin-top: -10px;
     width: 30px;
     height: auto;
     cursor: pointer;

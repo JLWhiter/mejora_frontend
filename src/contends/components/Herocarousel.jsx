@@ -1,12 +1,12 @@
 import { useState, useEffect, useCallback } from "react";
-import "../contends/stylescss/carrusel.css";
+import "../stylescss/carrusel.css";
 
 const slides = [
     {
     id: 1,
     tag: "Nuestra Trayectoria",
-    title: "Formando líderes desde el 2003",
-    body: "La Escuela de Gerencia y Gestión impulsa, desde el año 2003, la formación ejecutiva dirigida a profesionales y líderes que generan cambios en el ámbito público y empresarial. A través del desarrollo del liderazgo, promovemos la transformación organizacional y fomentamos la innovación para construir el futuro.",
+    title: "Educación ejecutiva  desde el 2003",
+    body: "La Escuela de Gerencia y Gestión impulsa, desde el año 2003, la educación ejecutiva dirigida a profesionales y líderes que generan cambios en el ámbito público y empresarial. A través del desarrollo del liderazgo, promovemos la transformación organizacional y fomentamos la innovación para construir el futuro.",
     image: "/uploads/port.jpg",
     imageAlt: "Líderes en reunión estratégica",
     accent: "#2d6a4f",
@@ -14,9 +14,9 @@ const slides = [
 
     {
     id: 2,
-    tag: "Formación Continua",
+    tag: "Capacitación  Continua",
     title: "Impulsa tu desarrollo profesional",
-    body: "Promovemos el desarrollo profesional a través de educación continua, capacitación y consultoría, orientadas a fortalecer la gestión en el sector público y empresarial en áreas como dirección, talento humano, finanzas, marketing, operaciones, gestión legal, tecnologías de la información y mejora continua.",
+    body: "Promovemos la capacitacion  profesional a través de cursos, capacitación y consultoría, orientadas a fortalecer la gestión en el sector público y empresarial en áreas como dirección, talento humano, finanzas, marketing, operaciones, gestión legal, tecnologías de la información y mejora continua.",
     image: "/uploads/gestion-pu.jpg",
     imageAlt: "Capacitación profesional",
     accent: "#1b4965",
@@ -26,7 +26,7 @@ const slides = [
     id: 3,
     tag: "Programas Especializados",
     title: "Formación práctica de alto impacto",
-    body: "Nuestros Programas Especializados en Gestión Pública y Gestión Empresarial constituyen los pilares de nuestra oferta académica, diseñados para fortalecer conocimientos, desarrollar habilidades prácticas y responder a las demandas actuales de las organizaciones. A través de estas iniciativas brindamos formación actualizada y de alto impacto mediante:",
+    body: "Nuestros Programas Especializados en Gestión Pública y Gestión Empresarial constituyen los pilares de nuestra oferta académica, diseñados para fortalecer conocimientos, desarrollar habilidades prácticas y responder a las demandas actuales de las organizaciones. A través de estas iniciativas brindamos educación ejecutiva, capacitación y fortalecimiento actualizada y de alto impacto mediante:",
     caracteristicas: [
         "Clases en vivo",
         "Casos reales",

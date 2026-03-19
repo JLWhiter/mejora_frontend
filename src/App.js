@@ -60,7 +60,7 @@ import { PiBookOpenText } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { PiMapPinLight } from "react-icons/pi";
-import MobileMenu from "./components/MobileMenu";
+import MobileMenu from "./contends/components/MobileMenu";
 
 function App() {
   const solicitarinformacion = ()=>{
@@ -258,10 +258,11 @@ function App() {
 
     <div className='footer-bloque contexto'>
       <p>
-        Escuela de Gerencia y Gestión es un centro especializado
-        en altos estudios que ofrece enseñanza, capacitación y
-        formación profesional en alta dirección, enfocada en la
-        gestión pública y la actividad empresarial.
+        ESCUELA DE GERENCIA Y GESTION <br/>
+        Centro especializado en altos estudios
+        de educación ejecutiva, capacitación en 
+        alta dirección, enfocada en la gestión 
+        pública y la actividad empresarial
       </p>
     </div>
 
@@ -295,7 +296,7 @@ function App() {
     </div>
 
     <div className="footer-bloque libro-reclamaciones">
-      <span>Libro de Reclamaciones</span>
+      <h2>LIBRO DE RECLAMACIONES</h2>
       <PiBookOpenText size={30} className='icon-reclamaciones fondo'/>
     </div>
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "../contends/stylescss/movilmenu.css";
+import "../stylescss/movilmenu.css";
 
 function MobileMenu() {
 const cerrarMenu = () => {

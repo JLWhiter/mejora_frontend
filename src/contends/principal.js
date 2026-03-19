@@ -3,7 +3,7 @@ import { IoMdClock, IoIosPeople } from "react-icons/io";
 import { MdComputer, MdOutlineWork } from "react-icons/md";
 import { GrCertificate } from "react-icons/gr";
 import { BsStar } from "react-icons/bs";
-import HeroCarousel from '../components/Herocarousel.jsx'
+import HeroCarousel from './components/Herocarousel.jsx'
 
 function Principal() {
   return (

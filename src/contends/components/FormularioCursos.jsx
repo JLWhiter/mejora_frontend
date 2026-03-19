@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../contends/stylescss/FormularioCursos.css";
+import "../stylescss/FormularioCursos.css";
 
 const FormularioCursos = () => {
   const [form, setForm] = useState({
@@ -77,8 +77,6 @@ const FormularioCursos = () => {
     e.preventDefault();
 
     console.log(form);
-
-    // 👉 AQUÍ LUEGO LO CONECTAS A EXCEL (API / Google Sheets)
     alert("Formulario enviado");
   };
 
@@ -102,7 +100,7 @@ const FormularioCursos = () => {
           ))}
         </select>
 
-        <button type="submit">Enviar</button>
+        <button className="form-enviar" type="submit">Enviar</button>
       </form>
     </div>
   );
