@@ -306,7 +306,7 @@ function App() {
           <FaInstagram size={20} className="fondo icon-bob"/>
         </a>
 
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <FaXTwitter size={20} className="fondo icon-bob"/>
         </a>
 
@@ -317,10 +317,10 @@ function App() {
         <a href="https://www.tiktok.com/@escuelagerenciaygestion" target="_blank" rel="noopener noreferrer">
           <FaTiktok size={20} className="fondo icon-bob"/>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <FaYoutube  size={20} className="fondo icon-bob"/>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="" target="_blank" rel="noopener noreferrer">
           <FaLinkedin   size={20} className="fondo icon-bob"/>
         </a>
       </div>
