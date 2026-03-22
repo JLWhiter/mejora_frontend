@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router-dom";
 import FormularioCursos from './FormularioCursos'
 import "../stylescss/carrusel.css";
 
@@ -113,9 +114,9 @@ export default function HeroCarousel() {
             <div className="carousel-tag"><h1>{slide.tag}</h1></div>
             <h2 className="carousel-title">{slide.title}</h2>
             <p className="carousel-body">{slide.body}</p>  
-            <a href="#" className="carousel-cta">
+            <Link to="/la_escuela" className="carousel-cta">
               ¿Por qué elegirnos? →
-            </a>
+            </Link>
           </div>
 
           <div className="carousel-image-col">
