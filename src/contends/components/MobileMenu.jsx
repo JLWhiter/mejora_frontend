@@ -68,8 +68,8 @@ onClick={() => setMenu(!menu)}
     className="menu-title color-negro"
     onClick={()=>setCursos(!cursos)}
     >
-    <Link to="/programa-gestion-publica" className="color-negro">
-        URSO GESTIÓN PUBLICA
+    <Link to="/programa-gestion-publica menu-title" className="color-negro">
+        CURSO GESTIÓN PUBLICA
     </Link>
     
 </div>
@@ -79,7 +79,7 @@ onClick={() => setMenu(!menu)}
     <ul className="submenu dos-columnas">
                 <li onClick={cerrarMenu} ><Link to="/C-gest-estrategia-planeamiento" className='color-negro'>GESTIÓN PÚBLICA ESTRATÉGICA Y PLANEAMIENTO</Link></li>
                 <li onClick={cerrarMenu} ><Link to="/C-gest-finanzas-publicas" className='color-negro'>FINANZAS PÚBLICAS</Link></li>
-                <li onClick={cerrarMenu} ><Link to="/C-gest-sitema-nacional-abastecimiento className='color-negro'">SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
+                <li onClick={cerrarMenu} ><Link to="/C-gest-sitema-nacional-abastecimiento" className='color-negro'>SISTEMA NACIONAL DE ABASTECIMIENTO</Link></li>
                 <li onClick={cerrarMenu} ><Link to="/C-gest-inversion-publica" className='color-negro'>INVERSIÓN PÚBLICA</Link></li>
                 <li onClick={cerrarMenu} ><Link to="/C-gest-obras-publicas" className='color-negro'>GESTIÓN DE OBRAS PÚBLICAS</Link></li>
                 <li onClick={cerrarMenu} ><Link to="/C-gest-derecho-penal-publica" className='color-negro'>DERECHO PENAL EN LA FUNCIÓN PÚBLICA</Link></li>

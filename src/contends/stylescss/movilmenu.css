@@ -8,7 +8,7 @@ display:none;
     right: 0;
     margin-top: -45px;
     font-size:28px;
-    background:white;
+    background:#008080;
     border:none;
     cursor:pointer;
     transition:  0.8s ease;
@@ -34,8 +34,10 @@ transform: rotate(90deg);
     height: 250px;
 }
 .menu-title{
-cursor:pointer;
-margin-top:10px;
+    cursor:pointer;
+    margin-top:10px;
+    border: none;
+    background-color: #008080   ; 
 }
 @media (max-width: 1110px) {
     .mobile-menu{

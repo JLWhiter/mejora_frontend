@@ -6,9 +6,10 @@
 
 .carousel-root {
   position: relative;
-  width: 99.5vw;
+  width: 99.45vw;
   margin-left: calc(50% - 50vw);
   max-height: 100%;
+  margin-bottom: 0;
   overflow: hidden;
   background-color: none;
 }
@@ -49,6 +50,7 @@
 
 .carousel-tag {
   font-size: 12px;
+  color: white;
   color: var(--accent);
   margin-bottom: 10px;
   z-index: 2;
@@ -57,6 +59,7 @@
 .carousel-title {
   font-size: 32px;
   font-weight: bold;
+  color: white;
   z-index: 2;
 }
 
@@ -81,7 +84,7 @@
 /* IMAGEN */
 .carousel-image-col img {
   width: 100%;
-  height: 100%;
+  height: 100vw;
   opacity: .3;
   top:50px;
   left: 0;
@@ -99,12 +102,15 @@
   width: 100%;
 }
 /*CONTENEDOR FORMULARIO*/
-.contenedor-formulario{
-  display: flex;
+.contenedor-formulario {
   position: absolute;
-  z-index: 2;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  z-index: 10;
+  height: 90vh;    
+  overflow-y: auto;    
 }
-
 /* CONTROLES */
 .carousel-controls {
   position: absolute;
@@ -196,5 +202,18 @@
   .carousel-controls {
     left: 10px;
     bottom: 10px;
+  }
+  .contenedor-formulario {
+    position: static;     /* 🔥 deja de ser flotante */
+    transform: none;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-container {
+    width: 90%;
+    max-width: 400px;
   }
 }

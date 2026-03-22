@@ -26,7 +26,7 @@ const slides = [
     {
     id: 3,
     tag: "Programas Especializados",
-    title: "Formación práctica de alto impacto",
+    title: "Programas de prácticas de alto impacto",
     body: "Nuestros Programas Especializados en Gestión Pública y Gestión Empresarial constituyen los pilares de nuestra oferta académica, diseñados para fortalecer conocimientos, desarrollar habilidades prácticas y responder a las demandas actuales de las organizaciones. A través de estas iniciativas brindamos educación ejecutiva, capacitación y fortalecimiento actualizada y de alto impacto mediante:",
     image: "/uploads/curs_proyecto_bim.png",
     imageAlt: "Capacitación profesional",
@@ -110,7 +110,7 @@ export default function HeroCarousel() {
       >
         <div className="carousel-slide">
           <div className="carousel-content-col">
-            <div className="carousel-tag">{slide.tag}</div>
+            <div className="carousel-tag"><h1>{slide.tag}</h1></div>
             <h2 className="carousel-title">{slide.title}</h2>
             <p className="carousel-body">{slide.body}</p>  
             <a href="#" className="carousel-cta">
@@ -123,9 +123,7 @@ export default function HeroCarousel() {
           </div>
         </div>
       </div>
-       <div className='contenedor-formulario'>
-        <FormularioCursos/>
-      </div>
+       
       <div className="carousel-controls">
         <button onClick={prev}>‹</button>
 
@@ -140,7 +138,9 @@ export default function HeroCarousel() {
         </div>
         <button onClick={next}>›</button>
       </div>
-     
+     <div className='contenedor-formulario'>
+        <FormularioCursos/>
+      </div>
     </div>
   );
 }

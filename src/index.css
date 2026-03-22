@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
 }
-#root {
+#root{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -78,6 +78,7 @@ li {
     gap: 10px;
     font-size: 17px;
 }
+
 .menu-cabecera-1002 {
     top: 0;
     right: 0;
@@ -92,6 +93,19 @@ li {
 .menu-cabecera-1002 > * {
     position: relative;
     z-index: 3;
+}
+.menu-cabecera-1002 {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Cuando hace scroll */
+.menu-cabecera-1002.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 45;
 }
 
 /*MENU DE LAS OPCIONES MULTIPLES*/
@@ -259,11 +273,12 @@ li {
 .contenedor-footer {
     background: #008080;
     color: white;
-    padding: 50px 40px;
+    padding: px 0px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     padding: 15px;
+    margin-top: auto;
 }
 
 /* BLOQUES */
@@ -292,8 +307,10 @@ li {
 
 /* ICONOS */
 .iconos-busqueda {
-    display: flex;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, .15fr);
+    gap: 5px;
+    margin-bottom: 20px;
     margin-top: 10px;
 }
 
@@ -311,18 +328,12 @@ li {
 
 /* COPYRIGHT */
 .footer-copyright {
-    width: 98vw;
-    grid-column: 1 / -1; 
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
+    width: 100%;
     background-color: #275344;
-}
-.copyright{
-    position: relative;
-    margin-top: 8px;
-    margin: -14px auto;
-    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 /*libro reclamaciones*/
 .libro-reclamaciones{
@@ -341,7 +352,7 @@ li {
 }
 .autor {
   position: absolute;
-  margin-top: 18em;
+  margin-top: auto;
   font-size: 0.7rem;
   opacity: 0.4;
 }
@@ -396,7 +407,8 @@ display: none;
 display:none;
 }
 @media (max-width: 1100px) {
-    .menu-cabecera-1001,.menu-cabecera-1001,.menu-list-1004,.menu-cabecera-1003-columna,.menu-cabecera-1003 {
+
+    .menu-cabecera-1001,.menu-cabecera-1001,.menu-list-1004,.menu-cabecera-1003-columna,.menu-cabecera-1003,.menu-cabecera-1002 {
         display: none;
     }
     .mobile-menu{
@@ -406,7 +418,7 @@ display:none;
         grid-column: 1fr / -1fr;
         font-size: 90%;
     }
-    .autor{margin-top: 25em}
+    .autor{margin-top: 20em}
 }
 @media (max-width: 700px) {
 

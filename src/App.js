@@ -56,11 +56,12 @@ import Cgesttrabajosocial from './contends/programa-gest/cursos-programa-gestion
 import ProgramaGestionEmpresarial from './contends/programa-gest-emp/programa-gestion-empresarial';
 import CursoMedida from './contends/nuestrosservicios/curso-medida';
 import { FaInstagram, FaTiktok, FaFacebook,FaPhoneAlt,FaWhatsapp } from "react-icons/fa";
-import { PiBookOpenText } from "react-icons/pi";
-import { FaXTwitter } from "react-icons/fa6";
+import { PiBookOpenText, } from "react-icons/pi";
+import { FaXTwitter,FaYoutube,FaLinkedin  } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { PiMapPinLight } from "react-icons/pi";
 import MobileMenu from "./contends/components/MobileMenu";
+  import { useEffect } from "react";
 
 function App() {
   const solicitarinformacion = ()=>{
@@ -72,6 +73,28 @@ function App() {
   const aulavirtual=()=>{
     window.open("https://escuelag.com/moodle/login");
   }
+  useEffect(() => {
+    let lastScroll = window.pageYOffset;
+    const menu = document.querySelector(".menu-cabecera-1002");
+
+    const handleScroll = () => {
+      let currentScroll = window.pageYOffset;
+      if (!menu) return;
+      if (currentScroll > lastScroll) {
+        menu.classList.add("fixed");
+      }
+      if (currentScroll === 0) {
+        menu.classList.remove("fixed");
+      }
+
+      lastScroll = currentScroll;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  
   return (
     <BrowserRouter>
         <div id="encabezado">
@@ -294,24 +317,30 @@ function App() {
         <a href="https://www.tiktok.com/@escuelagerenciaygestion" target="_blank">
           <FaTiktok size={20} className="fondo icon-bob"/>
         </a>
+        <a href="#" target="_blank">
+          <FaYoutube  size={20} className="fondo icon-bob"/>
+        </a>
+        <a href="#" target="_blank">
+          <FaLinkedin   size={20} className="fondo icon-bob"/>
+        </a>
       </div>
+      <div className="footer-bloque libro-reclamaciones">
+      <PiBookOpenText size={30} className='icon-reclamaciones fondo'/>
     </div>
 
-    <div className="footer-bloque libro-reclamaciones">
-      <h2>LIBRO DE RECLAMACIONES</h2>
-      <PiBookOpenText size={30} className='icon-reclamaciones fondo'/>
     </div>
 
     <div className="autor">
       <h3>by jose1801</h3>
     </div>
-    <div className="footer-copyright  copyright" id="">
-      <p>© Escuela De Gerencia y Gestión RUC: 20510129921 Todos los derechos reservados </p>
-    </div>
+    
     <div className='contenedor-wsp-flotante'>
       <FaWhatsapp size={30} color='black' onClick={solicitarinformacion} className='icon-wsp '/>
     </div>
   </footer>
+   <div className="footer-copyright  copyright" id="">
+      <p>© Escuela De Gerencia y Gestión RUC: 20510129921 Todos los derechos reservados </p>
+    </div>
   </BrowserRouter>
   );
 }

@@ -90,7 +90,7 @@ const FormularioCursos = () => {
         <input type="text" name="materno" placeholder="Apellido Materno" onChange={handleChange} required />
         <input type="tel" name="telefono" placeholder="Teléfono" onChange={handleChange} required />
         <input type="email" name="correo" placeholder="Correo" onChange={handleChange} required />
-
+        <input type="number" name="dni" placeholder="DNI" onChange={handleChange} required />
         <select name="curso" onChange={handleChange} required>
           <option value="">Seleccione un curso</option>
           {cursos.map((curso, index) => (
