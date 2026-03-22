@@ -302,25 +302,25 @@ function App() {
       <h2>Encuéntranos</h2>
 
       <div className="iconos-busqueda">
-        <a href="https://www.instagram.com/egerencia" target="_blank">
+        <a href="https://www.instagram.com/egerencia" target="_blank" rel="noopener noreferrer">
           <FaInstagram size={20} className="fondo icon-bob"/>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <FaXTwitter size={20} className="fondo icon-bob"/>
         </a>
 
-        <a href="https://www.facebook.com/share/1Ztggm115f/" target="_blank">
+        <a href="https://www.facebook.com/share/1Ztggm115f/" target="_blank" rel="noopener noreferrer">
           <FaFacebook size={20} className="fondo icon-bob"/>
         </a>
 
-        <a href="https://www.tiktok.com/@escuelagerenciaygestion" target="_blank">
+        <a href="https://www.tiktok.com/@escuelagerenciaygestion" target="_blank" rel="noopener noreferrer">
           <FaTiktok size={20} className="fondo icon-bob"/>
         </a>
-        <a href="#" target="_blank">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <FaYoutube  size={20} className="fondo icon-bob"/>
         </a>
-        <a href="#" target="_blank">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <FaLinkedin   size={20} className="fondo icon-bob"/>
         </a>
       </div>
